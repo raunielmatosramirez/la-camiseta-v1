@@ -1,0 +1,1996 @@
+{
+  "destacados": {
+    "equipos": [
+      { "ligaId": "laliga", "equipoId": "real-madrid" },
+      { "ligaId": "laliga", "equipoId": "barcelona" },
+      { "ligaId": "mls", "equipoId": "inter-miami" }
+    ]
+  },
+  "ligas": [
+    {
+      "id": "laliga",
+      "nombre": "LaLiga",
+      "pais": "España",
+      "logo": "/equipos/laliga.svg",
+      "equipos": [
+        {
+          "id": "real-madrid",
+          "nombre": "Real Madrid",
+          "alias": ["madrid", "rm", "merengues"],
+          "escudo": "/equipos/real-madrid.svg",
+          "temporadas": [
+            {
+              "temporada": "2026/27",
+              "equipaciones": [
+                {
+                  "id": "local-2026-27",
+                  "tipo": "Local",
+                  "imagenes": [
+                    "/equipos/realmadrid/real-madrid-2026-27-home.avif",
+                    "https://images.unsplash.com/photo-1543351611-58f69d7c1781?w=600&h=600&fit=crop"
+                  ],
+                  "precio": 24,
+                  "dorsales": [
+                    { "numero": "1", "tallas": ["M", "L", "XL", "XXL"] },
+                    { "numero": "3", "tallas": ["M", "L", "XL"] },
+                    { "numero": "5", "tallas": ["M", "L"] }
+                  ]
+                },
+                {
+                  "id": "visitante-2024-25",
+                  "tipo": "Visitante",
+                  "imagenes": [
+                    "/equipos/realmadrid/real-madrid-2026-27-away.avif"
+                  ],
+                  "precio": 22,
+                  "dorsales": []
+                },
+                {
+                  "id": "tercera-2024-25",
+                  "tipo": "Tercera",
+                  "imagenes": [
+                    "/equipos/realmadrid/real-madrid-2026-27-third.avif"
+                  ],
+                  "precio": 20,
+                  "dorsales": []
+                }
+              ]
+            },
+            {
+              "temporada": "2023/24",
+              "equipaciones": [
+                {
+                  "id": "local-2023-24",
+                  "tipo": "Local",
+                  "imagenes": [
+                    "https://images.unsplash.com/photo-1522778119026-d647f0596c20?w=600&h=600&fit=crop",
+                    "https://images.unsplash.com/photo-1517649763962-0c623066013b?w=600&h=600&fit=crop"
+                  ],
+                  "precio": 20,
+                  "dorsales": [
+                    { "numero": "3", "tallas": ["M", "L", "XL", "XXL"] },
+                    { "numero": "5", "tallas": ["M", "L", "XL"] }
+                  ]
+                },
+                {
+                  "id": "visitante-2023-24",
+                  "tipo": "Visitante",
+                  "imagenes": [
+                    "https://images.unsplash.com/photo-1574629810360-7efbbe195018?w=600&h=600&fit=crop"
+                  ],
+                  "precio": 18,
+                  "dorsales": []
+                },
+                {
+                  "id": "tercera-2023-24",
+                  "tipo": "Tercera",
+                  "imagenes": [
+                    "https://images.unsplash.com/photo-1517927033932-b3d18e61fb3a?w=600&h=600&fit=crop"
+                  ],
+                  "precio": 16,
+                  "dorsales": []
+                }
+              ]
+            },
+            {
+              "temporada": "2022/23",
+              "equipaciones": [
+                {
+                  "id": "local-2022-23",
+                  "tipo": "Local",
+                  "imagenes": [
+                    "https://images.unsplash.com/photo-1553775282-20af80779df7?w=600&h=600&fit=crop",
+                    "https://images.unsplash.com/photo-1461896836934-ffe607ba8211?w=600&h=600&fit=crop"
+                  ],
+                  "precio": 17,
+                  "dorsales": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "barcelona",
+          "nombre": "FC Barcelona",
+          "alias": ["barça", "barca", "blaugrana", "fcb"],
+          "escudo": "/equipos/barcelona.svg",
+          "temporadas": [
+            {
+              "temporada": "2026/27",
+              "equipaciones": [
+                {
+                  "id": "local-202-27",
+                  "tipo": "Local",
+                  "imagenes": ["/equipos/barcelona/home-cover-barcelona.webp"],
+                  "precio": 25,
+                  "dorsales": [
+                    { "numero": "4", "tallas": ["S", "M", "L", "XL", "XXL"] },
+                    { "numero": "7", "tallas": ["S", "M", "L", "XL"] },
+                    { "numero": "9", "tallas": ["S", "M", "L"] }
+                  ]
+                },
+                {
+                  "id": "visitante-2026-27",
+                  "tipo": "Visitante",
+                  "imagenes": [
+                    "/equipos/barcelona/cover-fc-barcelona-2026-27-away.jpg"
+                  ],
+                  "precio": 20,
+                  "dorsales": [
+                    { "numero": "10", "tallas": ["S", "M", "L", "XL"] },
+                    { "numero": "11", "tallas": ["S", "M", "L", "XL"] },
+                    { "numero": "12", "tallas": ["S", "M", "L", "XL"] }
+                  ]
+                },
+                {
+                  "id": "tercera-2026-27",
+                  "tipo": "Tercera",
+                  "imagenes": [
+                    "/equipos/barcelona/cover-fc-barcelona-2026-27-third.jpg"
+                  ],
+                  "precio": 20,
+                  "dorsales": [
+                    { "numero": "4", "tallas": ["S", "M", "L", "XL"] },
+                    { "numero": "7", "tallas": ["S", "M", "L", "XL"] },
+                    { "numero": "9", "tallas": ["S", "M", "L", "XL"] }
+                  ]
+                }
+              ]
+            },
+            {
+              "temporada": "2023/24",
+              "equipaciones": [
+                {
+                  "id": "local-2023-24",
+                  "tipo": "Local",
+                  "imagenes": [
+                    "https://images.unsplash.com/photo-1606925797300-0b35e9d1794e?w=600&h=600&fit=crop"
+                  ],
+                  "precio": 21,
+                  "dorsales": [
+                    { "numero": "7", "tallas": ["S", "M", "L", "XL", "XXL"] },
+                    { "numero": "9", "tallas": ["S", "M", "L", "XL"] }
+                  ]
+                },
+                {
+                  "id": "visitante-2023-24",
+                  "tipo": "Visitante",
+                  "imagenes": [
+                    "https://images.unsplash.com/photo-1517649763962-0c623066013b?w=600&h=600&fit=crop"
+                  ],
+                  "precio": 19,
+                  "dorsales": []
+                }
+              ]
+            },
+            {
+              "temporada": "2022/23",
+              "equipaciones": [
+                {
+                  "id": "local-2022-23",
+                  "tipo": "Local",
+                  "imagenes": [
+                    "https://images.unsplash.com/photo-1489944440615-453fc2b6a9a9?w=600&h=600&fit=crop"
+                  ],
+                  "precio": 18,
+                  "dorsales": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "atletico-madrid",
+          "nombre": "Atlético de Madrid",
+          "alias": ["atletico", "atleti", "colchoneros"],
+          "escudo": "/equipos/atletico-madrid.svg",
+          "temporadas": [
+            {
+              "temporada": "2024/25",
+              "equipaciones": [
+                {
+                  "id": "local-2024-25",
+                  "tipo": "Local",
+                  "imagenes": [
+                    "https://images.unsplash.com/photo-1574629810360-7efbbe195018?w=600&h=600&fit=crop"
+                  ],
+                  "precio": 26,
+                  "dorsales": [
+                    { "numero": "8", "tallas": ["S", "M", "L", "XL", "XXL"] },
+                    { "numero": "10", "tallas": ["S", "M", "L", "XL"] },
+                    { "numero": "14", "tallas": ["S", "M", "L"] }
+                  ]
+                },
+                {
+                  "id": "visitante-2024-25",
+                  "tipo": "Visitante",
+                  "imagenes": [
+                    "https://images.unsplash.com/photo-1517927033932-b3d18e61fb3a?w=600&h=600&fit=crop"
+                  ],
+                  "precio": 24,
+                  "dorsales": []
+                }
+              ]
+            },
+            {
+              "temporada": "2023/24",
+              "equipaciones": [
+                {
+                  "id": "local-2023-24",
+                  "tipo": "Local",
+                  "imagenes": [
+                    "https://images.unsplash.com/photo-1551698618-1dfe5d97d256?w=600&h=600&fit=crop"
+                  ],
+                  "precio": 22,
+                  "dorsales": [
+                    { "numero": "10", "tallas": ["S", "M", "L", "XL", "XXL"] },
+                    { "numero": "14", "tallas": ["S", "M", "L", "XL"] }
+                  ]
+                },
+                {
+                  "id": "visitante-2023-24",
+                  "tipo": "Visitante",
+                  "imagenes": [
+                    "https://images.unsplash.com/photo-1431324155629-1a6deb1dec8d?w=600&h=600&fit=crop"
+                  ],
+                  "precio": 20,
+                  "dorsales": []
+                }
+              ]
+            },
+            {
+              "temporada": "2022/23",
+              "equipaciones": [
+                {
+                  "id": "local-2022-23",
+                  "tipo": "Local",
+                  "imagenes": [
+                    "https://images.unsplash.com/photo-1522778119026-d647f0596c20?w=600&h=600&fit=crop"
+                  ],
+                  "precio": 19,
+                  "dorsales": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "premier",
+      "nombre": "Premier League",
+      "pais": "Inglaterra",
+      "logo": "/equipos/premier-league.svg",
+      "equipos": [
+        {
+          "id": "manchester-city",
+          "nombre": "Manchester City",
+          "alias": ["city", "man city", "mcfc", "citizens"],
+          "escudo": "/equipos/manchester-city.svg",
+          "temporadas": [
+            {
+              "temporada": "2024/25",
+              "equipaciones": [
+                {
+                  "id": "local-2024-25",
+                  "tipo": "Local",
+                  "imagenes": [
+                    "https://images.unsplash.com/photo-1517927033932-b3d18e61fb3a?w=600&h=600&fit=crop"
+                  ],
+                  "precio": 25,
+                  "dorsales": [
+                    { "numero": "1", "tallas": ["M", "L", "XL", "XXL"] },
+                    { "numero": "3", "tallas": ["M", "L", "XL"] },
+                    { "numero": "5", "tallas": ["M", "L"] }
+                  ]
+                },
+                {
+                  "id": "visitante-2024-25",
+                  "tipo": "Visitante",
+                  "imagenes": [
+                    "https://images.unsplash.com/photo-1606925797300-0b35e9d1794e?w=600&h=600&fit=crop"
+                  ],
+                  "precio": 23,
+                  "dorsales": []
+                },
+                {
+                  "id": "tercera-2024-25",
+                  "tipo": "Tercera",
+                  "imagenes": [
+                    "https://images.unsplash.com/photo-1517649763962-0c623066013b?w=600&h=600&fit=crop"
+                  ],
+                  "precio": 21,
+                  "dorsales": []
+                }
+              ]
+            },
+            {
+              "temporada": "2023/24",
+              "equipaciones": [
+                {
+                  "id": "local-2023-24",
+                  "tipo": "Local",
+                  "imagenes": [
+                    "https://images.unsplash.com/photo-1431324155629-1a6deb1dec8d?w=600&h=600&fit=crop"
+                  ],
+                  "precio": 21,
+                  "dorsales": [
+                    { "numero": "3", "tallas": ["M", "L", "XL", "XXL"] },
+                    { "numero": "5", "tallas": ["M", "L", "XL"] }
+                  ]
+                },
+                {
+                  "id": "visitante-2023-24",
+                  "tipo": "Visitante",
+                  "imagenes": [
+                    "https://images.unsplash.com/photo-1489944440615-453fc2b6a9a9?w=600&h=600&fit=crop"
+                  ],
+                  "precio": 19,
+                  "dorsales": []
+                }
+              ]
+            },
+            {
+              "temporada": "2022/23",
+              "equipaciones": [
+                {
+                  "id": "local-2022-23",
+                  "tipo": "Local",
+                  "imagenes": [
+                    "https://images.unsplash.com/photo-1574629810360-7efbbe195018?w=600&h=600&fit=crop"
+                  ],
+                  "precio": 18,
+                  "dorsales": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "manchester-united",
+          "nombre": "Manchester United",
+          "alias": ["united", "man utd", "red devils"],
+          "escudo": "/equipos/manchester-united.svg",
+          "temporadas": [
+            {
+              "temporada": "2024/25",
+              "equipaciones": [
+                {
+                  "id": "local-2024-25",
+                  "tipo": "Local",
+                  "imagenes": [
+                    "https://images.unsplash.com/photo-1553775282-20af80779df7?w=600&h=600&fit=crop"
+                  ],
+                  "precio": 26,
+                  "dorsales": [
+                    { "numero": "4", "tallas": ["S", "M", "L", "XL", "XXL"] },
+                    { "numero": "7", "tallas": ["S", "M", "L", "XL"] },
+                    { "numero": "9", "tallas": ["S", "M", "L"] }
+                  ]
+                },
+                {
+                  "id": "visitante-2024-25",
+                  "tipo": "Visitante",
+                  "imagenes": [
+                    "https://images.unsplash.com/photo-1551698618-1dfe5d97d256?w=600&h=600&fit=crop"
+                  ],
+                  "precio": 24,
+                  "dorsales": []
+                }
+              ]
+            },
+            {
+              "temporada": "2023/24",
+              "equipaciones": [
+                {
+                  "id": "local-2023-24",
+                  "tipo": "Local",
+                  "imagenes": [
+                    "https://images.unsplash.com/photo-1543351611-58f69d7c1781?w=600&h=600&fit=crop"
+                  ],
+                  "precio": 22,
+                  "dorsales": [
+                    { "numero": "7", "tallas": ["S", "M", "L", "XL", "XXL"] },
+                    { "numero": "9", "tallas": ["S", "M", "L", "XL"] }
+                  ]
+                },
+                {
+                  "id": "visitante-2023-24",
+                  "tipo": "Visitante",
+                  "imagenes": [
+                    "https://images.unsplash.com/photo-1522778119026-d647f0596c20?w=600&h=600&fit=crop"
+                  ],
+                  "precio": 20,
+                  "dorsales": []
+                }
+              ]
+            },
+            {
+              "temporada": "2022/23",
+              "equipaciones": [
+                {
+                  "id": "local-2022-23",
+                  "tipo": "Local",
+                  "imagenes": [
+                    "https://images.unsplash.com/photo-1517649763962-0c623066013b?w=600&h=600&fit=crop"
+                  ],
+                  "precio": 19,
+                  "dorsales": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "liverpool",
+          "nombre": "Liverpool",
+          "alias": ["liverpool", "reds", "lfc"],
+          "escudo": "/equipos/liverpool-fc.svg",
+          "temporadas": [
+            {
+              "temporada": "2024/25",
+              "equipaciones": [
+                {
+                  "id": "local-2024-25",
+                  "tipo": "Local",
+                  "imagenes": [
+                    "https://images.unsplash.com/photo-1489944440615-453fc2b6a9a9?w=600&h=600&fit=crop",
+                    "https://images.unsplash.com/photo-1574629810360-7efbbe195018?w=600&h=600&fit=crop"
+                  ],
+                  "precio": 24,
+                  "dorsales": [
+                    { "numero": "8", "tallas": ["S", "M", "L", "XL", "XXL"] },
+                    { "numero": "10", "tallas": ["S", "M", "L", "XL"] },
+                    { "numero": "14", "tallas": ["S", "M", "L"] }
+                  ]
+                },
+                {
+                  "id": "visitante-2024-25",
+                  "tipo": "Visitante",
+                  "imagenes": [
+                    "https://images.unsplash.com/photo-1461896836934-ffe607ba8211?w=600&h=600&fit=crop"
+                  ],
+                  "precio": 22,
+                  "dorsales": []
+                }
+              ]
+            },
+            {
+              "temporada": "2023/24",
+              "equipaciones": [
+                {
+                  "id": "local-2023-24",
+                  "tipo": "Local",
+                  "imagenes": [
+                    "https://images.unsplash.com/photo-1517927033932-b3d18e61fb3a?w=600&h=600&fit=crop",
+                    "https://images.unsplash.com/photo-1551698618-1dfe5d97d256?w=600&h=600&fit=crop"
+                  ],
+                  "precio": 20,
+                  "dorsales": [
+                    { "numero": "10", "tallas": ["S", "M", "L", "XL", "XXL"] },
+                    { "numero": "14", "tallas": ["S", "M", "L", "XL"] }
+                  ]
+                },
+                {
+                  "id": "visitante-2023-24",
+                  "tipo": "Visitante",
+                  "imagenes": [
+                    "https://images.unsplash.com/photo-1606925797300-0b35e9d1794e?w=600&h=600&fit=crop"
+                  ],
+                  "precio": 18,
+                  "dorsales": []
+                },
+                {
+                  "id": "tercera-2023-24",
+                  "tipo": "Tercera",
+                  "imagenes": [
+                    "https://images.unsplash.com/photo-1517649763962-0c623066013b?w=600&h=600&fit=crop"
+                  ],
+                  "precio": 16,
+                  "dorsales": []
+                }
+              ]
+            },
+            {
+              "temporada": "2022/23",
+              "equipaciones": [
+                {
+                  "id": "local-2022-23",
+                  "tipo": "Local",
+                  "imagenes": [
+                    "https://images.unsplash.com/photo-1431324155629-1a6deb1dec8d?w=600&h=600&fit=crop",
+                    "https://images.unsplash.com/photo-1522778119026-d647f0596c20?w=600&h=600&fit=crop"
+                  ],
+                  "precio": 17,
+                  "dorsales": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "arsenal",
+          "nombre": "Arsenal",
+          "alias": ["arsenal", "gunners"],
+          "escudo": "/equipos/arsenal.svg",
+          "temporadas": [
+            {
+              "temporada": "2024/25",
+              "equipaciones": [
+                {
+                  "id": "local-2024-25",
+                  "tipo": "Local",
+                  "imagenes": [
+                    "https://images.unsplash.com/photo-1522778119026-d647f0596c20?w=600&h=600&fit=crop"
+                  ],
+                  "precio": 25,
+                  "dorsales": [
+                    { "numero": "11", "tallas": ["S", "M", "L", "XL", "XXL"] },
+                    { "numero": "17", "tallas": ["S", "M", "L", "XL"] },
+                    { "numero": "21", "tallas": ["S", "M", "L"] }
+                  ]
+                },
+                {
+                  "id": "visitante-2024-25",
+                  "tipo": "Visitante",
+                  "imagenes": [
+                    "https://images.unsplash.com/photo-1574629810360-7efbbe195018?w=600&h=600&fit=crop"
+                  ],
+                  "precio": 23,
+                  "dorsales": []
+                }
+              ]
+            },
+            {
+              "temporada": "2023/24",
+              "equipaciones": [
+                {
+                  "id": "local-2023-24",
+                  "tipo": "Local",
+                  "imagenes": [
+                    "https://images.unsplash.com/photo-1553775282-20af80779df7?w=600&h=600&fit=crop"
+                  ],
+                  "precio": 21,
+                  "dorsales": [
+                    { "numero": "17", "tallas": ["S", "M", "L", "XL", "XXL"] },
+                    { "numero": "21", "tallas": ["S", "M", "L", "XL"] }
+                  ]
+                },
+                {
+                  "id": "visitante-2023-24",
+                  "tipo": "Visitante",
+                  "imagenes": [
+                    "https://images.unsplash.com/photo-1551698618-1dfe5d97d256?w=600&h=600&fit=crop"
+                  ],
+                  "precio": 19,
+                  "dorsales": []
+                }
+              ]
+            },
+            {
+              "temporada": "2022/23",
+              "equipaciones": [
+                {
+                  "id": "local-2022-23",
+                  "tipo": "Local",
+                  "imagenes": [
+                    "https://images.unsplash.com/photo-1543351611-58f69d7c1781?w=600&h=600&fit=crop"
+                  ],
+                  "precio": 18,
+                  "dorsales": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "chelsea",
+          "nombre": "Chelsea",
+          "alias": ["chelsea", "blues"],
+          "escudo": "/equipos/chelsea.svg",
+          "temporadas": [
+            {
+              "temporada": "2024/25",
+              "equipaciones": [
+                {
+                  "id": "local-2024-25",
+                  "tipo": "Local",
+                  "imagenes": [
+                    "https://images.unsplash.com/photo-1606925797300-0b35e9d1794e?w=600&h=600&fit=crop"
+                  ],
+                  "precio": 26,
+                  "dorsales": [
+                    { "numero": "19", "tallas": ["S", "M", "L", "XL", "XXL"] },
+                    { "numero": "23", "tallas": ["S", "M", "L", "XL"] },
+                    { "numero": "2", "tallas": ["S", "M", "L"] }
+                  ]
+                },
+                {
+                  "id": "visitante-2024-25",
+                  "tipo": "Visitante",
+                  "imagenes": [
+                    "https://images.unsplash.com/photo-1517649763962-0c623066013b?w=600&h=600&fit=crop"
+                  ],
+                  "precio": 24,
+                  "dorsales": []
+                },
+                {
+                  "id": "tercera-2024-25",
+                  "tipo": "Tercera",
+                  "imagenes": [
+                    "https://images.unsplash.com/photo-1553775282-20af80779df7?w=600&h=600&fit=crop"
+                  ],
+                  "precio": 22,
+                  "dorsales": []
+                }
+              ]
+            },
+            {
+              "temporada": "2023/24",
+              "equipaciones": [
+                {
+                  "id": "local-2023-24",
+                  "tipo": "Local",
+                  "imagenes": [
+                    "https://images.unsplash.com/photo-1489944440615-453fc2b6a9a9?w=600&h=600&fit=crop"
+                  ],
+                  "precio": 22,
+                  "dorsales": [
+                    { "numero": "23", "tallas": ["S", "M", "L", "XL", "XXL"] },
+                    { "numero": "2", "tallas": ["S", "M", "L", "XL"] }
+                  ]
+                },
+                {
+                  "id": "visitante-2023-24",
+                  "tipo": "Visitante",
+                  "imagenes": [
+                    "https://images.unsplash.com/photo-1461896836934-ffe607ba8211?w=600&h=600&fit=crop"
+                  ],
+                  "precio": 20,
+                  "dorsales": []
+                }
+              ]
+            },
+            {
+              "temporada": "2022/23",
+              "equipaciones": [
+                {
+                  "id": "local-2022-23",
+                  "tipo": "Local",
+                  "imagenes": [
+                    "https://images.unsplash.com/photo-1517927033932-b3d18e61fb3a?w=600&h=600&fit=crop"
+                  ],
+                  "precio": 19,
+                  "dorsales": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "tottenham",
+          "nombre": "Tottenham Hotspur",
+          "alias": ["tottenham", "spurs"],
+          "escudo": "/equipos/tottenham.svg",
+          "temporadas": [
+            {
+              "temporada": "2024/25",
+              "equipaciones": [
+                {
+                  "id": "local-2024-25",
+                  "tipo": "Local",
+                  "imagenes": [
+                    "https://images.unsplash.com/photo-1551698618-1dfe5d97d256?w=600&h=600&fit=crop",
+                    "https://images.unsplash.com/photo-1543351611-58f69d7c1781?w=600&h=600&fit=crop"
+                  ],
+                  "precio": 24,
+                  "dorsales": [
+                    { "numero": "1", "tallas": ["M", "L", "XL", "XXL"] },
+                    { "numero": "3", "tallas": ["M", "L", "XL"] },
+                    { "numero": "5", "tallas": ["M", "L"] }
+                  ]
+                },
+                {
+                  "id": "visitante-2024-25",
+                  "tipo": "Visitante",
+                  "imagenes": [
+                    "https://images.unsplash.com/photo-1431324155629-1a6deb1dec8d?w=600&h=600&fit=crop"
+                  ],
+                  "precio": 22,
+                  "dorsales": []
+                }
+              ]
+            },
+            {
+              "temporada": "2023/24",
+              "equipaciones": [
+                {
+                  "id": "local-2023-24",
+                  "tipo": "Local",
+                  "imagenes": [
+                    "https://images.unsplash.com/photo-1522778119026-d647f0596c20?w=600&h=600&fit=crop",
+                    "https://images.unsplash.com/photo-1517649763962-0c623066013b?w=600&h=600&fit=crop"
+                  ],
+                  "precio": 20,
+                  "dorsales": [
+                    { "numero": "3", "tallas": ["M", "L", "XL", "XXL"] },
+                    { "numero": "5", "tallas": ["M", "L", "XL"] }
+                  ]
+                },
+                {
+                  "id": "visitante-2023-24",
+                  "tipo": "Visitante",
+                  "imagenes": [
+                    "https://images.unsplash.com/photo-1574629810360-7efbbe195018?w=600&h=600&fit=crop"
+                  ],
+                  "precio": 18,
+                  "dorsales": []
+                },
+                {
+                  "id": "tercera-2023-24",
+                  "tipo": "Tercera",
+                  "imagenes": [
+                    "https://images.unsplash.com/photo-1517927033932-b3d18e61fb3a?w=600&h=600&fit=crop"
+                  ],
+                  "precio": 16,
+                  "dorsales": []
+                }
+              ]
+            },
+            {
+              "temporada": "2022/23",
+              "equipaciones": [
+                {
+                  "id": "local-2022-23",
+                  "tipo": "Local",
+                  "imagenes": [
+                    "https://images.unsplash.com/photo-1553775282-20af80779df7?w=600&h=600&fit=crop",
+                    "https://images.unsplash.com/photo-1461896836934-ffe607ba8211?w=600&h=600&fit=crop"
+                  ],
+                  "precio": 17,
+                  "dorsales": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "serie-a",
+      "nombre": "Serie A",
+      "pais": "Italia",
+      "logo": "/equipos/serie-a-italy.svg",
+      "equipos": [
+        {
+          "id": "juventus",
+          "nombre": "Juventus",
+          "alias": ["juve", "bianconeri"],
+          "escudo": "https://images.unsplash.com/photo-1461896836934-ffe607ba8211?w=400&h=400&fit=crop",
+          "temporadas": [
+            {
+              "temporada": "2024/25",
+              "equipaciones": [
+                {
+                  "id": "local-2024-25",
+                  "tipo": "Local",
+                  "imagenes": [
+                    "https://images.unsplash.com/photo-1461896836934-ffe607ba8211?w=600&h=600&fit=crop"
+                  ],
+                  "precio": 26,
+                  "dorsales": [
+                    { "numero": "1", "tallas": ["M", "L", "XL", "XXL"] },
+                    { "numero": "3", "tallas": ["M", "L", "XL"] },
+                    { "numero": "5", "tallas": ["M", "L"] }
+                  ]
+                },
+                {
+                  "id": "visitante-2024-25",
+                  "tipo": "Visitante",
+                  "imagenes": [
+                    "https://images.unsplash.com/photo-1543351611-58f69d7c1781?w=600&h=600&fit=crop"
+                  ],
+                  "precio": 24,
+                  "dorsales": []
+                },
+                {
+                  "id": "tercera-2024-25",
+                  "tipo": "Tercera",
+                  "imagenes": [
+                    "https://images.unsplash.com/photo-1522778119026-d647f0596c20?w=600&h=600&fit=crop"
+                  ],
+                  "precio": 22,
+                  "dorsales": []
+                }
+              ]
+            },
+            {
+              "temporada": "2023/24",
+              "equipaciones": [
+                {
+                  "id": "local-2023-24",
+                  "tipo": "Local",
+                  "imagenes": [
+                    "https://images.unsplash.com/photo-1606925797300-0b35e9d1794e?w=600&h=600&fit=crop"
+                  ],
+                  "precio": 22,
+                  "dorsales": [
+                    { "numero": "3", "tallas": ["M", "L", "XL", "XXL"] },
+                    { "numero": "5", "tallas": ["M", "L", "XL"] }
+                  ]
+                },
+                {
+                  "id": "visitante-2023-24",
+                  "tipo": "Visitante",
+                  "imagenes": [
+                    "https://images.unsplash.com/photo-1517649763962-0c623066013b?w=600&h=600&fit=crop"
+                  ],
+                  "precio": 20,
+                  "dorsales": []
+                }
+              ]
+            },
+            {
+              "temporada": "2022/23",
+              "equipaciones": [
+                {
+                  "id": "local-2022-23",
+                  "tipo": "Local",
+                  "imagenes": [
+                    "https://images.unsplash.com/photo-1489944440615-453fc2b6a9a9?w=600&h=600&fit=crop"
+                  ],
+                  "precio": 19,
+                  "dorsales": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "inter",
+          "nombre": "Inter de Milán",
+          "alias": ["inter", "nerazzurri"],
+          "escudo": "https://images.unsplash.com/photo-1543351611-58f69d7c1781?w=400&h=400&fit=crop",
+          "temporadas": [
+            {
+              "temporada": "2024/25",
+              "equipaciones": [
+                {
+                  "id": "local-2024-25",
+                  "tipo": "Local",
+                  "imagenes": [
+                    "https://images.unsplash.com/photo-1574629810360-7efbbe195018?w=600&h=600&fit=crop",
+                    "https://images.unsplash.com/photo-1553775282-20af80779df7?w=600&h=600&fit=crop"
+                  ],
+                  "precio": 24,
+                  "dorsales": [
+                    { "numero": "4", "tallas": ["S", "M", "L", "XL", "XXL"] },
+                    { "numero": "7", "tallas": ["S", "M", "L", "XL"] },
+                    { "numero": "9", "tallas": ["S", "M", "L"] }
+                  ]
+                },
+                {
+                  "id": "visitante-2024-25",
+                  "tipo": "Visitante",
+                  "imagenes": [
+                    "https://images.unsplash.com/photo-1517927033932-b3d18e61fb3a?w=600&h=600&fit=crop"
+                  ],
+                  "precio": 22,
+                  "dorsales": []
+                }
+              ]
+            },
+            {
+              "temporada": "2023/24",
+              "equipaciones": [
+                {
+                  "id": "local-2023-24",
+                  "tipo": "Local",
+                  "imagenes": [
+                    "https://images.unsplash.com/photo-1551698618-1dfe5d97d256?w=600&h=600&fit=crop",
+                    "https://images.unsplash.com/photo-1543351611-58f69d7c1781?w=600&h=600&fit=crop"
+                  ],
+                  "precio": 20,
+                  "dorsales": [
+                    { "numero": "7", "tallas": ["S", "M", "L", "XL", "XXL"] },
+                    { "numero": "9", "tallas": ["S", "M", "L", "XL"] }
+                  ]
+                },
+                {
+                  "id": "visitante-2023-24",
+                  "tipo": "Visitante",
+                  "imagenes": [
+                    "https://images.unsplash.com/photo-1431324155629-1a6deb1dec8d?w=600&h=600&fit=crop"
+                  ],
+                  "precio": 18,
+                  "dorsales": []
+                },
+                {
+                  "id": "tercera-2023-24",
+                  "tipo": "Tercera",
+                  "imagenes": [
+                    "https://images.unsplash.com/photo-1489944440615-453fc2b6a9a9?w=600&h=600&fit=crop"
+                  ],
+                  "precio": 16,
+                  "dorsales": []
+                }
+              ]
+            },
+            {
+              "temporada": "2022/23",
+              "equipaciones": [
+                {
+                  "id": "local-2022-23",
+                  "tipo": "Local",
+                  "imagenes": [
+                    "https://images.unsplash.com/photo-1522778119026-d647f0596c20?w=600&h=600&fit=crop",
+                    "https://images.unsplash.com/photo-1517649763962-0c623066013b?w=600&h=600&fit=crop"
+                  ],
+                  "precio": 17,
+                  "dorsales": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "ac-milan",
+          "nombre": "AC Milan",
+          "alias": ["milan", "rossoneri"],
+          "escudo": "https://images.unsplash.com/photo-1522778119026-d647f0596c20?w=400&h=400&fit=crop",
+          "temporadas": [
+            {
+              "temporada": "2024/25",
+              "equipaciones": [
+                {
+                  "id": "local-2024-25",
+                  "tipo": "Local",
+                  "imagenes": [
+                    "https://images.unsplash.com/photo-1517649763962-0c623066013b?w=600&h=600&fit=crop"
+                  ],
+                  "precio": 25,
+                  "dorsales": [
+                    { "numero": "8", "tallas": ["S", "M", "L", "XL", "XXL"] },
+                    { "numero": "10", "tallas": ["S", "M", "L", "XL"] },
+                    { "numero": "14", "tallas": ["S", "M", "L"] }
+                  ]
+                },
+                {
+                  "id": "visitante-2024-25",
+                  "tipo": "Visitante",
+                  "imagenes": [
+                    "https://images.unsplash.com/photo-1553775282-20af80779df7?w=600&h=600&fit=crop"
+                  ],
+                  "precio": 23,
+                  "dorsales": []
+                }
+              ]
+            },
+            {
+              "temporada": "2023/24",
+              "equipaciones": [
+                {
+                  "id": "local-2023-24",
+                  "tipo": "Local",
+                  "imagenes": [
+                    "https://images.unsplash.com/photo-1461896836934-ffe607ba8211?w=600&h=600&fit=crop"
+                  ],
+                  "precio": 21,
+                  "dorsales": [
+                    { "numero": "10", "tallas": ["S", "M", "L", "XL", "XXL"] },
+                    { "numero": "14", "tallas": ["S", "M", "L", "XL"] }
+                  ]
+                },
+                {
+                  "id": "visitante-2023-24",
+                  "tipo": "Visitante",
+                  "imagenes": [
+                    "https://images.unsplash.com/photo-1543351611-58f69d7c1781?w=600&h=600&fit=crop"
+                  ],
+                  "precio": 19,
+                  "dorsales": []
+                }
+              ]
+            },
+            {
+              "temporada": "2022/23",
+              "equipaciones": [
+                {
+                  "id": "local-2022-23",
+                  "tipo": "Local",
+                  "imagenes": [
+                    "https://images.unsplash.com/photo-1606925797300-0b35e9d1794e?w=600&h=600&fit=crop"
+                  ],
+                  "precio": 18,
+                  "dorsales": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "napoli",
+          "nombre": "Napoli",
+          "alias": ["napoli", "partenopei"],
+          "escudo": "https://images.unsplash.com/photo-1574629810360-7efbbe195018?w=400&h=400&fit=crop",
+          "temporadas": [
+            {
+              "temporada": "2024/25",
+              "equipaciones": [
+                {
+                  "id": "local-2024-25",
+                  "tipo": "Local",
+                  "imagenes": [
+                    "https://images.unsplash.com/photo-1431324155629-1a6deb1dec8d?w=600&h=600&fit=crop"
+                  ],
+                  "precio": 26,
+                  "dorsales": [
+                    { "numero": "11", "tallas": ["S", "M", "L", "XL", "XXL"] },
+                    { "numero": "17", "tallas": ["S", "M", "L", "XL"] },
+                    { "numero": "21", "tallas": ["S", "M", "L"] }
+                  ]
+                },
+                {
+                  "id": "visitante-2024-25",
+                  "tipo": "Visitante",
+                  "imagenes": [
+                    "https://images.unsplash.com/photo-1489944440615-453fc2b6a9a9?w=600&h=600&fit=crop"
+                  ],
+                  "precio": 24,
+                  "dorsales": []
+                }
+              ]
+            },
+            {
+              "temporada": "2023/24",
+              "equipaciones": [
+                {
+                  "id": "local-2023-24",
+                  "tipo": "Local",
+                  "imagenes": [
+                    "https://images.unsplash.com/photo-1574629810360-7efbbe195018?w=600&h=600&fit=crop"
+                  ],
+                  "precio": 22,
+                  "dorsales": [
+                    { "numero": "17", "tallas": ["S", "M", "L", "XL", "XXL"] },
+                    { "numero": "21", "tallas": ["S", "M", "L", "XL"] }
+                  ]
+                },
+                {
+                  "id": "visitante-2023-24",
+                  "tipo": "Visitante",
+                  "imagenes": [
+                    "https://images.unsplash.com/photo-1517927033932-b3d18e61fb3a?w=600&h=600&fit=crop"
+                  ],
+                  "precio": 20,
+                  "dorsales": []
+                }
+              ]
+            },
+            {
+              "temporada": "2022/23",
+              "equipaciones": [
+                {
+                  "id": "local-2022-23",
+                  "tipo": "Local",
+                  "imagenes": [
+                    "https://images.unsplash.com/photo-1551698618-1dfe5d97d256?w=600&h=600&fit=crop"
+                  ],
+                  "precio": 19,
+                  "dorsales": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "roma",
+          "nombre": "AS Roma",
+          "alias": ["roma", "giallorossi"],
+          "escudo": "https://images.unsplash.com/photo-1517927033932-b3d18e61fb3a?w=400&h=400&fit=crop",
+          "temporadas": [
+            {
+              "temporada": "2024/25",
+              "equipaciones": [
+                {
+                  "id": "local-2024-25",
+                  "tipo": "Local",
+                  "imagenes": [
+                    "https://images.unsplash.com/photo-1543351611-58f69d7c1781?w=600&h=600&fit=crop",
+                    "https://images.unsplash.com/photo-1606925797300-0b35e9d1794e?w=600&h=600&fit=crop"
+                  ],
+                  "precio": 24,
+                  "dorsales": [
+                    { "numero": "19", "tallas": ["S", "M", "L", "XL", "XXL"] },
+                    { "numero": "23", "tallas": ["S", "M", "L", "XL"] },
+                    { "numero": "2", "tallas": ["S", "M", "L"] }
+                  ]
+                },
+                {
+                  "id": "visitante-2024-25",
+                  "tipo": "Visitante",
+                  "imagenes": [
+                    "https://images.unsplash.com/photo-1522778119026-d647f0596c20?w=600&h=600&fit=crop"
+                  ],
+                  "precio": 22,
+                  "dorsales": []
+                },
+                {
+                  "id": "tercera-2024-25",
+                  "tipo": "Tercera",
+                  "imagenes": [
+                    "https://images.unsplash.com/photo-1574629810360-7efbbe195018?w=600&h=600&fit=crop"
+                  ],
+                  "precio": 20,
+                  "dorsales": []
+                }
+              ]
+            },
+            {
+              "temporada": "2023/24",
+              "equipaciones": [
+                {
+                  "id": "local-2023-24",
+                  "tipo": "Local",
+                  "imagenes": [
+                    "https://images.unsplash.com/photo-1517649763962-0c623066013b?w=600&h=600&fit=crop",
+                    "https://images.unsplash.com/photo-1489944440615-453fc2b6a9a9?w=600&h=600&fit=crop"
+                  ],
+                  "precio": 20,
+                  "dorsales": [
+                    { "numero": "23", "tallas": ["S", "M", "L", "XL", "XXL"] },
+                    { "numero": "2", "tallas": ["S", "M", "L", "XL"] }
+                  ]
+                },
+                {
+                  "id": "visitante-2023-24",
+                  "tipo": "Visitante",
+                  "imagenes": [
+                    "https://images.unsplash.com/photo-1553775282-20af80779df7?w=600&h=600&fit=crop"
+                  ],
+                  "precio": 18,
+                  "dorsales": []
+                },
+                {
+                  "id": "tercera-2023-24",
+                  "tipo": "Tercera",
+                  "imagenes": [
+                    "https://images.unsplash.com/photo-1551698618-1dfe5d97d256?w=600&h=600&fit=crop"
+                  ],
+                  "precio": 16,
+                  "dorsales": []
+                }
+              ]
+            },
+            {
+              "temporada": "2022/23",
+              "equipaciones": [
+                {
+                  "id": "local-2022-23",
+                  "tipo": "Local",
+                  "imagenes": [
+                    "https://images.unsplash.com/photo-1461896836934-ffe607ba8211?w=600&h=600&fit=crop",
+                    "https://images.unsplash.com/photo-1517927033932-b3d18e61fb3a?w=600&h=600&fit=crop"
+                  ],
+                  "precio": 17,
+                  "dorsales": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bundesliga",
+      "nombre": "Bundesliga",
+      "pais": "Alemania",
+      "logo": "/equipos/bundesliga.svg",
+      "equipos": [
+        {
+          "id": "bayern",
+          "nombre": "Bayern Múnich",
+          "alias": ["bayern", "bavarians", "fcb"],
+          "escudo": "/equipos/bayern-munich.svg",
+          "temporadas": [
+            {
+              "temporada": "2024/25",
+              "equipaciones": [
+                {
+                  "id": "local-2024-25",
+                  "tipo": "Local",
+                  "imagenes": [
+                    "https://images.unsplash.com/photo-1553775282-20af80779df7?w=600&h=600&fit=crop",
+                    "https://images.unsplash.com/photo-1461896836934-ffe607ba8211?w=600&h=600&fit=crop"
+                  ],
+                  "precio": 24,
+                  "dorsales": [
+                    { "numero": "1", "tallas": ["M", "L", "XL", "XXL"] },
+                    { "numero": "3", "tallas": ["M", "L", "XL"] },
+                    { "numero": "5", "tallas": ["M", "L"] }
+                  ]
+                },
+                {
+                  "id": "visitante-2024-25",
+                  "tipo": "Visitante",
+                  "imagenes": [
+                    "https://images.unsplash.com/photo-1551698618-1dfe5d97d256?w=600&h=600&fit=crop"
+                  ],
+                  "precio": 22,
+                  "dorsales": []
+                },
+                {
+                  "id": "tercera-2024-25",
+                  "tipo": "Tercera",
+                  "imagenes": [
+                    "https://images.unsplash.com/photo-1431324155629-1a6deb1dec8d?w=600&h=600&fit=crop"
+                  ],
+                  "precio": 20,
+                  "dorsales": []
+                }
+              ]
+            },
+            {
+              "temporada": "2023/24",
+              "equipaciones": [
+                {
+                  "id": "local-2023-24",
+                  "tipo": "Local",
+                  "imagenes": [
+                    "https://images.unsplash.com/photo-1543351611-58f69d7c1781?w=600&h=600&fit=crop",
+                    "https://images.unsplash.com/photo-1606925797300-0b35e9d1794e?w=600&h=600&fit=crop"
+                  ],
+                  "precio": 20,
+                  "dorsales": [
+                    { "numero": "3", "tallas": ["M", "L", "XL", "XXL"] },
+                    { "numero": "5", "tallas": ["M", "L", "XL"] }
+                  ]
+                },
+                {
+                  "id": "visitante-2023-24",
+                  "tipo": "Visitante",
+                  "imagenes": [
+                    "https://images.unsplash.com/photo-1522778119026-d647f0596c20?w=600&h=600&fit=crop"
+                  ],
+                  "precio": 18,
+                  "dorsales": []
+                },
+                {
+                  "id": "tercera-2023-24",
+                  "tipo": "Tercera",
+                  "imagenes": [
+                    "https://images.unsplash.com/photo-1574629810360-7efbbe195018?w=600&h=600&fit=crop"
+                  ],
+                  "precio": 16,
+                  "dorsales": []
+                }
+              ]
+            },
+            {
+              "temporada": "2022/23",
+              "equipaciones": [
+                {
+                  "id": "local-2022-23",
+                  "tipo": "Local",
+                  "imagenes": [
+                    "https://images.unsplash.com/photo-1517649763962-0c623066013b?w=600&h=600&fit=crop",
+                    "https://images.unsplash.com/photo-1489944440615-453fc2b6a9a9?w=600&h=600&fit=crop"
+                  ],
+                  "precio": 17,
+                  "dorsales": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "borussia-dortmund",
+          "nombre": "Borussia Dortmund",
+          "alias": ["dortmund", "bvb"],
+          "escudo": "/equipos/borussia-dortmund.svg",
+          "temporadas": [
+            {
+              "temporada": "2024/25",
+              "equipaciones": [
+                {
+                  "id": "local-2024-25",
+                  "tipo": "Local",
+                  "imagenes": [
+                    "https://images.unsplash.com/photo-1489944440615-453fc2b6a9a9?w=600&h=600&fit=crop"
+                  ],
+                  "precio": 25,
+                  "dorsales": [
+                    { "numero": "4", "tallas": ["S", "M", "L", "XL", "XXL"] },
+                    { "numero": "7", "tallas": ["S", "M", "L", "XL"] },
+                    { "numero": "9", "tallas": ["S", "M", "L"] }
+                  ]
+                },
+                {
+                  "id": "visitante-2024-25",
+                  "tipo": "Visitante",
+                  "imagenes": [
+                    "https://images.unsplash.com/photo-1461896836934-ffe607ba8211?w=600&h=600&fit=crop"
+                  ],
+                  "precio": 23,
+                  "dorsales": []
+                }
+              ]
+            },
+            {
+              "temporada": "2023/24",
+              "equipaciones": [
+                {
+                  "id": "local-2023-24",
+                  "tipo": "Local",
+                  "imagenes": [
+                    "https://images.unsplash.com/photo-1517927033932-b3d18e61fb3a?w=600&h=600&fit=crop"
+                  ],
+                  "precio": 21,
+                  "dorsales": [
+                    { "numero": "7", "tallas": ["S", "M", "L", "XL", "XXL"] },
+                    { "numero": "9", "tallas": ["S", "M", "L", "XL"] }
+                  ]
+                },
+                {
+                  "id": "visitante-2023-24",
+                  "tipo": "Visitante",
+                  "imagenes": [
+                    "https://images.unsplash.com/photo-1606925797300-0b35e9d1794e?w=600&h=600&fit=crop"
+                  ],
+                  "precio": 19,
+                  "dorsales": []
+                }
+              ]
+            },
+            {
+              "temporada": "2022/23",
+              "equipaciones": [
+                {
+                  "id": "local-2022-23",
+                  "tipo": "Local",
+                  "imagenes": [
+                    "https://images.unsplash.com/photo-1431324155629-1a6deb1dec8d?w=600&h=600&fit=crop"
+                  ],
+                  "precio": 18,
+                  "dorsales": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mls",
+      "nombre": "MLS",
+      "pais": "Estados Unidos",
+      "logo": "/equipos/mls.svg",
+      "equipos": [
+        {
+          "id": "inter-miami",
+          "nombre": "Inter de Miami",
+          "alias": ["miami", "inter miami", "las garzas"],
+          "escudo": "/equipos/inter-miami.svg",
+          "temporadas": [
+            {
+              "temporada": "2024/25",
+              "equipaciones": [
+                {
+                  "id": "local-2024-25",
+                  "tipo": "Local",
+                  "imagenes": [
+                    "https://images.unsplash.com/photo-1522778119026-d647f0596c20?w=600&h=600&fit=crop",
+                    "https://images.unsplash.com/photo-1553775282-20af80779df7?w=600&h=600&fit=crop"
+                  ],
+                  "precio": 25,
+                  "dorsales": [
+                    { "numero": "10", "tallas": ["S", "M", "L", "XL", "XXL"] },
+                    { "numero": "9", "tallas": ["S", "M", "L", "XL"] },
+                    { "numero": "5", "tallas": ["M", "L", "XL"] }
+                  ]
+                },
+                {
+                  "id": "visitante-2024-25",
+                  "tipo": "Visitante",
+                  "imagenes": [
+                    "https://images.unsplash.com/photo-1543351611-58f69d7c1781?w=600&h=600&fit=crop"
+                  ],
+                  "precio": 23,
+                  "dorsales": []
+                },
+                {
+                  "id": "tercera-2024-25",
+                  "tipo": "Tercera",
+                  "imagenes": [
+                    "https://images.unsplash.com/photo-1489944440615-453fc2b6a9a9?w=600&h=600&fit=crop"
+                  ],
+                  "precio": 21,
+                  "dorsales": []
+                }
+              ]
+            },
+            {
+              "temporada": "2023/24",
+              "equipaciones": [
+                {
+                  "id": "local-2023-24",
+                  "tipo": "Local",
+                  "imagenes": [
+                    "https://images.unsplash.com/photo-1606925797300-0b35e9d1794e?w=600&h=600&fit=crop",
+                    "https://images.unsplash.com/photo-1517649763962-0c623066013b?w=600&h=600&fit=crop"
+                  ],
+                  "precio": 21,
+                  "dorsales": [
+                    { "numero": "10", "tallas": ["S", "M", "L", "XL", "XXL"] },
+                    { "numero": "9", "tallas": ["S", "M", "L", "XL"] }
+                  ]
+                },
+                {
+                  "id": "visitante-2023-24",
+                  "tipo": "Visitante",
+                  "imagenes": [
+                    "https://images.unsplash.com/photo-1551698618-1dfe5d97d256?w=600&h=600&fit=crop"
+                  ],
+                  "precio": 19,
+                  "dorsales": []
+                }
+              ]
+            },
+            {
+              "temporada": "2022/23",
+              "equipaciones": [
+                {
+                  "id": "local-2022-23",
+                  "tipo": "Local",
+                  "imagenes": [
+                    "https://images.unsplash.com/photo-1574629810360-7efbbe195018?w=600&h=600&fit=crop"
+                  ],
+                  "precio": 18,
+                  "dorsales": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "selecciones",
+      "nombre": "Selecciones",
+      "pais": "Internacional",
+      "logo": "/equipos/fifa-logo.svg",
+      "equipos": [
+        {
+          "id": "argentina",
+          "nombre": "Argentina",
+          "alias": ["albiceleste", "arg"],
+          "escudo": "https://images.unsplash.com/photo-1574629810360-7efbbe195018?w=400&h=400&fit=crop",
+          "temporadas": [
+            {
+              "temporada": "2026",
+              "equipaciones": [
+                {
+                  "id": "local-2026",
+                  "tipo": "Local",
+                  "imagenes": [
+                    "https://images.unsplash.com/photo-1522778119026-d647f0596c20?w=600&h=600&fit=crop"
+                  ],
+                  "precio": 25,
+                  "dorsales": [
+                    { "numero": "1", "tallas": ["M", "L", "XL", "XXL"] },
+                    { "numero": "3", "tallas": ["M", "L", "XL"] },
+                    { "numero": "5", "tallas": ["M", "L"] }
+                  ]
+                },
+                {
+                  "id": "visitante-2026",
+                  "tipo": "Visitante",
+                  "imagenes": [
+                    "https://images.unsplash.com/photo-1574629810360-7efbbe195018?w=600&h=600&fit=crop"
+                  ],
+                  "precio": 23,
+                  "dorsales": []
+                },
+                {
+                  "id": "tercera-2026",
+                  "tipo": "Tercera",
+                  "imagenes": [
+                    "https://images.unsplash.com/photo-1517927033932-b3d18e61fb3a?w=600&h=600&fit=crop"
+                  ],
+                  "precio": 21,
+                  "dorsales": []
+                }
+              ]
+            },
+            {
+              "temporada": "2022",
+              "equipaciones": [
+                {
+                  "id": "local-2022",
+                  "tipo": "Local",
+                  "imagenes": [
+                    "https://images.unsplash.com/photo-1553775282-20af80779df7?w=600&h=600&fit=crop"
+                  ],
+                  "precio": 21,
+                  "dorsales": [
+                    { "numero": "3", "tallas": ["M", "L", "XL", "XXL"] },
+                    { "numero": "5", "tallas": ["M", "L", "XL"] }
+                  ]
+                },
+                {
+                  "id": "visitante-2022",
+                  "tipo": "Visitante",
+                  "imagenes": [
+                    "https://images.unsplash.com/photo-1551698618-1dfe5d97d256?w=600&h=600&fit=crop"
+                  ],
+                  "precio": 19,
+                  "dorsales": []
+                }
+              ]
+            },
+            {
+              "temporada": "2018",
+              "equipaciones": [
+                {
+                  "id": "local-2018",
+                  "tipo": "Local",
+                  "imagenes": [
+                    "https://images.unsplash.com/photo-1543351611-58f69d7c1781?w=600&h=600&fit=crop"
+                  ],
+                  "precio": 18,
+                  "dorsales": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "francia",
+          "nombre": "Francia",
+          "alias": ["les bleus", "fra"],
+          "escudo": "https://images.unsplash.com/photo-1517927033932-b3d18e61fb3a?w=400&h=400&fit=crop",
+          "temporadas": [
+            {
+              "temporada": "2026",
+              "equipaciones": [
+                {
+                  "id": "local-2026",
+                  "tipo": "Local",
+                  "imagenes": [
+                    "https://images.unsplash.com/photo-1606925797300-0b35e9d1794e?w=600&h=600&fit=crop"
+                  ],
+                  "precio": 26,
+                  "dorsales": [
+                    { "numero": "4", "tallas": ["S", "M", "L", "XL", "XXL"] },
+                    { "numero": "7", "tallas": ["S", "M", "L", "XL"] },
+                    { "numero": "9", "tallas": ["S", "M", "L"] }
+                  ]
+                },
+                {
+                  "id": "visitante-2026",
+                  "tipo": "Visitante",
+                  "imagenes": [
+                    "https://images.unsplash.com/photo-1517649763962-0c623066013b?w=600&h=600&fit=crop"
+                  ],
+                  "precio": 24,
+                  "dorsales": []
+                },
+                {
+                  "id": "tercera-2026",
+                  "tipo": "Tercera",
+                  "imagenes": [
+                    "https://images.unsplash.com/photo-1553775282-20af80779df7?w=600&h=600&fit=crop"
+                  ],
+                  "precio": 22,
+                  "dorsales": []
+                }
+              ]
+            },
+            {
+              "temporada": "2022",
+              "equipaciones": [
+                {
+                  "id": "local-2022",
+                  "tipo": "Local",
+                  "imagenes": [
+                    "https://images.unsplash.com/photo-1489944440615-453fc2b6a9a9?w=600&h=600&fit=crop"
+                  ],
+                  "precio": 22,
+                  "dorsales": [
+                    { "numero": "7", "tallas": ["S", "M", "L", "XL", "XXL"] },
+                    { "numero": "9", "tallas": ["S", "M", "L", "XL"] }
+                  ]
+                },
+                {
+                  "id": "visitante-2022",
+                  "tipo": "Visitante",
+                  "imagenes": [
+                    "https://images.unsplash.com/photo-1461896836934-ffe607ba8211?w=600&h=600&fit=crop"
+                  ],
+                  "precio": 20,
+                  "dorsales": []
+                }
+              ]
+            },
+            {
+              "temporada": "2018",
+              "equipaciones": [
+                {
+                  "id": "local-2018",
+                  "tipo": "Local",
+                  "imagenes": [
+                    "https://images.unsplash.com/photo-1517927033932-b3d18e61fb3a?w=600&h=600&fit=crop"
+                  ],
+                  "precio": 19,
+                  "dorsales": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "brasil",
+          "nombre": "Brasil",
+          "alias": ["selecao", "bra"],
+          "escudo": "https://images.unsplash.com/photo-1606925797300-0b35e9d1794e?w=400&h=400&fit=crop",
+          "temporadas": [
+            {
+              "temporada": "2026",
+              "equipaciones": [
+                {
+                  "id": "local-2026",
+                  "tipo": "Local",
+                  "imagenes": [
+                    "https://images.unsplash.com/photo-1551698618-1dfe5d97d256?w=600&h=600&fit=crop",
+                    "https://images.unsplash.com/photo-1543351611-58f69d7c1781?w=600&h=600&fit=crop"
+                  ],
+                  "precio": 24,
+                  "dorsales": [
+                    { "numero": "8", "tallas": ["S", "M", "L", "XL", "XXL"] },
+                    { "numero": "10", "tallas": ["S", "M", "L", "XL"] },
+                    { "numero": "14", "tallas": ["S", "M", "L"] }
+                  ]
+                },
+                {
+                  "id": "visitante-2026",
+                  "tipo": "Visitante",
+                  "imagenes": [
+                    "https://images.unsplash.com/photo-1431324155629-1a6deb1dec8d?w=600&h=600&fit=crop"
+                  ],
+                  "precio": 22,
+                  "dorsales": []
+                },
+                {
+                  "id": "tercera-2026",
+                  "tipo": "Tercera",
+                  "imagenes": [
+                    "https://images.unsplash.com/photo-1489944440615-453fc2b6a9a9?w=600&h=600&fit=crop"
+                  ],
+                  "precio": 20,
+                  "dorsales": []
+                }
+              ]
+            },
+            {
+              "temporada": "2022",
+              "equipaciones": [
+                {
+                  "id": "local-2022",
+                  "tipo": "Local",
+                  "imagenes": [
+                    "https://images.unsplash.com/photo-1522778119026-d647f0596c20?w=600&h=600&fit=crop",
+                    "https://images.unsplash.com/photo-1517649763962-0c623066013b?w=600&h=600&fit=crop"
+                  ],
+                  "precio": 20,
+                  "dorsales": [
+                    { "numero": "10", "tallas": ["S", "M", "L", "XL", "XXL"] },
+                    { "numero": "14", "tallas": ["S", "M", "L", "XL"] }
+                  ]
+                },
+                {
+                  "id": "visitante-2022",
+                  "tipo": "Visitante",
+                  "imagenes": [
+                    "https://images.unsplash.com/photo-1574629810360-7efbbe195018?w=600&h=600&fit=crop"
+                  ],
+                  "precio": 18,
+                  "dorsales": []
+                }
+              ]
+            },
+            {
+              "temporada": "2018",
+              "equipaciones": [
+                {
+                  "id": "local-2018",
+                  "tipo": "Local",
+                  "imagenes": [
+                    "https://images.unsplash.com/photo-1553775282-20af80779df7?w=600&h=600&fit=crop",
+                    "https://images.unsplash.com/photo-1461896836934-ffe607ba8211?w=600&h=600&fit=crop"
+                  ],
+                  "precio": 17,
+                  "dorsales": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "marruecos",
+          "nombre": "Marruecos",
+          "alias": ["atlas lions", "mar"],
+          "escudo": "https://images.unsplash.com/photo-1517649763962-0c623066013b?w=400&h=400&fit=crop",
+          "temporadas": [
+            {
+              "temporada": "2026",
+              "equipaciones": [
+                {
+                  "id": "local-2026",
+                  "tipo": "Local",
+                  "imagenes": [
+                    "https://images.unsplash.com/photo-1461896836934-ffe607ba8211?w=600&h=600&fit=crop"
+                  ],
+                  "precio": 25,
+                  "dorsales": [
+                    { "numero": "11", "tallas": ["S", "M", "L", "XL", "XXL"] },
+                    { "numero": "17", "tallas": ["S", "M", "L", "XL"] },
+                    { "numero": "21", "tallas": ["S", "M", "L"] }
+                  ]
+                },
+                {
+                  "id": "visitante-2026",
+                  "tipo": "Visitante",
+                  "imagenes": [
+                    "https://images.unsplash.com/photo-1543351611-58f69d7c1781?w=600&h=600&fit=crop"
+                  ],
+                  "precio": 23,
+                  "dorsales": []
+                },
+                {
+                  "id": "tercera-2026",
+                  "tipo": "Tercera",
+                  "imagenes": [
+                    "https://images.unsplash.com/photo-1522778119026-d647f0596c20?w=600&h=600&fit=crop"
+                  ],
+                  "precio": 21,
+                  "dorsales": []
+                }
+              ]
+            },
+            {
+              "temporada": "2022",
+              "equipaciones": [
+                {
+                  "id": "local-2022",
+                  "tipo": "Local",
+                  "imagenes": [
+                    "https://images.unsplash.com/photo-1606925797300-0b35e9d1794e?w=600&h=600&fit=crop"
+                  ],
+                  "precio": 21,
+                  "dorsales": [
+                    { "numero": "17", "tallas": ["S", "M", "L", "XL", "XXL"] },
+                    { "numero": "21", "tallas": ["S", "M", "L", "XL"] }
+                  ]
+                },
+                {
+                  "id": "visitante-2022",
+                  "tipo": "Visitante",
+                  "imagenes": [
+                    "https://images.unsplash.com/photo-1517649763962-0c623066013b?w=600&h=600&fit=crop"
+                  ],
+                  "precio": 19,
+                  "dorsales": []
+                }
+              ]
+            },
+            {
+              "temporada": "2018",
+              "equipaciones": [
+                {
+                  "id": "local-2018",
+                  "tipo": "Local",
+                  "imagenes": [
+                    "https://images.unsplash.com/photo-1489944440615-453fc2b6a9a9?w=600&h=600&fit=crop"
+                  ],
+                  "precio": 18,
+                  "dorsales": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "croacia",
+          "nombre": "Croacia",
+          "alias": ["vatreni", "cro"],
+          "escudo": "https://images.unsplash.com/photo-1553775282-20af80779df7?w=400&h=400&fit=crop",
+          "temporadas": [
+            {
+              "temporada": "2026",
+              "equipaciones": [
+                {
+                  "id": "local-2026",
+                  "tipo": "Local",
+                  "imagenes": [
+                    "https://images.unsplash.com/photo-1574629810360-7efbbe195018?w=600&h=600&fit=crop"
+                  ],
+                  "precio": 26,
+                  "dorsales": [
+                    { "numero": "19", "tallas": ["S", "M", "L", "XL", "XXL"] },
+                    { "numero": "23", "tallas": ["S", "M", "L", "XL"] },
+                    { "numero": "2", "tallas": ["S", "M", "L"] }
+                  ]
+                },
+                {
+                  "id": "visitante-2026",
+                  "tipo": "Visitante",
+                  "imagenes": [
+                    "https://images.unsplash.com/photo-1517927033932-b3d18e61fb3a?w=600&h=600&fit=crop"
+                  ],
+                  "precio": 24,
+                  "dorsales": []
+                },
+                {
+                  "id": "tercera-2026",
+                  "tipo": "Tercera",
+                  "imagenes": [
+                    "https://images.unsplash.com/photo-1606925797300-0b35e9d1794e?w=600&h=600&fit=crop"
+                  ],
+                  "precio": 22,
+                  "dorsales": []
+                }
+              ]
+            },
+            {
+              "temporada": "2022",
+              "equipaciones": [
+                {
+                  "id": "local-2022",
+                  "tipo": "Local",
+                  "imagenes": [
+                    "https://images.unsplash.com/photo-1551698618-1dfe5d97d256?w=600&h=600&fit=crop"
+                  ],
+                  "precio": 22,
+                  "dorsales": [
+                    { "numero": "23", "tallas": ["S", "M", "L", "XL", "XXL"] },
+                    { "numero": "2", "tallas": ["S", "M", "L", "XL"] }
+                  ]
+                },
+                {
+                  "id": "visitante-2022",
+                  "tipo": "Visitante",
+                  "imagenes": [
+                    "https://images.unsplash.com/photo-1431324155629-1a6deb1dec8d?w=600&h=600&fit=crop"
+                  ],
+                  "precio": 20,
+                  "dorsales": []
+                }
+              ]
+            },
+            {
+              "temporada": "2018",
+              "equipaciones": [
+                {
+                  "id": "local-2018",
+                  "tipo": "Local",
+                  "imagenes": [
+                    "https://images.unsplash.com/photo-1522778119026-d647f0596c20?w=600&h=600&fit=crop"
+                  ],
+                  "precio": 19,
+                  "dorsales": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "espana",
+          "nombre": "España",
+          "alias": ["la roja", "esp"],
+          "escudo": "https://images.unsplash.com/photo-1551698618-1dfe5d97d256?w=400&h=400&fit=crop",
+          "temporadas": [
+            {
+              "temporada": "2026",
+              "equipaciones": [
+                {
+                  "id": "local-2026",
+                  "tipo": "Local",
+                  "imagenes": [
+                    "https://images.unsplash.com/photo-1517649763962-0c623066013b?w=600&h=600&fit=crop",
+                    "https://images.unsplash.com/photo-1489944440615-453fc2b6a9a9?w=600&h=600&fit=crop"
+                  ],
+                  "precio": 24,
+                  "dorsales": [
+                    { "numero": "1", "tallas": ["M", "L", "XL", "XXL"] },
+                    { "numero": "3", "tallas": ["M", "L", "XL"] },
+                    { "numero": "5", "tallas": ["M", "L"] }
+                  ]
+                },
+                {
+                  "id": "visitante-2026",
+                  "tipo": "Visitante",
+                  "imagenes": [
+                    "https://images.unsplash.com/photo-1553775282-20af80779df7?w=600&h=600&fit=crop"
+                  ],
+                  "precio": 22,
+                  "dorsales": []
+                },
+                {
+                  "id": "tercera-2026",
+                  "tipo": "Tercera",
+                  "imagenes": [
+                    "https://images.unsplash.com/photo-1551698618-1dfe5d97d256?w=600&h=600&fit=crop"
+                  ],
+                  "precio": 20,
+                  "dorsales": []
+                }
+              ]
+            },
+            {
+              "temporada": "2022",
+              "equipaciones": [
+                {
+                  "id": "local-2022",
+                  "tipo": "Local",
+                  "imagenes": [
+                    "https://images.unsplash.com/photo-1461896836934-ffe607ba8211?w=600&h=600&fit=crop",
+                    "https://images.unsplash.com/photo-1517927033932-b3d18e61fb3a?w=600&h=600&fit=crop"
+                  ],
+                  "precio": 20,
+                  "dorsales": [
+                    { "numero": "3", "tallas": ["M", "L", "XL", "XXL"] },
+                    { "numero": "5", "tallas": ["M", "L", "XL"] }
+                  ]
+                },
+                {
+                  "id": "visitante-2022",
+                  "tipo": "Visitante",
+                  "imagenes": [
+                    "https://images.unsplash.com/photo-1543351611-58f69d7c1781?w=600&h=600&fit=crop"
+                  ],
+                  "precio": 18,
+                  "dorsales": []
+                }
+              ]
+            },
+            {
+              "temporada": "2018",
+              "equipaciones": [
+                {
+                  "id": "local-2018",
+                  "tipo": "Local",
+                  "imagenes": [
+                    "https://images.unsplash.com/photo-1606925797300-0b35e9d1794e?w=600&h=600&fit=crop",
+                    "https://images.unsplash.com/photo-1431324155629-1a6deb1dec8d?w=600&h=600&fit=crop"
+                  ],
+                  "precio": 17,
+                  "dorsales": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
