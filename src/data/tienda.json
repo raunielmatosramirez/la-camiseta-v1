@@ -2,16 +2,12 @@
   "destacados": {
     "equipos": [
       {
-        "ligaId": "laliga",
-        "equipoId": "real-madrid"
+        "ligaId": "premier",
+        "equipoId": "manchester-united"
       },
       {
-        "ligaId": "laliga",
-        "equipoId": "barcelona"
-      },
-      {
-        "ligaId": "mls",
-        "equipoId": "inter-miami"
+        "ligaId": "premier",
+        "equipoId": "liverpool"
       }
     ]
   },
