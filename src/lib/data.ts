@@ -20,7 +20,7 @@ export function getTienda(): Tienda["tienda"] {
     nombre: process.env.NEXT_PUBLIC_SITE_NAME ?? "La Camiseta",
     descripcion: process.env.NEXT_PUBLIC_SITE_DESCRIPTION ?? "",
     eslogan: process.env.NEXT_PUBLIC_SITE_ESLOGAN ?? "",
-    whatsapp: process.env.NEXT_PUBLIC_WHATSAPP_ORDER ?? "5355161541",
+    whatsapp: process.env.NEXT_PUBLIC_WHATSAPP_ORDER ?? "5358080925",
     direccionRecogida:
       process.env.NEXT_PUBLIC_PICKUP_ADDRESS ?? "Dirección exacta por WhatsApp",
     hosting:
