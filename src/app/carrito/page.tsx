@@ -153,14 +153,24 @@ export default function CarritoPage() {
     message += `Nombre completo: ${nombreCompleto}\n\n`;
 
     items.forEach((item, idx) => {
-      message += `${idx + 1}. ${item.equipoNombre} - ${etiquetaEquipacion(item.equipacionTipo)} (${item.temporada})\n`;
-      message += `   Liga: ${item.ligaNombre}\n`;
-      message += `   Talla: ${item.talla}\n`;
+      const tipo = item.tipo ?? "camiseta";
+      if (tipo === "camiseta") {
+        message += `${idx + 1}. ${item.equipoNombre} - ${etiquetaEquipacion(item.equipacionTipo ?? "")} (${item.temporada})\n`;
+        message += `   Liga: ${item.ligaNombre}\n`;
+      } else {
+        message += `${idx + 1}. ${item.equipoNombre} - ${
+          tipo === "conjunto" ? "Conjunto" : item.equipacionTipo ?? "Accesorio"
+        }\n`;
+      }
+      if (item.talla) message += `   Talla: ${item.talla}\n`;
       if (item.dorsal) message += `   Dorsal: ${item.dorsal}\n`;
       message += `   Cantidad: ${item.cantidad}\n`;
       message += `   Precio unitario: ${formatPrice(item.precio, symbol)}\n`;
       message += `   Subtotal: ${formatPrice(item.precio * item.cantidad, symbol)}\n`;
-      message += `   Enlace: ${origin}/producto/${item.slug}\n\n`;
+      if (tipo === "camiseta") {
+        message += `   Enlace: ${origin}/producto/${item.slug}\n`;
+      }
+      message += "\n";
     });
 
     message += `Artículos: ${count}\n`;
@@ -250,46 +260,75 @@ export default function CarritoPage() {
 
       <div className='grid gap-6 lg:grid-cols-3 lg:items-start'>
         <div className='space-y-3 lg:col-span-2'>
-          {items.map((item) => (
+          {items.map((item) => {
+            const esCamiseta = (item.tipo ?? "camiseta") === "camiseta";
+            const etiqueta = esCamiseta
+              ? etiquetaEquipacion(item.equipacionTipo ?? "")
+              : item.tipo === "conjunto"
+                ? "Conjunto"
+                : item.equipacionTipo ?? "Accesorio";
+            return (
             <article
               key={item.id}
               className='rounded-2xl border border-gray-200 bg-white p-3 shadow-sm dark:border-neutral-800 dark:bg-neutral-900 dark:shadow-none sm:p-4'
             >
               <div className='flex gap-3 sm:gap-4'>
-                <Link
-                  href={`/producto/${item.slug}`}
-                  className='group relative h-24 w-24 flex-shrink-0 overflow-hidden rounded-xl bg-gray-100 dark:bg-neutral-800 sm:h-28 sm:w-28'
-                >
-                  <Image
-                    src={item.imagen}
-                    alt={`${item.equipoNombre} ${item.equipacionTipo}`}
-                    fill
-                    className='object-cover transition duration-300 group-hover:scale-105'
-                    sizes='(max-width: 640px) 96px, 112px'
-                  />
-                </Link>
+                {esCamiseta ? (
+                  <Link
+                    href={`/producto/${item.slug}`}
+                    className='group relative h-24 w-24 flex-shrink-0 overflow-hidden rounded-xl bg-white dark:bg-black sm:h-28 sm:w-28'
+                  >
+                    <Image
+                      src={item.imagen}
+                      alt={item.equipoNombre}
+                      fill
+                      className='object-cover transition duration-300 group-hover:scale-105'
+                      sizes='(max-width: 640px) 96px, 112px'
+                    />
+                  </Link>
+                ) : (
+                  <div className='relative h-24 w-24 flex-shrink-0 overflow-hidden rounded-xl bg-white dark:bg-black sm:h-28 sm:w-28'>
+                    <Image
+                      src={item.imagen}
+                      alt={item.equipoNombre}
+                      fill
+                      className='object-cover'
+                      sizes='(max-width: 640px) 96px, 112px'
+                    />
+                  </div>
+                )}
 
                 <div className='flex min-w-0 flex-1 flex-col'>
                   <div className='flex items-start justify-between gap-3'>
                     <div className='min-w-0'>
                       <div className='flex flex-wrap items-center gap-2'>
-                        <Link
-                          href={`/producto/${item.slug}`}
-                          className='block max-w-full truncate text-sm font-semibold hover:underline sm:text-base'
-                        >
-                          {item.equipoNombre}
-                        </Link>
+                        {esCamiseta ? (
+                          <Link
+                            href={`/producto/${item.slug}`}
+                            className='block max-w-full truncate text-sm font-semibold hover:underline sm:text-base'
+                          >
+                            {item.equipoNombre}
+                          </Link>
+                        ) : (
+                          <span className='block max-w-full truncate text-sm font-semibold sm:text-base'>
+                            {item.equipoNombre}
+                          </span>
+                        )}
                         <span className='rounded-md bg-gray-100 px-2 py-0.5 text-[11px] font-medium text-gray-700 dark:bg-neutral-800 dark:text-neutral-300'>
-                          {etiquetaEquipacion(item.equipacionTipo)}
+                          {etiqueta}
                         </span>
                       </div>
-                      <p className='mt-0.5 truncate text-xs text-gray-600 dark:text-neutral-400'>
-                        {item.ligaNombre} · {item.temporada}
-                      </p>
+                      {item.ligaNombre && item.temporada && (
+                        <p className='mt-0.5 truncate text-xs text-gray-600 dark:text-neutral-400'>
+                          {item.ligaNombre} · {item.temporada}
+                        </p>
+                      )}
                       <div className='mt-2 flex flex-wrap gap-1.5'>
-                        <span className='rounded-md bg-gray-100 px-2 py-0.5 text-[11px] font-medium text-gray-700 dark:bg-neutral-800 dark:text-neutral-300'>
-                          Talla {item.talla}
-                        </span>
+                        {item.talla && (
+                          <span className='rounded-md bg-gray-100 px-2 py-0.5 text-[11px] font-medium text-gray-700 dark:bg-neutral-800 dark:text-neutral-300'>
+                            Talla {item.talla}
+                          </span>
+                        )}
                         {item.dorsal && (
                           <span className='rounded-md bg-gray-100 px-2 py-0.5 text-[11px] font-medium text-gray-700 dark:bg-neutral-800 dark:text-neutral-300'>
                             Dorsal {item.dorsal}
@@ -300,7 +339,7 @@ export default function CarritoPage() {
                     <button
                       type='button'
                       onClick={() => removeItem(item.id)}
-                      aria-label={`Eliminar ${item.equipoNombre} talla ${item.talla}`}
+                      aria-label={`Eliminar ${item.equipoNombre}${item.talla ? ` talla ${item.talla}` : ""}`}
                       title='Eliminar'
                       className='flex min-h-[44px] min-w-[44px] items-center justify-center rounded-lg p-2 text-gray-400 transition hover:bg-red-50 active:bg-red-100 hover:text-red-600 dark:hover:bg-red-500/10 dark:active:bg-red-500/20 dark:hover:text-red-400'
                     >
@@ -347,7 +386,8 @@ export default function CarritoPage() {
                 </div>
               </div>
             </article>
-          ))}
+            );
+          })}
         </div>
 
         <aside className='lg:sticky lg:top-20 lg:col-span-1'>

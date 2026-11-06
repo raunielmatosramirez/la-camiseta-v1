@@ -13,7 +13,7 @@ export default function ProductGallery({ images }: { images: string[] }) {
 
   return (
     <div className='space-y-2'>
-      <div className='relative aspect-square w-full overflow-hidden rounded-lg bg-gray-100 dark:bg-neutral-800'>
+      <div className='relative aspect-square w-full overflow-hidden rounded-lg bg-white dark:bg-black'>
         <Image
           key={galleryImages[active]}
           src={galleryImages[active]}
@@ -32,7 +32,7 @@ export default function ProductGallery({ images }: { images: string[] }) {
               type='button'
               key={idx}
               onClick={() => setActive(idx)}
-              className={`relative z-10 h-24 w-24 flex-shrink-0 overflow-hidden rounded-md border active:scale-[0.98] touch-manipulation ${
+              className={`relative z-10 h-24 w-24 flex-shrink-0 overflow-hidden rounded-md border bg-white active:scale-[0.98] touch-manipulation dark:bg-black ${
                 active === idx
                   ? "border-black dark:border-white"
                   : "border-gray-200 dark:border-neutral-700"

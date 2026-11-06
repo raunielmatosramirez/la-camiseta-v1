@@ -45,10 +45,10 @@ export default function EquipacionCard({
       href={`/producto/${slug}`}
       className='group block overflow-hidden rounded-lg border border-gray-200 bg-white transition hover:bg-gray-50 dark:border-neutral-800 dark:bg-neutral-900 dark:hover:bg-neutral-800'
     >
-      <div className='relative aspect-[3/3] w-full bg-gray-100 dark:bg-neutral-800'>
+      <div className='relative aspect-[3/3] w-full bg-white dark:bg-black'>
         <Image
           src={img}
-          alt={equipacion.tipo}
+          alt={equipacion.nombre}
           fill
           className='object-contain'
           sizes='(max-width: 1023px) 50vw, 33vw'
@@ -56,7 +56,7 @@ export default function EquipacionCard({
       </div>
       <div className='p-2.5'>
         <div className='flex items-center justify-between'>
-          <div className='text-sm font-medium'>{equipacion.tipo}</div>
+          <div className='text-sm font-medium'>{equipacion.nombre}</div>
           <div className='text-sm'>
             {formatPrice(equipacion.precio, tienda.simboloMoneda)}
           </div>

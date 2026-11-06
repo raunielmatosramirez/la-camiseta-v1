@@ -1,108 +1,79 @@
 {
   "destacados": {
     "equipos": [
-      { "ligaId": "laliga", "equipoId": "real-madrid" },
-      { "ligaId": "laliga", "equipoId": "barcelona" },
-      { "ligaId": "mls", "equipoId": "inter-miami" }
+      {
+        "ligaId": "laliga",
+        "equipoId": "real-madrid"
+      },
+      {
+        "ligaId": "laliga",
+        "equipoId": "barcelona"
+      },
+      {
+        "ligaId": "mls",
+        "equipoId": "inter-miami"
+      }
     ]
   },
   "ligas": [
     {
       "id": "laliga",
+      "activa": false,
       "nombre": "LaLiga",
       "pais": "España",
-      "logo": "/equipos/laliga.svg",
+      "logo": "/equipos/la-liga/laliga.svg",
       "equipos": [
         {
           "id": "real-madrid",
+          "activa": true,
           "nombre": "Real Madrid",
           "alias": ["madrid", "rm", "merengues"],
-          "escudo": "/equipos/real-madrid.svg",
+          "escudo": "/equipos/la-liga/realmadrid/real-madrid.svg",
           "temporadas": [
             {
               "temporada": "2026/27",
               "equipaciones": [
                 {
                   "id": "local-2026-27",
-                  "tipo": "Local",
+                  "tipo": "camiseta",
+                  "nombre": "Local",
                   "imagenes": [
-                    "/equipos/realmadrid/real-madrid-2026-27-home.avif",
-                    "https://images.unsplash.com/photo-1543351611-58f69d7c1781?w=600&h=600&fit=crop"
+                    "/equipos/la-liga/realmadrid/26-27/local/real-madrid-2026-27-home.avif"
                   ],
                   "precio": 24,
                   "dorsales": [
-                    { "numero": "1", "tallas": ["M", "L", "XL", "XXL"] },
-                    { "numero": "3", "tallas": ["M", "L", "XL"] },
-                    { "numero": "5", "tallas": ["M", "L"] }
+                    {
+                      "numero": "1",
+                      "tallas": ["M", "L", "XL", "XXL"]
+                    },
+                    {
+                      "numero": "3",
+                      "tallas": ["M", "L", "XL"]
+                    },
+                    {
+                      "numero": "5",
+                      "tallas": ["M", "L"]
+                    }
                   ]
                 },
                 {
                   "id": "visitante-2024-25",
-                  "tipo": "Visitante",
+                  "tipo": "camiseta",
+                  "nombre": "Visitante",
                   "imagenes": [
-                    "/equipos/realmadrid/real-madrid-2026-27-away.avif"
+                    "/equipos/la-liga/realmadrid/26-27/visitante/real-madrid-2026-27-away.avif"
                   ],
                   "precio": 22,
                   "dorsales": []
                 },
                 {
                   "id": "tercera-2024-25",
-                  "tipo": "Tercera",
+                  "tipo": "camiseta",
+                  "nombre": "Tercera",
                   "imagenes": [
-                    "/equipos/realmadrid/real-madrid-2026-27-third.avif"
+                    "/equipos/la-liga/realmadrid/26-27/tercera/real-madrid-2026-27-third.avif"
                   ],
                   "precio": 20,
-                  "dorsales": []
-                }
-              ]
-            },
-            {
-              "temporada": "2023/24",
-              "equipaciones": [
-                {
-                  "id": "local-2023-24",
-                  "tipo": "Local",
-                  "imagenes": [
-                    "https://images.unsplash.com/photo-1522778119026-d647f0596c20?w=600&h=600&fit=crop",
-                    "https://images.unsplash.com/photo-1517649763962-0c623066013b?w=600&h=600&fit=crop"
-                  ],
-                  "precio": 20,
-                  "dorsales": [
-                    { "numero": "3", "tallas": ["M", "L", "XL", "XXL"] },
-                    { "numero": "5", "tallas": ["M", "L", "XL"] }
-                  ]
-                },
-                {
-                  "id": "visitante-2023-24",
-                  "tipo": "Visitante",
-                  "imagenes": [
-                    "https://images.unsplash.com/photo-1574629810360-7efbbe195018?w=600&h=600&fit=crop"
-                  ],
-                  "precio": 18,
-                  "dorsales": []
-                },
-                {
-                  "id": "tercera-2023-24",
-                  "tipo": "Tercera",
-                  "imagenes": [
-                    "https://images.unsplash.com/photo-1517927033932-b3d18e61fb3a?w=600&h=600&fit=crop"
-                  ],
-                  "precio": 16,
-                  "dorsales": []
-                }
-              ]
-            },
-            {
-              "temporada": "2022/23",
-              "equipaciones": [
-                {
-                  "id": "local-2022-23",
-                  "tipo": "Local",
-                  "imagenes": [
-                    "https://images.unsplash.com/photo-1553775282-20af80779df7?w=600&h=600&fit=crop",
-                    "https://images.unsplash.com/photo-1461896836934-ffe607ba8211?w=600&h=600&fit=crop"
-                  ],
-                  "precio": 17,
                   "dorsales": []
                 }
               ]
@@ -111,89 +82,82 @@
         },
         {
           "id": "barcelona",
+          "activa": true,
           "nombre": "FC Barcelona",
           "alias": ["barça", "barca", "blaugrana", "fcb"],
-          "escudo": "/equipos/barcelona.svg",
+          "escudo": "/equipos/la-liga/barcelona/barcelona.svg",
           "temporadas": [
             {
               "temporada": "2026/27",
               "equipaciones": [
                 {
-                  "id": "local-202-27",
-                  "tipo": "Local",
-                  "imagenes": ["/equipos/barcelona/home-cover-barcelona.webp"],
-                  "precio": 25,
+                  "id": "local-2026-27",
+                  "tipo": "camiseta",
+                  "nombre": "Local",
+                  "imagenes": [
+                    "/equipos/la-liga/barcelona/26-27/local/home-cover-barcelona.webp"
+                  ],
+                  "precio": 20,
                   "dorsales": [
-                    { "numero": "4", "tallas": ["S", "M", "L", "XL", "XXL"] },
-                    { "numero": "7", "tallas": ["S", "M", "L", "XL"] },
-                    { "numero": "9", "tallas": ["S", "M", "L"] }
+                    {
+                      "numero": "4",
+                      "tallas": ["S", "M", "L", "XL", "XXL"]
+                    },
+                    {
+                      "numero": "7",
+                      "tallas": ["S", "M", "L", "XL"]
+                    },
+                    {
+                      "numero": "9",
+                      "tallas": ["S", "M", "L"]
+                    }
                   ]
                 },
                 {
                   "id": "visitante-2026-27",
-                  "tipo": "Visitante",
+                  "tipo": "camiseta",
+                  "nombre": "Visitante",
                   "imagenes": [
-                    "/equipos/barcelona/cover-fc-barcelona-2026-27-away.jpg"
+                    "/equipos/la-liga/barcelona/26-27/visitante/cover-fc-barcelona-2026-27-away.jpg"
                   ],
                   "precio": 20,
                   "dorsales": [
-                    { "numero": "10", "tallas": ["S", "M", "L", "XL"] },
-                    { "numero": "11", "tallas": ["S", "M", "L", "XL"] },
-                    { "numero": "12", "tallas": ["S", "M", "L", "XL"] }
+                    {
+                      "numero": "10",
+                      "tallas": ["S", "M", "L", "XL"]
+                    },
+                    {
+                      "numero": "11",
+                      "tallas": ["S", "M", "L", "XL"]
+                    },
+                    {
+                      "numero": "12",
+                      "tallas": ["S", "M", "L", "XL"]
+                    }
                   ]
                 },
                 {
                   "id": "tercera-2026-27",
-                  "tipo": "Tercera",
+                  "tipo": "camiseta",
+                  "nombre": "Tercera",
                   "imagenes": [
-                    "/equipos/barcelona/cover-fc-barcelona-2026-27-third.jpg"
+                    "/equipos/la-liga/barcelona/26-27/tercera/cover-fc-barcelona-2026-27-third.jpg"
                   ],
                   "precio": 20,
                   "dorsales": [
-                    { "numero": "4", "tallas": ["S", "M", "L", "XL"] },
-                    { "numero": "7", "tallas": ["S", "M", "L", "XL"] },
-                    { "numero": "9", "tallas": ["S", "M", "L", "XL"] }
+                    {
+                      "numero": "4",
+                      "tallas": ["S", "M", "L", "XL"]
+                    },
+                    {
+                      "numero": "7",
+                      "tallas": ["S", "M", "L", "XL"]
+                    },
+                    {
+                      "numero": "9",
+                      "tallas": ["S", "M", "L", "XL"]
+                    }
                   ]
-                }
-              ]
-            },
-            {
-              "temporada": "2023/24",
-              "equipaciones": [
-                {
-                  "id": "local-2023-24",
-                  "tipo": "Local",
-                  "imagenes": [
-                    "https://images.unsplash.com/photo-1606925797300-0b35e9d1794e?w=600&h=600&fit=crop"
-                  ],
-                  "precio": 21,
-                  "dorsales": [
-                    { "numero": "7", "tallas": ["S", "M", "L", "XL", "XXL"] },
-                    { "numero": "9", "tallas": ["S", "M", "L", "XL"] }
-                  ]
-                },
-                {
-                  "id": "visitante-2023-24",
-                  "tipo": "Visitante",
-                  "imagenes": [
-                    "https://images.unsplash.com/photo-1517649763962-0c623066013b?w=600&h=600&fit=crop"
-                  ],
-                  "precio": 19,
-                  "dorsales": []
-                }
-              ]
-            },
-            {
-              "temporada": "2022/23",
-              "equipaciones": [
-                {
-                  "id": "local-2022-23",
-                  "tipo": "Local",
-                  "imagenes": [
-                    "https://images.unsplash.com/photo-1489944440615-453fc2b6a9a9?w=600&h=600&fit=crop"
-                  ],
-                  "precio": 18,
-                  "dorsales": []
                 }
               ]
             }
@@ -201,73 +165,45 @@
         },
         {
           "id": "atletico-madrid",
+          "activa": true,
           "nombre": "Atlético de Madrid",
           "alias": ["atletico", "atleti", "colchoneros"],
-          "escudo": "/equipos/atletico-madrid.svg",
+          "escudo": "/equipos/la-liga/atletico-madrid/atletico-madrid.svg",
           "temporadas": [
             {
-              "temporada": "2024/25",
+              "temporada": "2026/27",
               "equipaciones": [
                 {
-                  "id": "local-2024-25",
-                  "tipo": "Local",
+                  "id": "local-2026-27",
+                  "tipo": "camiseta",
+                  "nombre": "Local",
                   "imagenes": [
                     "https://images.unsplash.com/photo-1574629810360-7efbbe195018?w=600&h=600&fit=crop"
                   ],
                   "precio": 26,
                   "dorsales": [
-                    { "numero": "8", "tallas": ["S", "M", "L", "XL", "XXL"] },
-                    { "numero": "10", "tallas": ["S", "M", "L", "XL"] },
-                    { "numero": "14", "tallas": ["S", "M", "L"] }
+                    {
+                      "numero": "8",
+                      "tallas": ["S", "M", "L", "XL", "XXL"]
+                    },
+                    {
+                      "numero": "10",
+                      "tallas": ["S", "M", "L", "XL"]
+                    },
+                    {
+                      "numero": "14",
+                      "tallas": ["S", "M", "L"]
+                    }
                   ]
                 },
                 {
-                  "id": "visitante-2024-25",
-                  "tipo": "Visitante",
+                  "id": "visitante-2026-27",
+                  "tipo": "camiseta",
+                  "nombre": "Visitante",
                   "imagenes": [
                     "https://images.unsplash.com/photo-1517927033932-b3d18e61fb3a?w=600&h=600&fit=crop"
                   ],
                   "precio": 24,
-                  "dorsales": []
-                }
-              ]
-            },
-            {
-              "temporada": "2023/24",
-              "equipaciones": [
-                {
-                  "id": "local-2023-24",
-                  "tipo": "Local",
-                  "imagenes": [
-                    "https://images.unsplash.com/photo-1551698618-1dfe5d97d256?w=600&h=600&fit=crop"
-                  ],
-                  "precio": 22,
-                  "dorsales": [
-                    { "numero": "10", "tallas": ["S", "M", "L", "XL", "XXL"] },
-                    { "numero": "14", "tallas": ["S", "M", "L", "XL"] }
-                  ]
-                },
-                {
-                  "id": "visitante-2023-24",
-                  "tipo": "Visitante",
-                  "imagenes": [
-                    "https://images.unsplash.com/photo-1431324155629-1a6deb1dec8d?w=600&h=600&fit=crop"
-                  ],
-                  "precio": 20,
-                  "dorsales": []
-                }
-              ]
-            },
-            {
-              "temporada": "2022/23",
-              "equipaciones": [
-                {
-                  "id": "local-2022-23",
-                  "tipo": "Local",
-                  "imagenes": [
-                    "https://images.unsplash.com/photo-1522778119026-d647f0596c20?w=600&h=600&fit=crop"
-                  ],
-                  "precio": 19,
                   "dorsales": []
                 }
               ]
@@ -278,88 +214,62 @@
     },
     {
       "id": "premier",
+      "activa": true,
       "nombre": "Premier League",
       "pais": "Inglaterra",
-      "logo": "/equipos/premier-league.svg",
+      "logo": "/equipos/premier-league/premier-league.svg",
       "equipos": [
         {
           "id": "manchester-city",
+          "activa": false,
           "nombre": "Manchester City",
           "alias": ["city", "man city", "mcfc", "citizens"],
-          "escudo": "/equipos/manchester-city.svg",
+          "escudo": "/equipos/premier-league/manchester-city/manchester-city.svg",
           "temporadas": [
             {
-              "temporada": "2024/25",
+              "temporada": "2026/27",
               "equipaciones": [
                 {
-                  "id": "local-2024-25",
-                  "tipo": "Local",
+                  "id": "local-2026-27",
+                  "tipo": "camiseta",
+                  "nombre": "Local",
                   "imagenes": [
-                    "https://images.unsplash.com/photo-1517927033932-b3d18e61fb3a?w=600&h=600&fit=crop"
+                    "/equipos/premier-league/manchester-city/26-27/local/home-cover.webp"
                   ],
                   "precio": 25,
                   "dorsales": [
-                    { "numero": "1", "tallas": ["M", "L", "XL", "XXL"] },
-                    { "numero": "3", "tallas": ["M", "L", "XL"] },
-                    { "numero": "5", "tallas": ["M", "L"] }
+                    {
+                      "numero": "1",
+                      "tallas": ["M", "L", "XL", "XXL"]
+                    },
+                    {
+                      "numero": "3",
+                      "tallas": ["M", "L", "XL"]
+                    },
+                    {
+                      "numero": "5",
+                      "tallas": ["M", "L"]
+                    }
                   ]
                 },
                 {
-                  "id": "visitante-2024-25",
-                  "tipo": "Visitante",
+                  "id": "visitante-2026-27",
+                  "tipo": "camiseta",
+                  "nombre": "Visitante",
                   "imagenes": [
-                    "https://images.unsplash.com/photo-1606925797300-0b35e9d1794e?w=600&h=600&fit=crop"
+                    "/equipos/premier-league/manchester-city/26-27/visitante/cover-manchester-city-2026-27-away-kit-footylogos.jpg"
                   ],
                   "precio": 23,
                   "dorsales": []
                 },
                 {
-                  "id": "tercera-2024-25",
-                  "tipo": "Tercera",
+                  "id": "tercera-2026-27",
+                  "tipo": "camiseta",
+                  "nombre": "Tercera",
                   "imagenes": [
-                    "https://images.unsplash.com/photo-1517649763962-0c623066013b?w=600&h=600&fit=crop"
+                    "/equipos/premier-league/manchester-city/26-27/tercera/third-cover.webp"
                   ],
                   "precio": 21,
-                  "dorsales": []
-                }
-              ]
-            },
-            {
-              "temporada": "2023/24",
-              "equipaciones": [
-                {
-                  "id": "local-2023-24",
-                  "tipo": "Local",
-                  "imagenes": [
-                    "https://images.unsplash.com/photo-1431324155629-1a6deb1dec8d?w=600&h=600&fit=crop"
-                  ],
-                  "precio": 21,
-                  "dorsales": [
-                    { "numero": "3", "tallas": ["M", "L", "XL", "XXL"] },
-                    { "numero": "5", "tallas": ["M", "L", "XL"] }
-                  ]
-                },
-                {
-                  "id": "visitante-2023-24",
-                  "tipo": "Visitante",
-                  "imagenes": [
-                    "https://images.unsplash.com/photo-1489944440615-453fc2b6a9a9?w=600&h=600&fit=crop"
-                  ],
-                  "precio": 19,
-                  "dorsales": []
-                }
-              ]
-            },
-            {
-              "temporada": "2022/23",
-              "equipaciones": [
-                {
-                  "id": "local-2022-23",
-                  "tipo": "Local",
-                  "imagenes": [
-                    "https://images.unsplash.com/photo-1574629810360-7efbbe195018?w=600&h=600&fit=crop"
-                  ],
-                  "precio": 18,
                   "dorsales": []
                 }
               ]
@@ -368,73 +278,75 @@
         },
         {
           "id": "manchester-united",
+          "activa": true,
           "nombre": "Manchester United",
           "alias": ["united", "man utd", "red devils"],
-          "escudo": "/equipos/manchester-united.svg",
+          "escudo": "/equipos/premier-league/manchester-united/manchester-united.svg",
           "temporadas": [
             {
-              "temporada": "2024/25",
+              "temporada": "2026/27",
               "equipaciones": [
                 {
-                  "id": "local-2024-25",
-                  "tipo": "Local",
+                  "id": "local-2026-27",
+                  "tipo": "camiseta",
+                  "nombre": "Local",
                   "imagenes": [
-                    "https://images.unsplash.com/photo-1553775282-20af80779df7?w=600&h=600&fit=crop"
-                  ],
-                  "precio": 26,
-                  "dorsales": [
-                    { "numero": "4", "tallas": ["S", "M", "L", "XL", "XXL"] },
-                    { "numero": "7", "tallas": ["S", "M", "L", "XL"] },
-                    { "numero": "9", "tallas": ["S", "M", "L"] }
-                  ]
-                },
-                {
-                  "id": "visitante-2024-25",
-                  "tipo": "Visitante",
-                  "imagenes": [
-                    "https://images.unsplash.com/photo-1551698618-1dfe5d97d256?w=600&h=600&fit=crop"
-                  ],
-                  "precio": 24,
-                  "dorsales": []
-                }
-              ]
-            },
-            {
-              "temporada": "2023/24",
-              "equipaciones": [
-                {
-                  "id": "local-2023-24",
-                  "tipo": "Local",
-                  "imagenes": [
-                    "https://images.unsplash.com/photo-1543351611-58f69d7c1781?w=600&h=600&fit=crop"
-                  ],
-                  "precio": 22,
-                  "dorsales": [
-                    { "numero": "7", "tallas": ["S", "M", "L", "XL", "XXL"] },
-                    { "numero": "9", "tallas": ["S", "M", "L", "XL"] }
-                  ]
-                },
-                {
-                  "id": "visitante-2023-24",
-                  "tipo": "Visitante",
-                  "imagenes": [
-                    "https://images.unsplash.com/photo-1522778119026-d647f0596c20?w=600&h=600&fit=crop"
+                    "/equipos/premier-league/manchester-united/26-27/local/home-cover.webp",
+                    "/equipos/premier-league/manchester-united/26-27/local/1.jpeg",
+                    "/equipos/premier-league/manchester-united/26-27/local/2.jpeg",
+                    "/equipos/premier-league/manchester-united/26-27/local/3.jpeg"
                   ],
                   "precio": 20,
-                  "dorsales": []
-                }
-              ]
-            },
-            {
-              "temporada": "2022/23",
-              "equipaciones": [
+                  "dorsales": [
+                    {
+                      "numero": "6",
+                      "tallas": ["S", "M", "L", "XL"]
+                    },
+                    {
+                      "numero": "10",
+                      "tallas": ["S", "M", "L", "XL"]
+                    },
+                    {
+                      "numero": "8",
+                      "tallas": ["S", "M", "L", "XL"]
+                    }
+                  ]
+                },
                 {
-                  "id": "local-2022-23",
-                  "tipo": "Local",
+                  "id": "visitante-2026-27",
+                  "tipo": "camiseta",
+                  "nombre": "Visitante",
                   "imagenes": [
-                    "https://images.unsplash.com/photo-1517649763962-0c623066013b?w=600&h=600&fit=crop"
+                    "/equipos/premier-league/manchester-united/26-27/visitante/cover-manchester-united-2026-27-away-kit-footylogos.jpg",
+                    "/equipos/premier-league/manchester-united/26-27/visitante/1.jpeg",
+                    "/equipos/premier-league/manchester-united/26-27/visitante/2.jpeg",
+                    "/equipos/premier-league/manchester-united/26-27/visitante/3.jpeg",
+                    "/equipos/premier-league/manchester-united/26-27/visitante/4.jpeg"
                   ],
-                  "precio": 19,
+                  "precio": 20,
+                  "dorsales": [
+                    {
+                      "numero": "6",
+                      "tallas": ["S", "M", "L", "XL"]
+                    },
+                    {
+                      "numero": "10",
+                      "tallas": ["S", "M", "L", "XL"]
+                    },
+                    {
+                      "numero": "8",
+                      "tallas": ["S", "M", "L", "XL"]
+                    }
+                  ]
+                },
+                {
+                  "id": "tercera-2026-27",
+                  "tipo": "camiseta",
+                  "nombre": "Tercera",
+                  "imagenes": [
+                    "/equipos/premier-league/manchester-united/26-27/tercera/cover-manchester-united-2026-27-third-kit-footylogos.jpg"
+                  ],
+                  "precio": 22,
                   "dorsales": []
                 }
               ]
@@ -443,85 +355,54 @@
         },
         {
           "id": "liverpool",
+          "activa": true,
           "nombre": "Liverpool",
           "alias": ["liverpool", "reds", "lfc"],
-          "escudo": "/equipos/liverpool-fc.svg",
+          "escudo": "/equipos/premier-league/liverpool/liverpool-fc.svg",
           "temporadas": [
             {
-              "temporada": "2024/25",
+              "temporada": "2026/27",
               "equipaciones": [
                 {
-                  "id": "local-2024-25",
-                  "tipo": "Local",
+                  "id": "local-2026-27",
+                  "tipo": "camiseta",
+                  "nombre": "Local",
                   "imagenes": [
-                    "https://images.unsplash.com/photo-1489944440615-453fc2b6a9a9?w=600&h=600&fit=crop",
-                    "https://images.unsplash.com/photo-1574629810360-7efbbe195018?w=600&h=600&fit=crop"
+                    "/equipos/premier-league/liverpool/26-27/local/home-cover.webp",
+                    "/equipos/premier-league/liverpool/26-27/local/1.jpeg",
+                    "/equipos/premier-league/liverpool/26-27/local/2.jpeg",
+                    "/equipos/premier-league/liverpool/26-27/local/3.jpeg"
                   ],
                   "precio": 24,
                   "dorsales": [
-                    { "numero": "8", "tallas": ["S", "M", "L", "XL", "XXL"] },
-                    { "numero": "10", "tallas": ["S", "M", "L", "XL"] },
-                    { "numero": "14", "tallas": ["S", "M", "L"] }
+                    {
+                      "numero": "7",
+                      "tallas": ["S", "M", "L", "XL"]
+                    },
+                    {
+                      "numero": "10",
+                      "tallas": ["S", "M", "L", "XL"]
+                    }
                   ]
                 },
                 {
-                  "id": "visitante-2024-25",
-                  "tipo": "Visitante",
+                  "id": "visitante-2026-27",
+                  "tipo": "camiseta",
+                  "nombre": "Visitante",
                   "imagenes": [
-                    "https://images.unsplash.com/photo-1461896836934-ffe607ba8211?w=600&h=600&fit=crop"
+                    "/equipos/premier-league/liverpool/26-27/visitante/cover-liverpool-fc-2026-27-away-kit-footylogos.jpg"
                   ],
                   "precio": 22,
                   "dorsales": []
-                }
-              ]
-            },
-            {
-              "temporada": "2023/24",
-              "equipaciones": [
+                },
                 {
-                  "id": "local-2023-24",
-                  "tipo": "Local",
+                  "id": "tercera-2026-27",
+                  "tipo": "camiseta",
+                  "nombre": "Tercera",
                   "imagenes": [
-                    "https://images.unsplash.com/photo-1517927033932-b3d18e61fb3a?w=600&h=600&fit=crop",
-                    "https://images.unsplash.com/photo-1551698618-1dfe5d97d256?w=600&h=600&fit=crop"
+                    "/equipos/premier-league/liverpool/26-27/tercera/third-cover.webp"
                   ],
                   "precio": 20,
-                  "dorsales": [
-                    { "numero": "10", "tallas": ["S", "M", "L", "XL", "XXL"] },
-                    { "numero": "14", "tallas": ["S", "M", "L", "XL"] }
-                  ]
-                },
-                {
-                  "id": "visitante-2023-24",
-                  "tipo": "Visitante",
-                  "imagenes": [
-                    "https://images.unsplash.com/photo-1606925797300-0b35e9d1794e?w=600&h=600&fit=crop"
-                  ],
-                  "precio": 18,
-                  "dorsales": []
-                },
-                {
-                  "id": "tercera-2023-24",
-                  "tipo": "Tercera",
-                  "imagenes": [
-                    "https://images.unsplash.com/photo-1517649763962-0c623066013b?w=600&h=600&fit=crop"
-                  ],
-                  "precio": 16,
-                  "dorsales": []
-                }
-              ]
-            },
-            {
-              "temporada": "2022/23",
-              "equipaciones": [
-                {
-                  "id": "local-2022-23",
-                  "tipo": "Local",
-                  "imagenes": [
-                    "https://images.unsplash.com/photo-1431324155629-1a6deb1dec8d?w=600&h=600&fit=crop",
-                    "https://images.unsplash.com/photo-1522778119026-d647f0596c20?w=600&h=600&fit=crop"
-                  ],
-                  "precio": 17,
                   "dorsales": []
                 }
               ]
@@ -530,73 +411,55 @@
         },
         {
           "id": "arsenal",
+          "activa": false,
           "nombre": "Arsenal",
           "alias": ["arsenal", "gunners"],
-          "escudo": "/equipos/arsenal.svg",
+          "escudo": "/equipos/premier-league/arsenal/arsenal.svg",
           "temporadas": [
             {
-              "temporada": "2024/25",
+              "temporada": "2026/27",
               "equipaciones": [
                 {
-                  "id": "local-2024-25",
-                  "tipo": "Local",
+                  "id": "local-2026-27",
+                  "tipo": "camiseta",
+                  "nombre": "Local",
                   "imagenes": [
-                    "https://images.unsplash.com/photo-1522778119026-d647f0596c20?w=600&h=600&fit=crop"
+                    "/equipos/premier-league/arsenal/26-27/local/arsenal-2026-27-home-kit.avif"
                   ],
                   "precio": 25,
                   "dorsales": [
-                    { "numero": "11", "tallas": ["S", "M", "L", "XL", "XXL"] },
-                    { "numero": "17", "tallas": ["S", "M", "L", "XL"] },
-                    { "numero": "21", "tallas": ["S", "M", "L"] }
+                    {
+                      "numero": "11",
+                      "tallas": ["S", "M", "L", "XL", "XXL"]
+                    },
+                    {
+                      "numero": "17",
+                      "tallas": ["S", "M", "L", "XL"]
+                    },
+                    {
+                      "numero": "21",
+                      "tallas": ["S", "M", "L"]
+                    }
                   ]
                 },
                 {
-                  "id": "visitante-2024-25",
-                  "tipo": "Visitante",
+                  "id": "visitante-2026-27",
+                  "tipo": "camiseta",
+                  "nombre": "Visitante",
                   "imagenes": [
-                    "https://images.unsplash.com/photo-1574629810360-7efbbe195018?w=600&h=600&fit=crop"
+                    "/equipos/premier-league/arsenal/26-27/visitante/arsenal-2026-27-away-kit.avif"
                   ],
                   "precio": 23,
                   "dorsales": []
-                }
-              ]
-            },
-            {
-              "temporada": "2023/24",
-              "equipaciones": [
-                {
-                  "id": "local-2023-24",
-                  "tipo": "Local",
-                  "imagenes": [
-                    "https://images.unsplash.com/photo-1553775282-20af80779df7?w=600&h=600&fit=crop"
-                  ],
-                  "precio": 21,
-                  "dorsales": [
-                    { "numero": "17", "tallas": ["S", "M", "L", "XL", "XXL"] },
-                    { "numero": "21", "tallas": ["S", "M", "L", "XL"] }
-                  ]
                 },
                 {
-                  "id": "visitante-2023-24",
-                  "tipo": "Visitante",
+                  "id": "tercera-2026-27",
+                  "tipo": "camiseta",
+                  "nombre": "Tercera",
                   "imagenes": [
-                    "https://images.unsplash.com/photo-1551698618-1dfe5d97d256?w=600&h=600&fit=crop"
+                    "/equipos/premier-league/arsenal/26-27/tercera/arsenal-2026-27-third-kit.avif"
                   ],
-                  "precio": 19,
-                  "dorsales": []
-                }
-              ]
-            },
-            {
-              "temporada": "2022/23",
-              "equipaciones": [
-                {
-                  "id": "local-2022-23",
-                  "tipo": "Local",
-                  "imagenes": [
-                    "https://images.unsplash.com/photo-1543351611-58f69d7c1781?w=600&h=600&fit=crop"
-                  ],
-                  "precio": 18,
+                  "precio": 21,
                   "dorsales": []
                 }
               ]
@@ -605,82 +468,54 @@
         },
         {
           "id": "chelsea",
+          "activa": true,
           "nombre": "Chelsea",
           "alias": ["chelsea", "blues"],
-          "escudo": "/equipos/chelsea.svg",
+          "escudo": "/equipos/premier-league/chelsea/chelsea.svg",
           "temporadas": [
             {
-              "temporada": "2024/25",
+              "temporada": "2026/27",
               "equipaciones": [
                 {
-                  "id": "local-2024-25",
-                  "tipo": "Local",
+                  "id": "local-2026-27",
+                  "tipo": "camiseta",
+                  "nombre": "Local",
                   "imagenes": [
-                    "https://images.unsplash.com/photo-1606925797300-0b35e9d1794e?w=600&h=600&fit=crop"
+                    "/equipos/premier-league/chelsea/26-27/local/home-cover.webp",
+                    "/equipos/premier-league/chelsea/26-27/local/1.jpeg",
+                    "/equipos/premier-league/chelsea/26-27/local/2.jpeg",
+                    "/equipos/premier-league/chelsea/26-27/local/3.jpeg"
                   ],
-                  "precio": 26,
+                  "precio": 20,
                   "dorsales": [
-                    { "numero": "19", "tallas": ["S", "M", "L", "XL", "XXL"] },
-                    { "numero": "23", "tallas": ["S", "M", "L", "XL"] },
-                    { "numero": "2", "tallas": ["S", "M", "L"] }
+                    {
+                      "numero": "25",
+                      "tallas": ["S", "M", "L", "XL"]
+                    },
+                    {
+                      "numero": "10",
+                      "tallas": ["S", "M", "L", "XL"]
+                    }
                   ]
                 },
                 {
-                  "id": "visitante-2024-25",
-                  "tipo": "Visitante",
+                  "id": "visitante-2026-27",
+                  "tipo": "camiseta",
+                  "nombre": "Visitante",
                   "imagenes": [
-                    "https://images.unsplash.com/photo-1517649763962-0c623066013b?w=600&h=600&fit=crop"
-                  ],
-                  "precio": 24,
-                  "dorsales": []
-                },
-                {
-                  "id": "tercera-2024-25",
-                  "tipo": "Tercera",
-                  "imagenes": [
-                    "https://images.unsplash.com/photo-1553775282-20af80779df7?w=600&h=600&fit=crop"
-                  ],
-                  "precio": 22,
-                  "dorsales": []
-                }
-              ]
-            },
-            {
-              "temporada": "2023/24",
-              "equipaciones": [
-                {
-                  "id": "local-2023-24",
-                  "tipo": "Local",
-                  "imagenes": [
-                    "https://images.unsplash.com/photo-1489944440615-453fc2b6a9a9?w=600&h=600&fit=crop"
-                  ],
-                  "precio": 22,
-                  "dorsales": [
-                    { "numero": "23", "tallas": ["S", "M", "L", "XL", "XXL"] },
-                    { "numero": "2", "tallas": ["S", "M", "L", "XL"] }
-                  ]
-                },
-                {
-                  "id": "visitante-2023-24",
-                  "tipo": "Visitante",
-                  "imagenes": [
-                    "https://images.unsplash.com/photo-1461896836934-ffe607ba8211?w=600&h=600&fit=crop"
+                    "/equipos/premier-league/chelsea/26-27/visitante/cover-chelsea-fc-2026-27-away-kit-footylogos.jpg"
                   ],
                   "precio": 20,
                   "dorsales": []
-                }
-              ]
-            },
-            {
-              "temporada": "2022/23",
-              "equipaciones": [
+                },
                 {
-                  "id": "local-2022-23",
-                  "tipo": "Local",
+                  "id": "tercera-2026-27",
+                  "tipo": "camiseta",
+                  "nombre": "Tercera",
                   "imagenes": [
-                    "https://images.unsplash.com/photo-1517927033932-b3d18e61fb3a?w=600&h=600&fit=crop"
+                    "/equipos/premier-league/chelsea/26-27/tercera/third-cover.webp"
                   ],
-                  "precio": 19,
+                  "precio": 22,
                   "dorsales": []
                 }
               ]
@@ -689,85 +524,46 @@
         },
         {
           "id": "tottenham",
+          "activa": false,
           "nombre": "Tottenham Hotspur",
           "alias": ["tottenham", "spurs"],
-          "escudo": "/equipos/tottenham.svg",
+          "escudo": "/equipos/premier-league/tottenham/tottenham.svg",
           "temporadas": [
             {
-              "temporada": "2024/25",
+              "temporada": "2026/27",
               "equipaciones": [
                 {
-                  "id": "local-2024-25",
-                  "tipo": "Local",
+                  "id": "local-2026-27",
+                  "tipo": "camiseta",
+                  "nombre": "Local",
                   "imagenes": [
                     "https://images.unsplash.com/photo-1551698618-1dfe5d97d256?w=600&h=600&fit=crop",
                     "https://images.unsplash.com/photo-1543351611-58f69d7c1781?w=600&h=600&fit=crop"
                   ],
                   "precio": 24,
                   "dorsales": [
-                    { "numero": "1", "tallas": ["M", "L", "XL", "XXL"] },
-                    { "numero": "3", "tallas": ["M", "L", "XL"] },
-                    { "numero": "5", "tallas": ["M", "L"] }
+                    {
+                      "numero": "1",
+                      "tallas": ["M", "L", "XL", "XXL"]
+                    },
+                    {
+                      "numero": "3",
+                      "tallas": ["M", "L", "XL"]
+                    },
+                    {
+                      "numero": "5",
+                      "tallas": ["M", "L"]
+                    }
                   ]
                 },
                 {
-                  "id": "visitante-2024-25",
-                  "tipo": "Visitante",
+                  "id": "visitante-2026-27",
+                  "tipo": "camiseta",
+                  "nombre": "Visitante",
                   "imagenes": [
                     "https://images.unsplash.com/photo-1431324155629-1a6deb1dec8d?w=600&h=600&fit=crop"
                   ],
                   "precio": 22,
-                  "dorsales": []
-                }
-              ]
-            },
-            {
-              "temporada": "2023/24",
-              "equipaciones": [
-                {
-                  "id": "local-2023-24",
-                  "tipo": "Local",
-                  "imagenes": [
-                    "https://images.unsplash.com/photo-1522778119026-d647f0596c20?w=600&h=600&fit=crop",
-                    "https://images.unsplash.com/photo-1517649763962-0c623066013b?w=600&h=600&fit=crop"
-                  ],
-                  "precio": 20,
-                  "dorsales": [
-                    { "numero": "3", "tallas": ["M", "L", "XL", "XXL"] },
-                    { "numero": "5", "tallas": ["M", "L", "XL"] }
-                  ]
-                },
-                {
-                  "id": "visitante-2023-24",
-                  "tipo": "Visitante",
-                  "imagenes": [
-                    "https://images.unsplash.com/photo-1574629810360-7efbbe195018?w=600&h=600&fit=crop"
-                  ],
-                  "precio": 18,
-                  "dorsales": []
-                },
-                {
-                  "id": "tercera-2023-24",
-                  "tipo": "Tercera",
-                  "imagenes": [
-                    "https://images.unsplash.com/photo-1517927033932-b3d18e61fb3a?w=600&h=600&fit=crop"
-                  ],
-                  "precio": 16,
-                  "dorsales": []
-                }
-              ]
-            },
-            {
-              "temporada": "2022/23",
-              "equipaciones": [
-                {
-                  "id": "local-2022-23",
-                  "tipo": "Local",
-                  "imagenes": [
-                    "https://images.unsplash.com/photo-1553775282-20af80779df7?w=600&h=600&fit=crop",
-                    "https://images.unsplash.com/photo-1461896836934-ffe607ba8211?w=600&h=600&fit=crop"
-                  ],
-                  "precio": 17,
                   "dorsales": []
                 }
               ]
@@ -778,35 +574,48 @@
     },
     {
       "id": "serie-a",
+      "activa": false,
       "nombre": "Serie A",
       "pais": "Italia",
-      "logo": "/equipos/serie-a-italy.svg",
+      "logo": "/equipos/serie-a/serie-a-italy.svg",
       "equipos": [
         {
           "id": "juventus",
+          "activa": true,
           "nombre": "Juventus",
           "alias": ["juve", "bianconeri"],
           "escudo": "https://images.unsplash.com/photo-1461896836934-ffe607ba8211?w=400&h=400&fit=crop",
           "temporadas": [
             {
-              "temporada": "2024/25",
+              "temporada": "2026/27",
               "equipaciones": [
                 {
-                  "id": "local-2024-25",
-                  "tipo": "Local",
+                  "id": "local-2026-27",
+                  "tipo": "camiseta",
+                  "nombre": "Local",
                   "imagenes": [
                     "https://images.unsplash.com/photo-1461896836934-ffe607ba8211?w=600&h=600&fit=crop"
                   ],
                   "precio": 26,
                   "dorsales": [
-                    { "numero": "1", "tallas": ["M", "L", "XL", "XXL"] },
-                    { "numero": "3", "tallas": ["M", "L", "XL"] },
-                    { "numero": "5", "tallas": ["M", "L"] }
+                    {
+                      "numero": "1",
+                      "tallas": ["M", "L", "XL", "XXL"]
+                    },
+                    {
+                      "numero": "3",
+                      "tallas": ["M", "L", "XL"]
+                    },
+                    {
+                      "numero": "5",
+                      "tallas": ["M", "L"]
+                    }
                   ]
                 },
                 {
-                  "id": "visitante-2024-25",
-                  "tipo": "Visitante",
+                  "id": "visitante-2026-27",
+                  "tipo": "camiseta",
+                  "nombre": "Visitante",
                   "imagenes": [
                     "https://images.unsplash.com/photo-1543351611-58f69d7c1781?w=600&h=600&fit=crop"
                   ],
@@ -814,52 +623,13 @@
                   "dorsales": []
                 },
                 {
-                  "id": "tercera-2024-25",
-                  "tipo": "Tercera",
+                  "id": "tercera-2026-27",
+                  "tipo": "camiseta",
+                  "nombre": "Tercera",
                   "imagenes": [
                     "https://images.unsplash.com/photo-1522778119026-d647f0596c20?w=600&h=600&fit=crop"
                   ],
                   "precio": 22,
-                  "dorsales": []
-                }
-              ]
-            },
-            {
-              "temporada": "2023/24",
-              "equipaciones": [
-                {
-                  "id": "local-2023-24",
-                  "tipo": "Local",
-                  "imagenes": [
-                    "https://images.unsplash.com/photo-1606925797300-0b35e9d1794e?w=600&h=600&fit=crop"
-                  ],
-                  "precio": 22,
-                  "dorsales": [
-                    { "numero": "3", "tallas": ["M", "L", "XL", "XXL"] },
-                    { "numero": "5", "tallas": ["M", "L", "XL"] }
-                  ]
-                },
-                {
-                  "id": "visitante-2023-24",
-                  "tipo": "Visitante",
-                  "imagenes": [
-                    "https://images.unsplash.com/photo-1517649763962-0c623066013b?w=600&h=600&fit=crop"
-                  ],
-                  "precio": 20,
-                  "dorsales": []
-                }
-              ]
-            },
-            {
-              "temporada": "2022/23",
-              "equipaciones": [
-                {
-                  "id": "local-2022-23",
-                  "tipo": "Local",
-                  "imagenes": [
-                    "https://images.unsplash.com/photo-1489944440615-453fc2b6a9a9?w=600&h=600&fit=crop"
-                  ],
-                  "precio": 19,
                   "dorsales": []
                 }
               ]
@@ -868,85 +638,46 @@
         },
         {
           "id": "inter",
+          "activa": true,
           "nombre": "Inter de Milán",
           "alias": ["inter", "nerazzurri"],
           "escudo": "https://images.unsplash.com/photo-1543351611-58f69d7c1781?w=400&h=400&fit=crop",
           "temporadas": [
             {
-              "temporada": "2024/25",
+              "temporada": "2026/27",
               "equipaciones": [
                 {
-                  "id": "local-2024-25",
-                  "tipo": "Local",
+                  "id": "local-2026-27",
+                  "tipo": "camiseta",
+                  "nombre": "Local",
                   "imagenes": [
                     "https://images.unsplash.com/photo-1574629810360-7efbbe195018?w=600&h=600&fit=crop",
                     "https://images.unsplash.com/photo-1553775282-20af80779df7?w=600&h=600&fit=crop"
                   ],
                   "precio": 24,
                   "dorsales": [
-                    { "numero": "4", "tallas": ["S", "M", "L", "XL", "XXL"] },
-                    { "numero": "7", "tallas": ["S", "M", "L", "XL"] },
-                    { "numero": "9", "tallas": ["S", "M", "L"] }
+                    {
+                      "numero": "4",
+                      "tallas": ["S", "M", "L", "XL", "XXL"]
+                    },
+                    {
+                      "numero": "7",
+                      "tallas": ["S", "M", "L", "XL"]
+                    },
+                    {
+                      "numero": "9",
+                      "tallas": ["S", "M", "L"]
+                    }
                   ]
                 },
                 {
-                  "id": "visitante-2024-25",
-                  "tipo": "Visitante",
+                  "id": "visitante-2026-27",
+                  "tipo": "camiseta",
+                  "nombre": "Visitante",
                   "imagenes": [
                     "https://images.unsplash.com/photo-1517927033932-b3d18e61fb3a?w=600&h=600&fit=crop"
                   ],
                   "precio": 22,
-                  "dorsales": []
-                }
-              ]
-            },
-            {
-              "temporada": "2023/24",
-              "equipaciones": [
-                {
-                  "id": "local-2023-24",
-                  "tipo": "Local",
-                  "imagenes": [
-                    "https://images.unsplash.com/photo-1551698618-1dfe5d97d256?w=600&h=600&fit=crop",
-                    "https://images.unsplash.com/photo-1543351611-58f69d7c1781?w=600&h=600&fit=crop"
-                  ],
-                  "precio": 20,
-                  "dorsales": [
-                    { "numero": "7", "tallas": ["S", "M", "L", "XL", "XXL"] },
-                    { "numero": "9", "tallas": ["S", "M", "L", "XL"] }
-                  ]
-                },
-                {
-                  "id": "visitante-2023-24",
-                  "tipo": "Visitante",
-                  "imagenes": [
-                    "https://images.unsplash.com/photo-1431324155629-1a6deb1dec8d?w=600&h=600&fit=crop"
-                  ],
-                  "precio": 18,
-                  "dorsales": []
-                },
-                {
-                  "id": "tercera-2023-24",
-                  "tipo": "Tercera",
-                  "imagenes": [
-                    "https://images.unsplash.com/photo-1489944440615-453fc2b6a9a9?w=600&h=600&fit=crop"
-                  ],
-                  "precio": 16,
-                  "dorsales": []
-                }
-              ]
-            },
-            {
-              "temporada": "2022/23",
-              "equipaciones": [
-                {
-                  "id": "local-2022-23",
-                  "tipo": "Local",
-                  "imagenes": [
-                    "https://images.unsplash.com/photo-1522778119026-d647f0596c20?w=600&h=600&fit=crop",
-                    "https://images.unsplash.com/photo-1517649763962-0c623066013b?w=600&h=600&fit=crop"
-                  ],
-                  "precio": 17,
                   "dorsales": []
                 }
               ]
@@ -955,73 +686,45 @@
         },
         {
           "id": "ac-milan",
+          "activa": true,
           "nombre": "AC Milan",
           "alias": ["milan", "rossoneri"],
           "escudo": "https://images.unsplash.com/photo-1522778119026-d647f0596c20?w=400&h=400&fit=crop",
           "temporadas": [
             {
-              "temporada": "2024/25",
+              "temporada": "2026/27",
               "equipaciones": [
                 {
-                  "id": "local-2024-25",
-                  "tipo": "Local",
+                  "id": "local-2026-27",
+                  "tipo": "camiseta",
+                  "nombre": "Local",
                   "imagenes": [
                     "https://images.unsplash.com/photo-1517649763962-0c623066013b?w=600&h=600&fit=crop"
                   ],
                   "precio": 25,
                   "dorsales": [
-                    { "numero": "8", "tallas": ["S", "M", "L", "XL", "XXL"] },
-                    { "numero": "10", "tallas": ["S", "M", "L", "XL"] },
-                    { "numero": "14", "tallas": ["S", "M", "L"] }
+                    {
+                      "numero": "8",
+                      "tallas": ["S", "M", "L", "XL", "XXL"]
+                    },
+                    {
+                      "numero": "10",
+                      "tallas": ["S", "M", "L", "XL"]
+                    },
+                    {
+                      "numero": "14",
+                      "tallas": ["S", "M", "L"]
+                    }
                   ]
                 },
                 {
-                  "id": "visitante-2024-25",
-                  "tipo": "Visitante",
+                  "id": "visitante-2026-27",
+                  "tipo": "camiseta",
+                  "nombre": "Visitante",
                   "imagenes": [
                     "https://images.unsplash.com/photo-1553775282-20af80779df7?w=600&h=600&fit=crop"
                   ],
                   "precio": 23,
-                  "dorsales": []
-                }
-              ]
-            },
-            {
-              "temporada": "2023/24",
-              "equipaciones": [
-                {
-                  "id": "local-2023-24",
-                  "tipo": "Local",
-                  "imagenes": [
-                    "https://images.unsplash.com/photo-1461896836934-ffe607ba8211?w=600&h=600&fit=crop"
-                  ],
-                  "precio": 21,
-                  "dorsales": [
-                    { "numero": "10", "tallas": ["S", "M", "L", "XL", "XXL"] },
-                    { "numero": "14", "tallas": ["S", "M", "L", "XL"] }
-                  ]
-                },
-                {
-                  "id": "visitante-2023-24",
-                  "tipo": "Visitante",
-                  "imagenes": [
-                    "https://images.unsplash.com/photo-1543351611-58f69d7c1781?w=600&h=600&fit=crop"
-                  ],
-                  "precio": 19,
-                  "dorsales": []
-                }
-              ]
-            },
-            {
-              "temporada": "2022/23",
-              "equipaciones": [
-                {
-                  "id": "local-2022-23",
-                  "tipo": "Local",
-                  "imagenes": [
-                    "https://images.unsplash.com/photo-1606925797300-0b35e9d1794e?w=600&h=600&fit=crop"
-                  ],
-                  "precio": 18,
                   "dorsales": []
                 }
               ]
@@ -1030,73 +733,45 @@
         },
         {
           "id": "napoli",
+          "activa": true,
           "nombre": "Napoli",
           "alias": ["napoli", "partenopei"],
           "escudo": "https://images.unsplash.com/photo-1574629810360-7efbbe195018?w=400&h=400&fit=crop",
           "temporadas": [
             {
-              "temporada": "2024/25",
+              "temporada": "2026/27",
               "equipaciones": [
                 {
-                  "id": "local-2024-25",
-                  "tipo": "Local",
+                  "id": "local-2026-27",
+                  "tipo": "camiseta",
+                  "nombre": "Local",
                   "imagenes": [
                     "https://images.unsplash.com/photo-1431324155629-1a6deb1dec8d?w=600&h=600&fit=crop"
                   ],
                   "precio": 26,
                   "dorsales": [
-                    { "numero": "11", "tallas": ["S", "M", "L", "XL", "XXL"] },
-                    { "numero": "17", "tallas": ["S", "M", "L", "XL"] },
-                    { "numero": "21", "tallas": ["S", "M", "L"] }
+                    {
+                      "numero": "11",
+                      "tallas": ["S", "M", "L", "XL", "XXL"]
+                    },
+                    {
+                      "numero": "17",
+                      "tallas": ["S", "M", "L", "XL"]
+                    },
+                    {
+                      "numero": "21",
+                      "tallas": ["S", "M", "L"]
+                    }
                   ]
                 },
                 {
-                  "id": "visitante-2024-25",
-                  "tipo": "Visitante",
+                  "id": "visitante-2026-27",
+                  "tipo": "camiseta",
+                  "nombre": "Visitante",
                   "imagenes": [
                     "https://images.unsplash.com/photo-1489944440615-453fc2b6a9a9?w=600&h=600&fit=crop"
                   ],
                   "precio": 24,
-                  "dorsales": []
-                }
-              ]
-            },
-            {
-              "temporada": "2023/24",
-              "equipaciones": [
-                {
-                  "id": "local-2023-24",
-                  "tipo": "Local",
-                  "imagenes": [
-                    "https://images.unsplash.com/photo-1574629810360-7efbbe195018?w=600&h=600&fit=crop"
-                  ],
-                  "precio": 22,
-                  "dorsales": [
-                    { "numero": "17", "tallas": ["S", "M", "L", "XL", "XXL"] },
-                    { "numero": "21", "tallas": ["S", "M", "L", "XL"] }
-                  ]
-                },
-                {
-                  "id": "visitante-2023-24",
-                  "tipo": "Visitante",
-                  "imagenes": [
-                    "https://images.unsplash.com/photo-1517927033932-b3d18e61fb3a?w=600&h=600&fit=crop"
-                  ],
-                  "precio": 20,
-                  "dorsales": []
-                }
-              ]
-            },
-            {
-              "temporada": "2022/23",
-              "equipaciones": [
-                {
-                  "id": "local-2022-23",
-                  "tipo": "Local",
-                  "imagenes": [
-                    "https://images.unsplash.com/photo-1551698618-1dfe5d97d256?w=600&h=600&fit=crop"
-                  ],
-                  "precio": 19,
                   "dorsales": []
                 }
               ]
@@ -1105,30 +780,42 @@
         },
         {
           "id": "roma",
+          "activa": true,
           "nombre": "AS Roma",
           "alias": ["roma", "giallorossi"],
           "escudo": "https://images.unsplash.com/photo-1517927033932-b3d18e61fb3a?w=400&h=400&fit=crop",
           "temporadas": [
             {
-              "temporada": "2024/25",
+              "temporada": "2026/27",
               "equipaciones": [
                 {
-                  "id": "local-2024-25",
-                  "tipo": "Local",
+                  "id": "local-2026-27",
+                  "tipo": "camiseta",
+                  "nombre": "Local",
                   "imagenes": [
                     "https://images.unsplash.com/photo-1543351611-58f69d7c1781?w=600&h=600&fit=crop",
                     "https://images.unsplash.com/photo-1606925797300-0b35e9d1794e?w=600&h=600&fit=crop"
                   ],
                   "precio": 24,
                   "dorsales": [
-                    { "numero": "19", "tallas": ["S", "M", "L", "XL", "XXL"] },
-                    { "numero": "23", "tallas": ["S", "M", "L", "XL"] },
-                    { "numero": "2", "tallas": ["S", "M", "L"] }
+                    {
+                      "numero": "19",
+                      "tallas": ["S", "M", "L", "XL", "XXL"]
+                    },
+                    {
+                      "numero": "23",
+                      "tallas": ["S", "M", "L", "XL"]
+                    },
+                    {
+                      "numero": "2",
+                      "tallas": ["S", "M", "L"]
+                    }
                   ]
                 },
                 {
-                  "id": "visitante-2024-25",
-                  "tipo": "Visitante",
+                  "id": "visitante-2026-27",
+                  "tipo": "camiseta",
+                  "nombre": "Visitante",
                   "imagenes": [
                     "https://images.unsplash.com/photo-1522778119026-d647f0596c20?w=600&h=600&fit=crop"
                   ],
@@ -1136,63 +823,13 @@
                   "dorsales": []
                 },
                 {
-                  "id": "tercera-2024-25",
-                  "tipo": "Tercera",
+                  "id": "tercera-2026-27",
+                  "tipo": "camiseta",
+                  "nombre": "Tercera",
                   "imagenes": [
                     "https://images.unsplash.com/photo-1574629810360-7efbbe195018?w=600&h=600&fit=crop"
                   ],
                   "precio": 20,
-                  "dorsales": []
-                }
-              ]
-            },
-            {
-              "temporada": "2023/24",
-              "equipaciones": [
-                {
-                  "id": "local-2023-24",
-                  "tipo": "Local",
-                  "imagenes": [
-                    "https://images.unsplash.com/photo-1517649763962-0c623066013b?w=600&h=600&fit=crop",
-                    "https://images.unsplash.com/photo-1489944440615-453fc2b6a9a9?w=600&h=600&fit=crop"
-                  ],
-                  "precio": 20,
-                  "dorsales": [
-                    { "numero": "23", "tallas": ["S", "M", "L", "XL", "XXL"] },
-                    { "numero": "2", "tallas": ["S", "M", "L", "XL"] }
-                  ]
-                },
-                {
-                  "id": "visitante-2023-24",
-                  "tipo": "Visitante",
-                  "imagenes": [
-                    "https://images.unsplash.com/photo-1553775282-20af80779df7?w=600&h=600&fit=crop"
-                  ],
-                  "precio": 18,
-                  "dorsales": []
-                },
-                {
-                  "id": "tercera-2023-24",
-                  "tipo": "Tercera",
-                  "imagenes": [
-                    "https://images.unsplash.com/photo-1551698618-1dfe5d97d256?w=600&h=600&fit=crop"
-                  ],
-                  "precio": 16,
-                  "dorsales": []
-                }
-              ]
-            },
-            {
-              "temporada": "2022/23",
-              "equipaciones": [
-                {
-                  "id": "local-2022-23",
-                  "tipo": "Local",
-                  "imagenes": [
-                    "https://images.unsplash.com/photo-1461896836934-ffe607ba8211?w=600&h=600&fit=crop",
-                    "https://images.unsplash.com/photo-1517927033932-b3d18e61fb3a?w=600&h=600&fit=crop"
-                  ],
-                  "precio": 17,
                   "dorsales": []
                 }
               ]
@@ -1203,36 +840,49 @@
     },
     {
       "id": "bundesliga",
+      "activa": false,
       "nombre": "Bundesliga",
       "pais": "Alemania",
-      "logo": "/equipos/bundesliga.svg",
+      "logo": "/equipos/bundesliga/bundesliga.svg",
       "equipos": [
         {
           "id": "bayern",
+          "activa": true,
           "nombre": "Bayern Múnich",
           "alias": ["bayern", "bavarians", "fcb"],
-          "escudo": "/equipos/bayern-munich.svg",
+          "escudo": "/equipos/bundesliga/bayern/bayern-munich.svg",
           "temporadas": [
             {
-              "temporada": "2024/25",
+              "temporada": "2026/27",
               "equipaciones": [
                 {
-                  "id": "local-2024-25",
-                  "tipo": "Local",
+                  "id": "local-2026-27",
+                  "tipo": "camiseta",
+                  "nombre": "Local",
                   "imagenes": [
                     "https://images.unsplash.com/photo-1553775282-20af80779df7?w=600&h=600&fit=crop",
                     "https://images.unsplash.com/photo-1461896836934-ffe607ba8211?w=600&h=600&fit=crop"
                   ],
                   "precio": 24,
                   "dorsales": [
-                    { "numero": "1", "tallas": ["M", "L", "XL", "XXL"] },
-                    { "numero": "3", "tallas": ["M", "L", "XL"] },
-                    { "numero": "5", "tallas": ["M", "L"] }
+                    {
+                      "numero": "1",
+                      "tallas": ["M", "L", "XL", "XXL"]
+                    },
+                    {
+                      "numero": "3",
+                      "tallas": ["M", "L", "XL"]
+                    },
+                    {
+                      "numero": "5",
+                      "tallas": ["M", "L"]
+                    }
                   ]
                 },
                 {
-                  "id": "visitante-2024-25",
-                  "tipo": "Visitante",
+                  "id": "visitante-2026-27",
+                  "tipo": "camiseta",
+                  "nombre": "Visitante",
                   "imagenes": [
                     "https://images.unsplash.com/photo-1551698618-1dfe5d97d256?w=600&h=600&fit=crop"
                   ],
@@ -1240,63 +890,13 @@
                   "dorsales": []
                 },
                 {
-                  "id": "tercera-2024-25",
-                  "tipo": "Tercera",
+                  "id": "tercera-2026-27",
+                  "tipo": "camiseta",
+                  "nombre": "Tercera",
                   "imagenes": [
                     "https://images.unsplash.com/photo-1431324155629-1a6deb1dec8d?w=600&h=600&fit=crop"
                   ],
                   "precio": 20,
-                  "dorsales": []
-                }
-              ]
-            },
-            {
-              "temporada": "2023/24",
-              "equipaciones": [
-                {
-                  "id": "local-2023-24",
-                  "tipo": "Local",
-                  "imagenes": [
-                    "https://images.unsplash.com/photo-1543351611-58f69d7c1781?w=600&h=600&fit=crop",
-                    "https://images.unsplash.com/photo-1606925797300-0b35e9d1794e?w=600&h=600&fit=crop"
-                  ],
-                  "precio": 20,
-                  "dorsales": [
-                    { "numero": "3", "tallas": ["M", "L", "XL", "XXL"] },
-                    { "numero": "5", "tallas": ["M", "L", "XL"] }
-                  ]
-                },
-                {
-                  "id": "visitante-2023-24",
-                  "tipo": "Visitante",
-                  "imagenes": [
-                    "https://images.unsplash.com/photo-1522778119026-d647f0596c20?w=600&h=600&fit=crop"
-                  ],
-                  "precio": 18,
-                  "dorsales": []
-                },
-                {
-                  "id": "tercera-2023-24",
-                  "tipo": "Tercera",
-                  "imagenes": [
-                    "https://images.unsplash.com/photo-1574629810360-7efbbe195018?w=600&h=600&fit=crop"
-                  ],
-                  "precio": 16,
-                  "dorsales": []
-                }
-              ]
-            },
-            {
-              "temporada": "2022/23",
-              "equipaciones": [
-                {
-                  "id": "local-2022-23",
-                  "tipo": "Local",
-                  "imagenes": [
-                    "https://images.unsplash.com/photo-1517649763962-0c623066013b?w=600&h=600&fit=crop",
-                    "https://images.unsplash.com/photo-1489944440615-453fc2b6a9a9?w=600&h=600&fit=crop"
-                  ],
-                  "precio": 17,
                   "dorsales": []
                 }
               ]
@@ -1305,73 +905,45 @@
         },
         {
           "id": "borussia-dortmund",
+          "activa": true,
           "nombre": "Borussia Dortmund",
           "alias": ["dortmund", "bvb"],
-          "escudo": "/equipos/borussia-dortmund.svg",
+          "escudo": "/equipos/bundesliga/borussia-dortmund/borussia-dortmund.svg",
           "temporadas": [
             {
-              "temporada": "2024/25",
+              "temporada": "2026/27",
               "equipaciones": [
                 {
-                  "id": "local-2024-25",
-                  "tipo": "Local",
+                  "id": "local-2026-27",
+                  "tipo": "camiseta",
+                  "nombre": "Local",
                   "imagenes": [
                     "https://images.unsplash.com/photo-1489944440615-453fc2b6a9a9?w=600&h=600&fit=crop"
                   ],
                   "precio": 25,
                   "dorsales": [
-                    { "numero": "4", "tallas": ["S", "M", "L", "XL", "XXL"] },
-                    { "numero": "7", "tallas": ["S", "M", "L", "XL"] },
-                    { "numero": "9", "tallas": ["S", "M", "L"] }
+                    {
+                      "numero": "4",
+                      "tallas": ["S", "M", "L", "XL", "XXL"]
+                    },
+                    {
+                      "numero": "7",
+                      "tallas": ["S", "M", "L", "XL"]
+                    },
+                    {
+                      "numero": "9",
+                      "tallas": ["S", "M", "L"]
+                    }
                   ]
                 },
                 {
-                  "id": "visitante-2024-25",
-                  "tipo": "Visitante",
+                  "id": "visitante-2026-27",
+                  "tipo": "camiseta",
+                  "nombre": "Visitante",
                   "imagenes": [
                     "https://images.unsplash.com/photo-1461896836934-ffe607ba8211?w=600&h=600&fit=crop"
                   ],
                   "precio": 23,
-                  "dorsales": []
-                }
-              ]
-            },
-            {
-              "temporada": "2023/24",
-              "equipaciones": [
-                {
-                  "id": "local-2023-24",
-                  "tipo": "Local",
-                  "imagenes": [
-                    "https://images.unsplash.com/photo-1517927033932-b3d18e61fb3a?w=600&h=600&fit=crop"
-                  ],
-                  "precio": 21,
-                  "dorsales": [
-                    { "numero": "7", "tallas": ["S", "M", "L", "XL", "XXL"] },
-                    { "numero": "9", "tallas": ["S", "M", "L", "XL"] }
-                  ]
-                },
-                {
-                  "id": "visitante-2023-24",
-                  "tipo": "Visitante",
-                  "imagenes": [
-                    "https://images.unsplash.com/photo-1606925797300-0b35e9d1794e?w=600&h=600&fit=crop"
-                  ],
-                  "precio": 19,
-                  "dorsales": []
-                }
-              ]
-            },
-            {
-              "temporada": "2022/23",
-              "equipaciones": [
-                {
-                  "id": "local-2022-23",
-                  "tipo": "Local",
-                  "imagenes": [
-                    "https://images.unsplash.com/photo-1431324155629-1a6deb1dec8d?w=600&h=600&fit=crop"
-                  ],
-                  "precio": 18,
                   "dorsales": []
                 }
               ]
@@ -1382,90 +954,52 @@
     },
     {
       "id": "mls",
+      "activa": false,
       "nombre": "MLS",
       "pais": "Estados Unidos",
-      "logo": "/equipos/mls.svg",
+      "logo": "/equipos/mls/mls.svg",
       "equipos": [
         {
           "id": "inter-miami",
+          "activa": true,
           "nombre": "Inter de Miami",
           "alias": ["miami", "inter miami", "las garzas"],
-          "escudo": "/equipos/inter-miami.svg",
+          "escudo": "/equipos/mls/inter-miami/inter-miami.svg",
           "temporadas": [
             {
-              "temporada": "2024/25",
+              "temporada": "2026/27",
               "equipaciones": [
                 {
-                  "id": "local-2024-25",
-                  "tipo": "Local",
+                  "id": "local-2026-27",
+                  "tipo": "camiseta",
+                  "nombre": "Local",
                   "imagenes": [
-                    "https://images.unsplash.com/photo-1522778119026-d647f0596c20?w=600&h=600&fit=crop",
-                    "https://images.unsplash.com/photo-1553775282-20af80779df7?w=600&h=600&fit=crop"
+                    "/equipos/mls/inter-miami/26-27/local/home-cover.webp"
                   ],
                   "precio": 25,
                   "dorsales": [
-                    { "numero": "10", "tallas": ["S", "M", "L", "XL", "XXL"] },
-                    { "numero": "9", "tallas": ["S", "M", "L", "XL"] },
-                    { "numero": "5", "tallas": ["M", "L", "XL"] }
+                    {
+                      "numero": "10",
+                      "tallas": ["S", "M", "L", "XL", "XXL"]
+                    },
+                    {
+                      "numero": "9",
+                      "tallas": ["S", "M", "L", "XL"]
+                    },
+                    {
+                      "numero": "5",
+                      "tallas": ["M", "L", "XL"]
+                    }
                   ]
                 },
                 {
-                  "id": "visitante-2024-25",
-                  "tipo": "Visitante",
+                  "id": "visitante-2026-27",
+                  "tipo": "camiseta",
+                  "nombre": "Visitante",
                   "imagenes": [
-                    "https://images.unsplash.com/photo-1543351611-58f69d7c1781?w=600&h=600&fit=crop"
+                    "/equipos/mls/inter-miami/26-27/visitante/away-cover.webp"
                   ],
                   "precio": 23,
-                  "dorsales": []
-                },
-                {
-                  "id": "tercera-2024-25",
-                  "tipo": "Tercera",
-                  "imagenes": [
-                    "https://images.unsplash.com/photo-1489944440615-453fc2b6a9a9?w=600&h=600&fit=crop"
-                  ],
-                  "precio": 21,
-                  "dorsales": []
-                }
-              ]
-            },
-            {
-              "temporada": "2023/24",
-              "equipaciones": [
-                {
-                  "id": "local-2023-24",
-                  "tipo": "Local",
-                  "imagenes": [
-                    "https://images.unsplash.com/photo-1606925797300-0b35e9d1794e?w=600&h=600&fit=crop",
-                    "https://images.unsplash.com/photo-1517649763962-0c623066013b?w=600&h=600&fit=crop"
-                  ],
-                  "precio": 21,
-                  "dorsales": [
-                    { "numero": "10", "tallas": ["S", "M", "L", "XL", "XXL"] },
-                    { "numero": "9", "tallas": ["S", "M", "L", "XL"] }
-                  ]
-                },
-                {
-                  "id": "visitante-2023-24",
-                  "tipo": "Visitante",
-                  "imagenes": [
-                    "https://images.unsplash.com/photo-1551698618-1dfe5d97d256?w=600&h=600&fit=crop"
-                  ],
-                  "precio": 19,
-                  "dorsales": []
-                }
-              ]
-            },
-            {
-              "temporada": "2022/23",
-              "equipaciones": [
-                {
-                  "id": "local-2022-23",
-                  "tipo": "Local",
-                  "imagenes": [
-                    "https://images.unsplash.com/photo-1574629810360-7efbbe195018?w=600&h=600&fit=crop"
-                  ],
-                  "precio": 18,
                   "dorsales": []
                 }
               ]
@@ -1476,35 +1010,48 @@
     },
     {
       "id": "selecciones",
+      "activa": false,
       "nombre": "Selecciones",
       "pais": "Internacional",
-      "logo": "/equipos/fifa-logo.svg",
+      "logo": "/equipos/selecciones/fifa-logo.svg",
       "equipos": [
         {
           "id": "argentina",
+          "activa": true,
           "nombre": "Argentina",
           "alias": ["albiceleste", "arg"],
           "escudo": "https://images.unsplash.com/photo-1574629810360-7efbbe195018?w=400&h=400&fit=crop",
           "temporadas": [
             {
-              "temporada": "2026",
+              "temporada": "2026/27",
               "equipaciones": [
                 {
-                  "id": "local-2026",
-                  "tipo": "Local",
+                  "id": "local-2026-27",
+                  "tipo": "camiseta",
+                  "nombre": "Local",
                   "imagenes": [
                     "https://images.unsplash.com/photo-1522778119026-d647f0596c20?w=600&h=600&fit=crop"
                   ],
                   "precio": 25,
                   "dorsales": [
-                    { "numero": "1", "tallas": ["M", "L", "XL", "XXL"] },
-                    { "numero": "3", "tallas": ["M", "L", "XL"] },
-                    { "numero": "5", "tallas": ["M", "L"] }
+                    {
+                      "numero": "1",
+                      "tallas": ["M", "L", "XL", "XXL"]
+                    },
+                    {
+                      "numero": "3",
+                      "tallas": ["M", "L", "XL"]
+                    },
+                    {
+                      "numero": "5",
+                      "tallas": ["M", "L"]
+                    }
                   ]
                 },
                 {
-                  "id": "visitante-2026",
-                  "tipo": "Visitante",
+                  "id": "visitante-2026-27",
+                  "tipo": "camiseta",
+                  "nombre": "Visitante",
                   "imagenes": [
                     "https://images.unsplash.com/photo-1574629810360-7efbbe195018?w=600&h=600&fit=crop"
                   ],
@@ -1512,52 +1059,13 @@
                   "dorsales": []
                 },
                 {
-                  "id": "tercera-2026",
-                  "tipo": "Tercera",
+                  "id": "tercera-2026-27",
+                  "tipo": "camiseta",
+                  "nombre": "Tercera",
                   "imagenes": [
                     "https://images.unsplash.com/photo-1517927033932-b3d18e61fb3a?w=600&h=600&fit=crop"
                   ],
                   "precio": 21,
-                  "dorsales": []
-                }
-              ]
-            },
-            {
-              "temporada": "2022",
-              "equipaciones": [
-                {
-                  "id": "local-2022",
-                  "tipo": "Local",
-                  "imagenes": [
-                    "https://images.unsplash.com/photo-1553775282-20af80779df7?w=600&h=600&fit=crop"
-                  ],
-                  "precio": 21,
-                  "dorsales": [
-                    { "numero": "3", "tallas": ["M", "L", "XL", "XXL"] },
-                    { "numero": "5", "tallas": ["M", "L", "XL"] }
-                  ]
-                },
-                {
-                  "id": "visitante-2022",
-                  "tipo": "Visitante",
-                  "imagenes": [
-                    "https://images.unsplash.com/photo-1551698618-1dfe5d97d256?w=600&h=600&fit=crop"
-                  ],
-                  "precio": 19,
-                  "dorsales": []
-                }
-              ]
-            },
-            {
-              "temporada": "2018",
-              "equipaciones": [
-                {
-                  "id": "local-2018",
-                  "tipo": "Local",
-                  "imagenes": [
-                    "https://images.unsplash.com/photo-1543351611-58f69d7c1781?w=600&h=600&fit=crop"
-                  ],
-                  "precio": 18,
                   "dorsales": []
                 }
               ]
@@ -1566,29 +1074,41 @@
         },
         {
           "id": "francia",
+          "activa": false,
           "nombre": "Francia",
           "alias": ["les bleus", "fra"],
           "escudo": "https://images.unsplash.com/photo-1517927033932-b3d18e61fb3a?w=400&h=400&fit=crop",
           "temporadas": [
             {
-              "temporada": "2026",
+              "temporada": "2026/27",
               "equipaciones": [
                 {
-                  "id": "local-2026",
-                  "tipo": "Local",
+                  "id": "local-2026-27",
+                  "tipo": "camiseta",
+                  "nombre": "Local",
                   "imagenes": [
                     "https://images.unsplash.com/photo-1606925797300-0b35e9d1794e?w=600&h=600&fit=crop"
                   ],
                   "precio": 26,
                   "dorsales": [
-                    { "numero": "4", "tallas": ["S", "M", "L", "XL", "XXL"] },
-                    { "numero": "7", "tallas": ["S", "M", "L", "XL"] },
-                    { "numero": "9", "tallas": ["S", "M", "L"] }
+                    {
+                      "numero": "4",
+                      "tallas": ["S", "M", "L", "XL", "XXL"]
+                    },
+                    {
+                      "numero": "7",
+                      "tallas": ["S", "M", "L", "XL"]
+                    },
+                    {
+                      "numero": "9",
+                      "tallas": ["S", "M", "L"]
+                    }
                   ]
                 },
                 {
-                  "id": "visitante-2026",
-                  "tipo": "Visitante",
+                  "id": "visitante-2026-27",
+                  "tipo": "camiseta",
+                  "nombre": "Visitante",
                   "imagenes": [
                     "https://images.unsplash.com/photo-1517649763962-0c623066013b?w=600&h=600&fit=crop"
                   ],
@@ -1596,52 +1116,13 @@
                   "dorsales": []
                 },
                 {
-                  "id": "tercera-2026",
-                  "tipo": "Tercera",
+                  "id": "tercera-2026-27",
+                  "tipo": "camiseta",
+                  "nombre": "Tercera",
                   "imagenes": [
                     "https://images.unsplash.com/photo-1553775282-20af80779df7?w=600&h=600&fit=crop"
                   ],
                   "precio": 22,
-                  "dorsales": []
-                }
-              ]
-            },
-            {
-              "temporada": "2022",
-              "equipaciones": [
-                {
-                  "id": "local-2022",
-                  "tipo": "Local",
-                  "imagenes": [
-                    "https://images.unsplash.com/photo-1489944440615-453fc2b6a9a9?w=600&h=600&fit=crop"
-                  ],
-                  "precio": 22,
-                  "dorsales": [
-                    { "numero": "7", "tallas": ["S", "M", "L", "XL", "XXL"] },
-                    { "numero": "9", "tallas": ["S", "M", "L", "XL"] }
-                  ]
-                },
-                {
-                  "id": "visitante-2022",
-                  "tipo": "Visitante",
-                  "imagenes": [
-                    "https://images.unsplash.com/photo-1461896836934-ffe607ba8211?w=600&h=600&fit=crop"
-                  ],
-                  "precio": 20,
-                  "dorsales": []
-                }
-              ]
-            },
-            {
-              "temporada": "2018",
-              "equipaciones": [
-                {
-                  "id": "local-2018",
-                  "tipo": "Local",
-                  "imagenes": [
-                    "https://images.unsplash.com/photo-1517927033932-b3d18e61fb3a?w=600&h=600&fit=crop"
-                  ],
-                  "precio": 19,
                   "dorsales": []
                 }
               ]
@@ -1650,30 +1131,42 @@
         },
         {
           "id": "brasil",
+          "activa": false,
           "nombre": "Brasil",
           "alias": ["selecao", "bra"],
           "escudo": "https://images.unsplash.com/photo-1606925797300-0b35e9d1794e?w=400&h=400&fit=crop",
           "temporadas": [
             {
-              "temporada": "2026",
+              "temporada": "2026/27",
               "equipaciones": [
                 {
-                  "id": "local-2026",
-                  "tipo": "Local",
+                  "id": "local-2026-27",
+                  "tipo": "camiseta",
+                  "nombre": "Local",
                   "imagenes": [
                     "https://images.unsplash.com/photo-1551698618-1dfe5d97d256?w=600&h=600&fit=crop",
                     "https://images.unsplash.com/photo-1543351611-58f69d7c1781?w=600&h=600&fit=crop"
                   ],
                   "precio": 24,
                   "dorsales": [
-                    { "numero": "8", "tallas": ["S", "M", "L", "XL", "XXL"] },
-                    { "numero": "10", "tallas": ["S", "M", "L", "XL"] },
-                    { "numero": "14", "tallas": ["S", "M", "L"] }
+                    {
+                      "numero": "8",
+                      "tallas": ["S", "M", "L", "XL", "XXL"]
+                    },
+                    {
+                      "numero": "10",
+                      "tallas": ["S", "M", "L", "XL"]
+                    },
+                    {
+                      "numero": "14",
+                      "tallas": ["S", "M", "L"]
+                    }
                   ]
                 },
                 {
-                  "id": "visitante-2026",
-                  "tipo": "Visitante",
+                  "id": "visitante-2026-27",
+                  "tipo": "camiseta",
+                  "nombre": "Visitante",
                   "imagenes": [
                     "https://images.unsplash.com/photo-1431324155629-1a6deb1dec8d?w=600&h=600&fit=crop"
                   ],
@@ -1681,54 +1174,13 @@
                   "dorsales": []
                 },
                 {
-                  "id": "tercera-2026",
-                  "tipo": "Tercera",
+                  "id": "tercera-2026-27",
+                  "tipo": "camiseta",
+                  "nombre": "Tercera",
                   "imagenes": [
                     "https://images.unsplash.com/photo-1489944440615-453fc2b6a9a9?w=600&h=600&fit=crop"
                   ],
                   "precio": 20,
-                  "dorsales": []
-                }
-              ]
-            },
-            {
-              "temporada": "2022",
-              "equipaciones": [
-                {
-                  "id": "local-2022",
-                  "tipo": "Local",
-                  "imagenes": [
-                    "https://images.unsplash.com/photo-1522778119026-d647f0596c20?w=600&h=600&fit=crop",
-                    "https://images.unsplash.com/photo-1517649763962-0c623066013b?w=600&h=600&fit=crop"
-                  ],
-                  "precio": 20,
-                  "dorsales": [
-                    { "numero": "10", "tallas": ["S", "M", "L", "XL", "XXL"] },
-                    { "numero": "14", "tallas": ["S", "M", "L", "XL"] }
-                  ]
-                },
-                {
-                  "id": "visitante-2022",
-                  "tipo": "Visitante",
-                  "imagenes": [
-                    "https://images.unsplash.com/photo-1574629810360-7efbbe195018?w=600&h=600&fit=crop"
-                  ],
-                  "precio": 18,
-                  "dorsales": []
-                }
-              ]
-            },
-            {
-              "temporada": "2018",
-              "equipaciones": [
-                {
-                  "id": "local-2018",
-                  "tipo": "Local",
-                  "imagenes": [
-                    "https://images.unsplash.com/photo-1553775282-20af80779df7?w=600&h=600&fit=crop",
-                    "https://images.unsplash.com/photo-1461896836934-ffe607ba8211?w=600&h=600&fit=crop"
-                  ],
-                  "precio": 17,
                   "dorsales": []
                 }
               ]
@@ -1737,29 +1189,41 @@
         },
         {
           "id": "marruecos",
+          "activa": false,
           "nombre": "Marruecos",
           "alias": ["atlas lions", "mar"],
           "escudo": "https://images.unsplash.com/photo-1517649763962-0c623066013b?w=400&h=400&fit=crop",
           "temporadas": [
             {
-              "temporada": "2026",
+              "temporada": "2026/27",
               "equipaciones": [
                 {
-                  "id": "local-2026",
-                  "tipo": "Local",
+                  "id": "local-2026-27",
+                  "tipo": "camiseta",
+                  "nombre": "Local",
                   "imagenes": [
                     "https://images.unsplash.com/photo-1461896836934-ffe607ba8211?w=600&h=600&fit=crop"
                   ],
                   "precio": 25,
                   "dorsales": [
-                    { "numero": "11", "tallas": ["S", "M", "L", "XL", "XXL"] },
-                    { "numero": "17", "tallas": ["S", "M", "L", "XL"] },
-                    { "numero": "21", "tallas": ["S", "M", "L"] }
+                    {
+                      "numero": "11",
+                      "tallas": ["S", "M", "L", "XL", "XXL"]
+                    },
+                    {
+                      "numero": "17",
+                      "tallas": ["S", "M", "L", "XL"]
+                    },
+                    {
+                      "numero": "21",
+                      "tallas": ["S", "M", "L"]
+                    }
                   ]
                 },
                 {
-                  "id": "visitante-2026",
-                  "tipo": "Visitante",
+                  "id": "visitante-2026-27",
+                  "tipo": "camiseta",
+                  "nombre": "Visitante",
                   "imagenes": [
                     "https://images.unsplash.com/photo-1543351611-58f69d7c1781?w=600&h=600&fit=crop"
                   ],
@@ -1767,52 +1231,13 @@
                   "dorsales": []
                 },
                 {
-                  "id": "tercera-2026",
-                  "tipo": "Tercera",
+                  "id": "tercera-2026-27",
+                  "tipo": "camiseta",
+                  "nombre": "Tercera",
                   "imagenes": [
                     "https://images.unsplash.com/photo-1522778119026-d647f0596c20?w=600&h=600&fit=crop"
                   ],
                   "precio": 21,
-                  "dorsales": []
-                }
-              ]
-            },
-            {
-              "temporada": "2022",
-              "equipaciones": [
-                {
-                  "id": "local-2022",
-                  "tipo": "Local",
-                  "imagenes": [
-                    "https://images.unsplash.com/photo-1606925797300-0b35e9d1794e?w=600&h=600&fit=crop"
-                  ],
-                  "precio": 21,
-                  "dorsales": [
-                    { "numero": "17", "tallas": ["S", "M", "L", "XL", "XXL"] },
-                    { "numero": "21", "tallas": ["S", "M", "L", "XL"] }
-                  ]
-                },
-                {
-                  "id": "visitante-2022",
-                  "tipo": "Visitante",
-                  "imagenes": [
-                    "https://images.unsplash.com/photo-1517649763962-0c623066013b?w=600&h=600&fit=crop"
-                  ],
-                  "precio": 19,
-                  "dorsales": []
-                }
-              ]
-            },
-            {
-              "temporada": "2018",
-              "equipaciones": [
-                {
-                  "id": "local-2018",
-                  "tipo": "Local",
-                  "imagenes": [
-                    "https://images.unsplash.com/photo-1489944440615-453fc2b6a9a9?w=600&h=600&fit=crop"
-                  ],
-                  "precio": 18,
                   "dorsales": []
                 }
               ]
@@ -1821,29 +1246,41 @@
         },
         {
           "id": "croacia",
+          "activa": false,
           "nombre": "Croacia",
           "alias": ["vatreni", "cro"],
           "escudo": "https://images.unsplash.com/photo-1553775282-20af80779df7?w=400&h=400&fit=crop",
           "temporadas": [
             {
-              "temporada": "2026",
+              "temporada": "2026/27",
               "equipaciones": [
                 {
-                  "id": "local-2026",
-                  "tipo": "Local",
+                  "id": "local-2026-27",
+                  "tipo": "camiseta",
+                  "nombre": "Local",
                   "imagenes": [
                     "https://images.unsplash.com/photo-1574629810360-7efbbe195018?w=600&h=600&fit=crop"
                   ],
                   "precio": 26,
                   "dorsales": [
-                    { "numero": "19", "tallas": ["S", "M", "L", "XL", "XXL"] },
-                    { "numero": "23", "tallas": ["S", "M", "L", "XL"] },
-                    { "numero": "2", "tallas": ["S", "M", "L"] }
+                    {
+                      "numero": "19",
+                      "tallas": ["S", "M", "L", "XL", "XXL"]
+                    },
+                    {
+                      "numero": "23",
+                      "tallas": ["S", "M", "L", "XL"]
+                    },
+                    {
+                      "numero": "2",
+                      "tallas": ["S", "M", "L"]
+                    }
                   ]
                 },
                 {
-                  "id": "visitante-2026",
-                  "tipo": "Visitante",
+                  "id": "visitante-2026-27",
+                  "tipo": "camiseta",
+                  "nombre": "Visitante",
                   "imagenes": [
                     "https://images.unsplash.com/photo-1517927033932-b3d18e61fb3a?w=600&h=600&fit=crop"
                   ],
@@ -1851,52 +1288,13 @@
                   "dorsales": []
                 },
                 {
-                  "id": "tercera-2026",
-                  "tipo": "Tercera",
+                  "id": "tercera-2026-27",
+                  "tipo": "camiseta",
+                  "nombre": "Tercera",
                   "imagenes": [
                     "https://images.unsplash.com/photo-1606925797300-0b35e9d1794e?w=600&h=600&fit=crop"
                   ],
                   "precio": 22,
-                  "dorsales": []
-                }
-              ]
-            },
-            {
-              "temporada": "2022",
-              "equipaciones": [
-                {
-                  "id": "local-2022",
-                  "tipo": "Local",
-                  "imagenes": [
-                    "https://images.unsplash.com/photo-1551698618-1dfe5d97d256?w=600&h=600&fit=crop"
-                  ],
-                  "precio": 22,
-                  "dorsales": [
-                    { "numero": "23", "tallas": ["S", "M", "L", "XL", "XXL"] },
-                    { "numero": "2", "tallas": ["S", "M", "L", "XL"] }
-                  ]
-                },
-                {
-                  "id": "visitante-2022",
-                  "tipo": "Visitante",
-                  "imagenes": [
-                    "https://images.unsplash.com/photo-1431324155629-1a6deb1dec8d?w=600&h=600&fit=crop"
-                  ],
-                  "precio": 20,
-                  "dorsales": []
-                }
-              ]
-            },
-            {
-              "temporada": "2018",
-              "equipaciones": [
-                {
-                  "id": "local-2018",
-                  "tipo": "Local",
-                  "imagenes": [
-                    "https://images.unsplash.com/photo-1522778119026-d647f0596c20?w=600&h=600&fit=crop"
-                  ],
-                  "precio": 19,
                   "dorsales": []
                 }
               ]
@@ -1905,30 +1303,42 @@
         },
         {
           "id": "espana",
+          "activa": false,
           "nombre": "España",
           "alias": ["la roja", "esp"],
           "escudo": "https://images.unsplash.com/photo-1551698618-1dfe5d97d256?w=400&h=400&fit=crop",
           "temporadas": [
             {
-              "temporada": "2026",
+              "temporada": "2026/27",
               "equipaciones": [
                 {
-                  "id": "local-2026",
-                  "tipo": "Local",
+                  "id": "local-2026-27",
+                  "tipo": "camiseta",
+                  "nombre": "Local",
                   "imagenes": [
                     "https://images.unsplash.com/photo-1517649763962-0c623066013b?w=600&h=600&fit=crop",
                     "https://images.unsplash.com/photo-1489944440615-453fc2b6a9a9?w=600&h=600&fit=crop"
                   ],
                   "precio": 24,
                   "dorsales": [
-                    { "numero": "1", "tallas": ["M", "L", "XL", "XXL"] },
-                    { "numero": "3", "tallas": ["M", "L", "XL"] },
-                    { "numero": "5", "tallas": ["M", "L"] }
+                    {
+                      "numero": "1",
+                      "tallas": ["M", "L", "XL", "XXL"]
+                    },
+                    {
+                      "numero": "3",
+                      "tallas": ["M", "L", "XL"]
+                    },
+                    {
+                      "numero": "5",
+                      "tallas": ["M", "L"]
+                    }
                   ]
                 },
                 {
-                  "id": "visitante-2026",
-                  "tipo": "Visitante",
+                  "id": "visitante-2026-27",
+                  "tipo": "camiseta",
+                  "nombre": "Visitante",
                   "imagenes": [
                     "https://images.unsplash.com/photo-1553775282-20af80779df7?w=600&h=600&fit=crop"
                   ],
@@ -1936,8 +1346,9 @@
                   "dorsales": []
                 },
                 {
-                  "id": "tercera-2026",
-                  "tipo": "Tercera",
+                  "id": "tercera-2026-27",
+                  "tipo": "camiseta",
+                  "nombre": "Tercera",
                   "imagenes": [
                     "https://images.unsplash.com/photo-1551698618-1dfe5d97d256?w=600&h=600&fit=crop"
                   ],
@@ -1945,51 +1356,874 @@
                   "dorsales": []
                 }
               ]
-            },
+            }
+          ]
+        },
+        {
+          "id": "alemania",
+          "activa": false,
+          "nombre": "Alemania",
+          "alias": ["germany", "mannschaft", "ger"],
+          "escudo": "/equipos/selecciones/alemania/alemania.svg",
+          "temporadas": [
             {
-              "temporada": "2022",
+              "temporada": "2026/27",
               "equipaciones": [
                 {
-                  "id": "local-2022",
-                  "tipo": "Local",
+                  "id": "local-2026-27",
+                  "tipo": "camiseta",
+                  "nombre": "Local",
                   "imagenes": [
-                    "https://images.unsplash.com/photo-1461896836934-ffe607ba8211?w=600&h=600&fit=crop",
-                    "https://images.unsplash.com/photo-1517927033932-b3d18e61fb3a?w=600&h=600&fit=crop"
+                    "/equipos/selecciones/alemania/26-27/local/home-cover.webp"
                   ],
-                  "precio": 20,
+                  "precio": 25,
                   "dorsales": [
-                    { "numero": "3", "tallas": ["M", "L", "XL", "XXL"] },
-                    { "numero": "5", "tallas": ["M", "L", "XL"] }
+                    {
+                      "numero": "1",
+                      "tallas": ["M", "L", "XL", "XXL"]
+                    },
+                    {
+                      "numero": "7",
+                      "tallas": ["S", "M", "L", "XL"]
+                    },
+                    {
+                      "numero": "13",
+                      "tallas": ["S", "M", "L"]
+                    }
                   ]
                 },
                 {
-                  "id": "visitante-2022",
-                  "tipo": "Visitante",
+                  "id": "visitante-2026-27",
+                  "tipo": "camiseta",
+                  "nombre": "Visitante",
                   "imagenes": [
-                    "https://images.unsplash.com/photo-1543351611-58f69d7c1781?w=600&h=600&fit=crop"
+                    "/equipos/selecciones/alemania/26-27/visitante/away-cover.webp"
                   ],
-                  "precio": 18,
+                  "precio": 23,
+                  "dorsales": []
+                },
+                {
+                  "id": "tercera-2026-27",
+                  "tipo": "camiseta",
+                  "nombre": "Tercera",
+                  "imagenes": [
+                    "/equipos/selecciones/alemania/26-27/tercera/third-cover.webp"
+                  ],
+                  "precio": 21,
                   "dorsales": []
                 }
               ]
-            },
+            }
+          ]
+        },
+        {
+          "id": "italia",
+          "activa": false,
+          "nombre": "Italia",
+          "alias": ["italy", "azzurri", "ita"],
+          "escudo": "/equipos/selecciones/italia/italia.svg",
+          "temporadas": [
             {
-              "temporada": "2018",
+              "temporada": "2026/27",
               "equipaciones": [
                 {
-                  "id": "local-2018",
-                  "tipo": "Local",
+                  "id": "local-2026-27",
+                  "tipo": "camiseta",
+                  "nombre": "Local",
                   "imagenes": [
-                    "https://images.unsplash.com/photo-1606925797300-0b35e9d1794e?w=600&h=600&fit=crop",
-                    "https://images.unsplash.com/photo-1431324155629-1a6deb1dec8d?w=600&h=600&fit=crop"
+                    "/equipos/selecciones/italia/26-27/local/home-cover.webp"
                   ],
-                  "precio": 17,
+                  "precio": 25,
+                  "dorsales": [
+                    {
+                      "numero": "1",
+                      "tallas": ["M", "L", "XL", "XXL"]
+                    },
+                    {
+                      "numero": "10",
+                      "tallas": ["S", "M", "L", "XL"]
+                    },
+                    {
+                      "numero": "9",
+                      "tallas": ["S", "M", "L"]
+                    }
+                  ]
+                },
+                {
+                  "id": "visitante-2026-27",
+                  "tipo": "camiseta",
+                  "nombre": "Visitante",
+                  "imagenes": [
+                    "/equipos/selecciones/italia/26-27/visitante/away-cover.webp"
+                  ],
+                  "precio": 23,
+                  "dorsales": []
+                },
+                {
+                  "id": "tercera-2026-27",
+                  "tipo": "camiseta",
+                  "nombre": "Tercera",
+                  "imagenes": [
+                    "/equipos/selecciones/italia/26-27/tercera/third-cover.webp"
+                  ],
+                  "precio": 21,
+                  "dorsales": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "portugal",
+          "activa": false,
+          "nombre": "Portugal",
+          "alias": ["selecao das quinas", "por"],
+          "escudo": "/equipos/selecciones/portugal/portugal.svg",
+          "temporadas": [
+            {
+              "temporada": "2026/27",
+              "equipaciones": [
+                {
+                  "id": "local-2026-27",
+                  "tipo": "camiseta",
+                  "nombre": "Local",
+                  "imagenes": [
+                    "/equipos/selecciones/portugal/26-27/local/home-cover.webp"
+                  ],
+                  "precio": 25,
+                  "dorsales": [
+                    {
+                      "numero": "7",
+                      "tallas": ["S", "M", "L", "XL", "XXL"]
+                    },
+                    {
+                      "numero": "8",
+                      "tallas": ["S", "M", "L", "XL"]
+                    },
+                    {
+                      "numero": "11",
+                      "tallas": ["S", "M", "L"]
+                    }
+                  ]
+                },
+                {
+                  "id": "visitante-2026-27",
+                  "tipo": "camiseta",
+                  "nombre": "Visitante",
+                  "imagenes": [
+                    "/equipos/selecciones/portugal/26-27/visitante/away-cover.webp"
+                  ],
+                  "precio": 23,
+                  "dorsales": []
+                },
+                {
+                  "id": "tercera-2026-27",
+                  "tipo": "camiseta",
+                  "nombre": "Tercera",
+                  "imagenes": [
+                    "/equipos/selecciones/portugal/26-27/tercera/third-cover.webp"
+                  ],
+                  "precio": 21,
+                  "dorsales": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "paises-bajos",
+          "activa": false,
+          "nombre": "Países Bajos",
+          "alias": ["holanda", "netherlands", "oranje", "ned"],
+          "escudo": "/equipos/selecciones/paises-bajos/paises-bajos.svg",
+          "temporadas": [
+            {
+              "temporada": "2026/27",
+              "equipaciones": [
+                {
+                  "id": "local-2026-27",
+                  "tipo": "camiseta",
+                  "nombre": "Local",
+                  "imagenes": [
+                    "/equipos/selecciones/paises-bajos/26-27/local/home-cover.webp"
+                  ],
+                  "precio": 25,
+                  "dorsales": [
+                    {
+                      "numero": "1",
+                      "tallas": ["M", "L", "XL", "XXL"]
+                    },
+                    {
+                      "numero": "4",
+                      "tallas": ["M", "L", "XL"]
+                    },
+                    {
+                      "numero": "10",
+                      "tallas": ["S", "M", "L"]
+                    }
+                  ]
+                },
+                {
+                  "id": "visitante-2026-27",
+                  "tipo": "camiseta",
+                  "nombre": "Visitante",
+                  "imagenes": [
+                    "/equipos/selecciones/paises-bajos/26-27/visitante/away-cover.webp"
+                  ],
+                  "precio": 23,
+                  "dorsales": []
+                },
+                {
+                  "id": "tercera-2026-27",
+                  "tipo": "camiseta",
+                  "nombre": "Tercera",
+                  "imagenes": [
+                    "/equipos/selecciones/paises-bajos/26-27/tercera/third-cover.webp"
+                  ],
+                  "precio": 21,
+                  "dorsales": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "inglaterra",
+          "activa": false,
+          "nombre": "Inglaterra",
+          "alias": ["england", "three lions", "eng"],
+          "escudo": "/equipos/selecciones/inglaterra/inglaterra.svg",
+          "temporadas": [
+            {
+              "temporada": "2026/27",
+              "equipaciones": [
+                {
+                  "id": "local-2026-27",
+                  "tipo": "camiseta",
+                  "nombre": "Local",
+                  "imagenes": [
+                    "/equipos/selecciones/inglaterra/26-27/local/home-cover.webp"
+                  ],
+                  "precio": 25,
+                  "dorsales": [
+                    {
+                      "numero": "9",
+                      "tallas": ["S", "M", "L", "XL", "XXL"]
+                    },
+                    {
+                      "numero": "10",
+                      "tallas": ["S", "M", "L", "XL"]
+                    },
+                    {
+                      "numero": "7",
+                      "tallas": ["S", "M", "L"]
+                    }
+                  ]
+                },
+                {
+                  "id": "visitante-2026-27",
+                  "tipo": "camiseta",
+                  "nombre": "Visitante",
+                  "imagenes": [
+                    "/equipos/selecciones/inglaterra/26-27/visitante/away-cover.webp"
+                  ],
+                  "precio": 23,
+                  "dorsales": []
+                },
+                {
+                  "id": "tercera-2026-27",
+                  "tipo": "camiseta",
+                  "nombre": "Tercera",
+                  "imagenes": [
+                    "/equipos/selecciones/inglaterra/26-27/tercera/third-cover.webp"
+                  ],
+                  "precio": 21,
+                  "dorsales": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "belgica",
+          "activa": false,
+          "nombre": "Bélgica",
+          "alias": ["belgium", "red devils", "bel"],
+          "escudo": "/equipos/selecciones/belgica/belgica.svg",
+          "temporadas": [
+            {
+              "temporada": "2026/27",
+              "equipaciones": [
+                {
+                  "id": "local-2026-27",
+                  "tipo": "camiseta",
+                  "nombre": "Local",
+                  "imagenes": [
+                    "/equipos/selecciones/belgica/26-27/local/home-cover.webp"
+                  ],
+                  "precio": 25,
+                  "dorsales": [
+                    {
+                      "numero": "7",
+                      "tallas": ["S", "M", "L", "XL", "XXL"]
+                    },
+                    {
+                      "numero": "9",
+                      "tallas": ["S", "M", "L", "XL"]
+                    },
+                    {
+                      "numero": "10",
+                      "tallas": ["S", "M", "L"]
+                    }
+                  ]
+                },
+                {
+                  "id": "visitante-2026-27",
+                  "tipo": "camiseta",
+                  "nombre": "Visitante",
+                  "imagenes": [
+                    "/equipos/selecciones/belgica/26-27/visitante/away-cover.webp"
+                  ],
+                  "precio": 23,
+                  "dorsales": []
+                },
+                {
+                  "id": "tercera-2026-27",
+                  "tipo": "camiseta",
+                  "nombre": "Tercera",
+                  "imagenes": [
+                    "/equipos/selecciones/belgica/26-27/tercera/third-cover.webp"
+                  ],
+                  "precio": 21,
+                  "dorsales": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "uruguay",
+          "activa": false,
+          "nombre": "Uruguay",
+          "alias": ["celeste", "uru"],
+          "escudo": "/equipos/selecciones/uruguay/uruguay.svg",
+          "temporadas": [
+            {
+              "temporada": "2026/27",
+              "equipaciones": [
+                {
+                  "id": "local-2026-27",
+                  "tipo": "camiseta",
+                  "nombre": "Local",
+                  "imagenes": [
+                    "/equipos/selecciones/uruguay/26-27/local/home-cover.webp"
+                  ],
+                  "precio": 25,
+                  "dorsales": [
+                    {
+                      "numero": "9",
+                      "tallas": ["S", "M", "L", "XL", "XXL"]
+                    },
+                    {
+                      "numero": "10",
+                      "tallas": ["S", "M", "L", "XL"]
+                    },
+                    {
+                      "numero": "6",
+                      "tallas": ["M", "L", "XL"]
+                    }
+                  ]
+                },
+                {
+                  "id": "visitante-2026-27",
+                  "tipo": "camiseta",
+                  "nombre": "Visitante",
+                  "imagenes": [
+                    "/equipos/selecciones/uruguay/26-27/visitante/away-cover.webp"
+                  ],
+                  "precio": 23,
+                  "dorsales": []
+                },
+                {
+                  "id": "tercera-2026-27",
+                  "tipo": "camiseta",
+                  "nombre": "Tercera",
+                  "imagenes": [
+                    "/equipos/selecciones/uruguay/26-27/tercera/third-cover.webp"
+                  ],
+                  "precio": 21,
+                  "dorsales": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "colombia",
+          "activa": false,
+          "nombre": "Colombia",
+          "alias": ["cafeteros", "col"],
+          "escudo": "/equipos/selecciones/colombia/colombia.svg",
+          "temporadas": [
+            {
+              "temporada": "2026/27",
+              "equipaciones": [
+                {
+                  "id": "local-2026-27",
+                  "tipo": "camiseta",
+                  "nombre": "Local",
+                  "imagenes": [
+                    "/equipos/selecciones/colombia/26-27/local/home-cover.webp"
+                  ],
+                  "precio": 25,
+                  "dorsales": [
+                    {
+                      "numero": "10",
+                      "tallas": ["S", "M", "L", "XL", "XXL"]
+                    },
+                    {
+                      "numero": "9",
+                      "tallas": ["S", "M", "L", "XL"]
+                    },
+                    {
+                      "numero": "11",
+                      "tallas": ["S", "M", "L"]
+                    }
+                  ]
+                },
+                {
+                  "id": "visitante-2026-27",
+                  "tipo": "camiseta",
+                  "nombre": "Visitante",
+                  "imagenes": [
+                    "/equipos/selecciones/colombia/26-27/visitante/away-cover.webp"
+                  ],
+                  "precio": 23,
+                  "dorsales": []
+                },
+                {
+                  "id": "tercera-2026-27",
+                  "tipo": "camiseta",
+                  "nombre": "Tercera",
+                  "imagenes": [
+                    "/equipos/selecciones/colombia/26-27/tercera/third-cover.webp"
+                  ],
+                  "precio": 21,
+                  "dorsales": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "mexico",
+          "activa": false,
+          "nombre": "México",
+          "alias": ["el tri", "mex"],
+          "escudo": "/equipos/selecciones/mexico/mexico.svg",
+          "temporadas": [
+            {
+              "temporada": "2026/27",
+              "equipaciones": [
+                {
+                  "id": "local-2026-27",
+                  "tipo": "camiseta",
+                  "nombre": "Local",
+                  "imagenes": [
+                    "/equipos/selecciones/mexico/26-27/local/home-cover.webp"
+                  ],
+                  "precio": 25,
+                  "dorsales": [
+                    {
+                      "numero": "1",
+                      "tallas": ["M", "L", "XL", "XXL"]
+                    },
+                    {
+                      "numero": "10",
+                      "tallas": ["S", "M", "L", "XL"]
+                    },
+                    {
+                      "numero": "9",
+                      "tallas": ["S", "M", "L"]
+                    }
+                  ]
+                },
+                {
+                  "id": "visitante-2026-27",
+                  "tipo": "camiseta",
+                  "nombre": "Visitante",
+                  "imagenes": [
+                    "/equipos/selecciones/mexico/26-27/visitante/away-cover.webp"
+                  ],
+                  "precio": 23,
+                  "dorsales": []
+                },
+                {
+                  "id": "tercera-2026-27",
+                  "tipo": "camiseta",
+                  "nombre": "Tercera",
+                  "imagenes": [
+                    "/equipos/selecciones/mexico/26-27/tercera/third-cover.webp"
+                  ],
+                  "precio": 21,
+                  "dorsales": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "estados-unidos",
+          "activa": false,
+          "nombre": "Estados Unidos",
+          "alias": ["usa", "usmnt", "eua"],
+          "escudo": "/equipos/selecciones/estados-unidos/estados-unidos.svg",
+          "temporadas": [
+            {
+              "temporada": "2026/27",
+              "equipaciones": [
+                {
+                  "id": "local-2026-27",
+                  "tipo": "camiseta",
+                  "nombre": "Local",
+                  "imagenes": [
+                    "/equipos/selecciones/estados-unidos/26-27/local/home-cover.webp"
+                  ],
+                  "precio": 25,
+                  "dorsales": [
+                    {
+                      "numero": "10",
+                      "tallas": ["S", "M", "L", "XL", "XXL"]
+                    },
+                    {
+                      "numero": "7",
+                      "tallas": ["S", "M", "L", "XL"]
+                    },
+                    {
+                      "numero": "4",
+                      "tallas": ["M", "L", "XL"]
+                    }
+                  ]
+                },
+                {
+                  "id": "visitante-2026-27",
+                  "tipo": "camiseta",
+                  "nombre": "Visitante",
+                  "imagenes": [
+                    "/equipos/selecciones/estados-unidos/26-27/visitante/away-cover.webp"
+                  ],
+                  "precio": 23,
+                  "dorsales": []
+                },
+                {
+                  "id": "tercera-2026-27",
+                  "tipo": "camiseta",
+                  "nombre": "Tercera",
+                  "imagenes": [
+                    "/equipos/selecciones/estados-unidos/26-27/tercera/third-cover.webp"
+                  ],
+                  "precio": 21,
                   "dorsales": []
                 }
               ]
             }
           ]
         }
+      ]
+    },
+    {
+      "id": "ligue-1",
+      "activa": false,
+      "nombre": "Ligue 1",
+      "pais": "Francia",
+      "logo": "/equipos/ligue-1/ligue-1.svg",
+      "equipos": [
+        {
+          "id": "psg",
+          "activa": true,
+          "nombre": "Paris Saint-Germain",
+          "alias": ["psg", "paris", "paris saint germain"],
+          "escudo": "/equipos/ligue-1/psg/paris-saint-germain-psg-logo.svg",
+          "temporadas": [
+            {
+              "temporada": "2026/27",
+              "equipaciones": [
+                {
+                  "id": "local-2026-27",
+                  "tipo": "camiseta",
+                  "nombre": "Local",
+                  "imagenes": [
+                    "https://images.unsplash.com/photo-1553775282-20af80779df7?w=600&h=600&fit=crop",
+                    "https://images.unsplash.com/photo-1517927033932-b3d18e61fb3a?w=600&h=600&fit=crop"
+                  ],
+                  "precio": 25,
+                  "dorsales": [
+                    {
+                      "numero": "1",
+                      "tallas": ["M", "L", "XL", "XXL"]
+                    },
+                    {
+                      "numero": "7",
+                      "tallas": ["S", "M", "L", "XL"]
+                    },
+                    {
+                      "numero": "10",
+                      "tallas": ["S", "M", "L"]
+                    }
+                  ]
+                },
+                {
+                  "id": "visitante-2026-27",
+                  "tipo": "camiseta",
+                  "nombre": "Visitante",
+                  "imagenes": [
+                    "https://images.unsplash.com/photo-1574629810360-7efbbe195018?w=600&h=600&fit=crop"
+                  ],
+                  "precio": 23,
+                  "dorsales": []
+                },
+                {
+                  "id": "tercera-2026-27",
+                  "tipo": "camiseta",
+                  "nombre": "Tercera",
+                  "imagenes": [
+                    "https://images.unsplash.com/photo-1517927033932-b3d18e61fb3a?w=600&h=600&fit=crop"
+                  ],
+                  "precio": 21,
+                  "dorsales": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "conjuntos": [
+    {
+      "id": "conjunto-real-madrid-2026-27",
+      "tipo": "conjunto",
+      "nombre": "Conjunto Real Madrid 2026/27 (Niño)",
+      "imagenes": ["/equipos/conjuntos/1.jpeg"],
+      "precio": 18,
+      "tallas": ["6", "8", "14", "16"]
+    },
+    {
+      "id": "conjunto-real-madrid-2024-25",
+      "tipo": "conjunto",
+      "nombre": "Conjunto Real Madrid 2024/25 (Niño)",
+      "imagenes": ["/equipos/conjuntos/2.jpeg"],
+      "precio": 18,
+      "tallas": ["8", "14", "16"]
+    },
+    {
+      "id": "conjunto-francia-2026",
+      "tipo": "conjunto",
+      "nombre": "Conjunto Francia 2026 (Niño)",
+      "imagenes": ["/equipos/conjuntos/3.jpeg"],
+      "precio": 18,
+      "tallas": ["6", "8", "10", "12", "14", "16"]
+    },
+    {
+      "id": "conjunto-real-madrid-2018",
+      "tipo": "conjunto",
+      "nombre": "Conjunto Real Madrid 2018 (Niño)",
+      "imagenes": ["/equipos/conjuntos/4.jpeg"],
+      "precio": 18,
+      "tallas": ["4", "6", "8", "10", "14"]
+    },
+    {
+      "id": "conjunto-ronaldo-homenaje",
+      "tipo": "conjunto",
+      "nombre": "Conjunto Homenaje Cristiano Ronaldo (Niño)",
+      "imagenes": ["/equipos/conjuntos/5.jpeg"],
+      "precio": 18,
+      "tallas": ["6", "8", "16"]
+    },
+    {
+      "id": "conjunto-portugal-2024-25",
+      "tipo": "conjunto",
+      "nombre": "Conjunto Portugal 2024/25 (Niño)",
+      "imagenes": ["/equipos/conjuntos/6.jpeg"],
+      "precio": 18,
+      "tallas": ["4", "6", "8", "10", "16", "14"]
+    },
+    {
+      "id": "conjunto-portugal-pantera-negra",
+      "tipo": "conjunto",
+      "nombre": "Conjunto Portugal Edición Pantera Negra (Niño)",
+      "imagenes": ["/equipos/conjuntos/7.jpeg"],
+      "precio": 18,
+      "tallas": ["4", "6", "8", "10", "16", "14"]
+    },
+    {
+      "id": "conjunto-portugal-2026",
+      "tipo": "conjunto",
+      "nombre": "Conjunto Portugal 2026 (Niño)",
+      "imagenes": ["/equipos/conjuntos/8.jpeg"],
+      "precio": 18,
+      "tallas": ["4"]
+    },
+    {
+      "id": "conjunto-barcelona-2025-26-local",
+      "tipo": "conjunto",
+      "nombre": "Conjunto Barcelona 2025/26 Local (Niño)",
+      "imagenes": ["/equipos/conjuntos/9.jpeg"],
+      "precio": 18,
+      "tallas": ["4", "6", "8", "10", "12", "16"]
+    },
+    {
+      "id": "conjunto-espana-2024-25",
+      "tipo": "conjunto",
+      "nombre": "Conjunto España 2024/25 (Niño)",
+      "imagenes": ["/equipos/conjuntos/10.jpeg"],
+      "precio": 18,
+      "tallas": ["4", "6", "8", "10", "12", "14", "16"]
+    },
+    {
+      "id": "conjunto-barcelona-2025-26-visitante",
+      "tipo": "conjunto",
+      "nombre": "Conjunto Barcelona 2025/26 Visitante (Niño)",
+      "imagenes": ["/equipos/conjuntos/11.jpeg"],
+      "precio": 18,
+      "tallas": ["4", "6", "16"]
+    },
+    {
+      "id": "conjunto-barcelona-2011-final",
+      "tipo": "conjunto",
+      "nombre": "Conjunto Barcelona 2011 Final Wembley (Niño)",
+      "imagenes": ["/equipos/conjuntos/12.jpeg"],
+      "precio": 18,
+      "tallas": ["12", "16"]
+    },
+    {
+      "id": "conjunto-argentina-2026-negra",
+      "tipo": "conjunto",
+      "nombre": "Conjunto Argentina 2026 Edición Negra (Niño)",
+      "imagenes": ["/equipos/conjuntos/13.jpeg"],
+      "precio": 18,
+      "tallas": ["4", "8", "10", "16", "14", "16"]
+    },
+    {
+      "id": "conjunto-messi-homenaje",
+      "tipo": "conjunto",
+      "nombre": "Conjunto Homenaje Messi (Niño)",
+      "imagenes": ["/equipos/conjuntos/14.jpeg"],
+      "precio": 18,
+      "tallas": ["4", "6", "8", "10", "12", "14", "16"]
+    },
+    {
+      "id": "conjunto-argentina-2024-25",
+      "tipo": "conjunto",
+      "nombre": "Conjunto Argentina 2024/25 (Niño)",
+      "imagenes": ["/equipos/conjuntos/15.jpeg"],
+      "precio": 18,
+      "tallas": ["6", "10", "16", "14"]
+    },
+    {
+      "id": "conjunto-argentina-2026-local",
+      "tipo": "conjunto",
+      "nombre": "Conjunto Argentina 2026 Local (Niño)",
+      "imagenes": ["/equipos/conjuntos/16.jpeg"],
+      "precio": 18,
+      "tallas": ["4", "6", "8", "16"]
+    },
+    {
+      "id": "conjunto-santos-neymar-negra",
+      "tipo": "conjunto",
+      "nombre": "Conjunto Santos FC Neymar Jr. Negra (Niño)",
+      "imagenes": ["/equipos/conjuntos/17.jpeg"],
+      "precio": 18,
+      "tallas": ["6", "8", "10"]
+    },
+    {
+      "id": "conjunto-santos-neymar-blanca",
+      "tipo": "conjunto",
+      "nombre": "Conjunto Santos FC Neymar Jr. Blanca (Niño)",
+      "imagenes": ["/equipos/conjuntos/18.jpeg"],
+      "precio": 18,
+      "tallas": ["4", "8", "10"]
+    },
+    {
+      "id": "conjunto-brasil-2024-25",
+      "tipo": "conjunto",
+      "nombre": "Conjunto Brasil 2024/25 (Niño)",
+      "imagenes": ["/equipos/conjuntos/19.jpeg"],
+      "precio": 18,
+      "tallas": ["4", "6", "8", "14"]
+    },
+    {
+      "id": "conjunto-santos-neymar-blanca-2",
+      "tipo": "conjunto",
+      "nombre": "Conjunto Santos FC Neymar Jr. Blanca (Niño)",
+      "imagenes": ["/equipos/conjuntos/20.jpeg"],
+      "precio": 18,
+      "tallas": ["4", "6", "8", "10", "12", "14"]
+    },
+    {
+      "id": "conjunto-psg-2024-25",
+      "tipo": "conjunto",
+      "nombre": "Conjunto PSG 2024/25 (Niño)",
+      "imagenes": ["/equipos/conjuntos/21.jpeg"],
+      "precio": 18,
+      "tallas": ["6", "8", "16", "12", "14"]
+    },
+    {
+      "id": "conjunto-noruega-2024-25",
+      "tipo": "conjunto",
+      "nombre": "Conjunto Noruega 2024/25 (Niño)",
+      "imagenes": ["/equipos/conjuntos/22.jpeg"],
+      "precio": 18,
+      "tallas": ["4", "6", "8", "10", "12", "14", "16"]
+    }
+  ],
+  "accesorios": [
+    {
+      "id": "balon-oficial-laliga",
+      "tipo": "accesorio",
+      "activo": false,
+      "nombre": "Balón oficial LaLiga",
+      "categoria": "Balones",
+      "descripcion": "Balón de fútbol oficial de LaLiga para entrenar o jugar.",
+      "precio": 18,
+      "imagenes": [
+        "https://images.unsplash.com/photo-1551958219-acbc608c6377?w=600&h=600&fit=crop"
+      ]
+    },
+    {
+      "id": "balon-entrenamiento",
+      "tipo": "accesorio",
+      "activo": false,
+      "nombre": "Balón de entrenamiento",
+      "categoria": "Balones",
+      "descripcion": "Balón resistente para sesiones de entrenamiento diario.",
+      "precio": 14,
+      "imagenes": [
+        "https://images.unsplash.com/photo-1579952363873-27f3bade9f55?w=600&h=600&fit=crop"
+      ]
+    },
+    {
+      "id": "medillas-futbol",
+      "tipo": "accesorio",
+      "activo": false,
+      "nombre": "Medias de fútbol",
+      "categoria": "Medias",
+      "descripcion": "Medias altas de juego, cómodas y transpirables.",
+      "precio": 8,
+      "imagenes": [
+        "https://images.unsplash.com/photo-1587329310686-91414b8e3cb7?w=600&h=600&fit=crop"
+      ]
+    },
+    {
+      "id": "espinilleras-pro",
+      "tipo": "accesorio",
+      "activo": false,
+      "nombre": "Espinilleras Pro",
+      "categoria": "Protección",
+      "descripcion": "Espinilleras ligeras con funda ajustable para mayor protección.",
+      "precio": 12,
+      "imagenes": [
+        "https://images.unsplash.com/photo-1518091043644-c1d4457512c6?w=600&h=600&fit=crop"
       ]
     }
   ]

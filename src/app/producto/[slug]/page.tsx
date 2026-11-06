@@ -54,7 +54,7 @@ export default function ProductoPage({
       ligaNombre: liga.nombre,
       equipoNombre: equipo.nombre,
       temporada: temporada.temporada,
-      equipacionTipo: equipacion.tipo,
+      equipacionTipo: equipacion.nombre,
       imagen: equipacion.imagenes[0],
       precio: equipacion.precio,
       talla,
@@ -88,7 +88,7 @@ export default function ProductoPage({
         </Link>
         <span className='text-gray-400 dark:text-neutral-500'>/</span>
         <span className='inline-flex min-h-[44px] items-center'>
-          {equipacion.tipo} {temporada.temporada}
+          {equipacion.nombre} {temporada.temporada}
         </span>
       </div>
 
@@ -97,7 +97,7 @@ export default function ProductoPage({
         <div className='space-y-4'>
           <div>
             <h1 className='text-2xl font-semibold'>
-              {equipo.nombre} - {equipacion.tipo}
+              {equipo.nombre} - {equipacion.nombre}
             </h1>
             <p className='text-gray-600 mt-1 dark:text-neutral-400'>
               {liga.nombre} · {temporada.temporada}

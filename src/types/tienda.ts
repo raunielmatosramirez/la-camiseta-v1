@@ -3,12 +3,21 @@ export interface Dorsal {
   tallas: string[];
 }
 
-export interface Equipacion {
+export type TipoProducto = "camiseta" | "conjunto" | "accesorio";
+
+export interface Producto {
   id: string;
-  tipo: string;
+  tipo: TipoProducto;
+  activo?: boolean;
+  nombre: string;
   imagenes: string[];
   precio: number;
-  tallas: string[];
+  tallas?: string[];
+  dorsales?: Dorsal[];
+}
+
+export interface Equipacion extends Producto {
+  tipo: "camiseta";
   dorsales: Dorsal[];
 }
 
@@ -19,6 +28,7 @@ export interface Temporada {
 
 export interface Equipo {
   id: string;
+  activa?: boolean;
   nombre: string;
   alias: string[];
   escudo: string;
@@ -27,6 +37,7 @@ export interface Equipo {
 
 export interface Liga {
   id: string;
+  activa?: boolean;
   nombre: string;
   pais: string;
   logo: string;
@@ -36,6 +47,16 @@ export interface Liga {
 export interface Destacado {
   ligaId: string;
   equipoId: string;
+}
+
+export interface Conjunto extends Producto {
+  tipo: "conjunto";
+}
+
+export interface Accesorio extends Producto {
+  tipo: "accesorio";
+  categoria: string;
+  descripcion: string;
 }
 
 export interface Tienda {
@@ -53,20 +74,25 @@ export interface Tienda {
     equipos: Destacado[];
   };
   ligas: Liga[];
+  conjuntos?: Conjunto[];
+  accesorios?: Accesorio[];
 }
+
+export type CartItemType = "camiseta" | "conjunto" | "accesorio";
 
 export interface CartItem {
   id: string;
   slug: string;
-  ligaId: string;
-  equipoId: string;
-  ligaNombre: string;
+  tipo?: CartItemType;
+  ligaId?: string;
+  equipoId?: string;
+  ligaNombre?: string;
   equipoNombre: string;
-  temporada: string;
-  equipacionTipo: string;
+  temporada?: string;
+  equipacionTipo?: string;
   imagen: string;
   precio: number;
-  talla: string;
+  talla?: string;
   dorsal?: string;
   cantidad: number;
 }

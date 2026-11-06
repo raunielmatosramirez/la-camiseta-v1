@@ -1,5 +1,12 @@
 import tiendaData from "@/data/tienda.json";
-import type { Tienda, Liga, Equipo, Temporada } from "@/types/tienda";
+import type {
+  Tienda,
+  Liga,
+  Equipo,
+  Temporada,
+  Conjunto,
+  Accesorio,
+} from "@/types/tienda";
 
 // El JSON ahora solo contiene datos de producto (ligas, equipos, equipaciones)
 type ProductData = Omit<Tienda, "tienda">;
@@ -29,11 +36,21 @@ export function getTienda(): Tienda["tienda"] {
 // LIGAS / EQUIPOS / TEMPORADAS — del JSON
 // ─────────────────────────────────────────────
 export function getLigas(): Liga[] {
-  return data.ligas;
+  return data.ligas
+    .filter((l) => l.activa !== false)
+    .map((l) => ({
+      ...l,
+      equipos: l.equipos.filter((e) => e.activa !== false),
+    }));
 }
 
 export function getLigaById(ligaId: string): Liga | undefined {
-  return data.ligas.find((l) => l.id === ligaId);
+  const liga = data.ligas.find((l) => l.id === ligaId && l.activa !== false);
+  if (!liga) return undefined;
+  return {
+    ...liga,
+    equipos: liga.equipos.filter((e) => e.activa !== false),
+  };
 }
 
 export function getEquipo(
@@ -66,7 +83,9 @@ export function getTemporada(
 // ─────────────────────────────────────────────
 export function findProduct(slug: string) {
   for (const liga of data.ligas) {
+    if (liga.activa === false) continue;
     for (const equipo of liga.equipos) {
+      if (equipo.activa === false) continue;
       for (const temporada of equipo.temporadas) {
         for (const equipacion of temporada.equipaciones) {
           const s = makeProductSlug(
@@ -102,4 +121,19 @@ export function getDestacados() {
     if (g) res.push({ ...g, destacado: true });
   }
   return res;
+}
+
+// ─────────────────────────────────────────────
+// CONJUNTOS Y ACCESORIOS
+// ─────────────────────────────────────────────
+export function getConjuntos(): Conjunto[] {
+  return data.conjuntos ?? [];
+}
+
+export function getConjunto(id: string): Conjunto | undefined {
+  return (data.conjuntos ?? []).find((c) => c.id === id);
+}
+
+export function getAccesorios(): Accesorio[] {
+  return (data.accesorios ?? []).filter((a) => a.activo !== false);
 }
