@@ -949,7 +949,7 @@
         },
         {
           "id": "borussia-dortmund",
-          "activa": true,
+          "activa": false,
           "nombre": "Borussia Dortmund",
           "alias": ["dortmund", "bvb"],
           "escudo": "/equipos/bundesliga/borussia-dortmund/borussia-dortmund.svg",
