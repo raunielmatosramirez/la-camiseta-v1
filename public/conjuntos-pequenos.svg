@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200" role="img" aria-label="Conjunto de fútbol para niños">
+  <circle cx="100" cy="100" r="94" fill="#E8F0FE"/>
+  <path d="M64 140 L136 140 L144 182 L112 182 L100 158 L88 182 L56 182 Z" fill="#0F172A"/>
+  <path d="M70 60 L88 50 Q100 66 112 50 L130 60 L162 86 L144 108 L132 98 L132 148 Q100 160 68 148 L68 98 L56 108 L38 86 Z" fill="#2563EB"/>
+  <path d="M88 50 Q100 66 112 50 Q100 58 88 50 Z" fill="#FFFFFF"/>
+  <path d="M56 108 L38 86" stroke="#FFFFFF" stroke-width="7" stroke-linecap="round"/>
+  <path d="M144 108 L162 86" stroke="#FFFFFF" stroke-width="7" stroke-linecap="round"/>
+  <path d="M100 92 L104.5 101 L114.5 102.5 L107.3 109.5 L109 119.5 L100 114.7 L91 119.5 L92.7 109.5 L85.5 102.5 L95.5 101 Z" fill="#FFFFFF"/>
+</svg>

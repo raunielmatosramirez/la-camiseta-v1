@@ -14,10 +14,12 @@ export default function ConjuntosPage() {
         >
           ← Inicio
         </Link>
-        <h1 className='text-xl font-semibold md:text-2xl'>Conjuntos</h1>
+        <h1 className='text-xl font-semibold md:text-2xl'>
+          Conjuntos pequeños
+        </h1>
         <p className='mt-1 text-sm text-gray-600 dark:text-neutral-400'>
-          {conjuntos.length}{" "}
-          {conjuntos.length === 1 ? "conjunto disponible" : "conjuntos disponibles"}.
+          Conjuntos para niños · {conjuntos.length}{" "}
+          {conjuntos.length === 1 ? "disponible" : "disponibles"}.
         </p>
       </div>
 

@@ -1,8 +1,7 @@
-import Link from "next/link";
 import { getLigas, getDestacados, getConjuntos, getAccesorios } from "@/lib/data";
 import LigaCard from "@/components/liga-card";
 import EquipoCard from "@/components/equipo-card";
-import ConjuntoCard from "@/components/conjunto-card";
+import ConjuntosCard from "@/components/conjuntos-card";
 import AccesorioCard from "@/components/accesorio-card";
 import ComoComprar from "@/components/como-comprar";
 
@@ -11,7 +10,6 @@ export default function Home() {
   const destacados = getDestacados();
   const conjuntos = getConjuntos();
   const accesorios = getAccesorios();
-  const conjuntosVisibles = conjuntos.slice(0, 6);
 
   return (
     <div className="max-w-5xl mx-auto px-4 py-6 space-y-8">
@@ -42,22 +40,10 @@ export default function Home() {
         )}
         {conjuntos.length > 0 && (
           <div className="mt-6">
-            <h2 className="text-base font-medium mb-2">Conjuntos</h2>
-            <div className="grid grid-cols-2 gap-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6">
-              {conjuntosVisibles.map((conjunto) => (
-                <ConjuntoCard key={conjunto.id} conjunto={conjunto} />
-              ))}
+            <h2 className="text-base font-medium mb-2">Conjuntos pequeños</h2>
+            <div className="grid grid-cols-2 lg:grid-cols-3 gap-2">
+              <ConjuntosCard count={conjuntos.length} />
             </div>
-            {conjuntos.length > conjuntosVisibles.length && (
-              <div className="mt-2 text-center">
-                <Link
-                  href="/conjuntos"
-                  className="inline-flex min-h-[40px] items-center rounded-lg border border-gray-200 px-4 text-sm font-medium transition hover:bg-gray-50 active:bg-gray-100 dark:border-neutral-700 dark:hover:bg-neutral-800 dark:active:bg-neutral-700"
-                >
-                  Ver más
-                </Link>
-              </div>
-            )}
           </div>
         )}
         {accesorios.length > 0 && (
