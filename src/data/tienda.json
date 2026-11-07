@@ -2,19 +2,19 @@
   "destacados": {
     "equipos": [
       {
-        "ligaId": "premier",
-        "equipoId": "manchester-united"
+        "ligaId": "laliga",
+        "equipoId": "real-madrid"
       },
       {
-        "ligaId": "premier",
-        "equipoId": "liverpool"
+        "ligaId": "laliga",
+        "equipoId": "barcelona"
       }
     ]
   },
   "ligas": [
     {
       "id": "laliga",
-      "activa": false,
+      "activa": true,
       "nombre": "LaLiga",
       "pais": "España",
       "logo": "/equipos/la-liga/laliga.svg",
@@ -34,21 +34,35 @@
                   "tipo": "camiseta",
                   "nombre": "Local",
                   "imagenes": [
-                    "/equipos/la-liga/realmadrid/26-27/local/real-madrid-2026-27-home.avif"
+                    "/equipos/la-liga/realmadrid/26-27/local/real-madrid-2026-27-home.avif",
+                    "/equipos/la-liga/realmadrid/26-27/local/1.jpeg",
+                    "/equipos/la-liga/realmadrid/26-27/local/2.jpeg",
+                    "/equipos/la-liga/realmadrid/26-27/local/3.jpeg",
+                    "/equipos/la-liga/realmadrid/26-27/local/4.jpeg",
+                    "/equipos/la-liga/realmadrid/26-27/local/5.jpeg",
+                    "/equipos/la-liga/realmadrid/26-27/local/6.jpeg"
                   ],
-                  "precio": 24,
+                  "precio": 20,
                   "dorsales": [
                     {
-                      "numero": "1",
-                      "tallas": ["M", "L", "XL", "XXL"]
-                    },
-                    {
-                      "numero": "3",
-                      "tallas": ["M", "L", "XL"]
-                    },
-                    {
                       "numero": "5",
-                      "tallas": ["M", "L"]
+                      "tallas": ["S", "M", "L", "XL"]
+                    },
+                    {
+                      "numero": "7",
+                      "tallas": ["S", "M", "L", "XL"]
+                    },
+                    {
+                      "numero": "8",
+                      "tallas": ["S", "M", "L", "XL"]
+                    },
+                    {
+                      "numero": "17",
+                      "tallas": ["S", "M", "L", "XL"]
+                    },
+                    {
+                      "numero": "10",
+                      "tallas": ["S", "M", "L", "XL"]
                     }
                   ]
                 },
@@ -57,20 +71,63 @@
                   "tipo": "camiseta",
                   "nombre": "Visitante",
                   "imagenes": [
-                    "/equipos/la-liga/realmadrid/26-27/visitante/real-madrid-2026-27-away.avif"
+                    "/equipos/la-liga/realmadrid/26-27/visitante/real-madrid-2026-27-away.avif",
+                    "/equipos/la-liga/realmadrid/26-27/visitante/2.jpeg",
+                    "/equipos/la-liga/realmadrid/26-27/visitante/3.jpeg",
+                    "/equipos/la-liga/realmadrid/26-27/visitante/4.jpeg",
+                    "/equipos/la-liga/realmadrid/26-27/visitante/5.jpeg"
                   ],
-                  "precio": 22,
-                  "dorsales": []
+                  "precio": 20,
+                  "dorsales": [
+                    {
+                      "numero": "5",
+                      "tallas": ["S", "M", "L", "XL"]
+                    },
+                    {
+                      "numero": "7",
+                      "tallas": ["S", "M", "L", "XL"]
+                    },
+                    {
+                      "numero": "17",
+                      "tallas": ["S", "M", "L", "XL"]
+                    },
+                    {
+                      "numero": "10",
+                      "tallas": ["S", "M", "L", "XL"]
+                    }
+                  ]
                 },
                 {
                   "id": "tercera-2024-25",
                   "tipo": "camiseta",
                   "nombre": "Tercera",
                   "imagenes": [
-                    "/equipos/la-liga/realmadrid/26-27/tercera/real-madrid-2026-27-third.avif"
+                    "/equipos/la-liga/realmadrid/26-27/tercera/real-madrid-2026-27-third.avif",
+                    "/equipos/la-liga/realmadrid/26-27/tercera/1.jpeg",
+                    "/equipos/la-liga/realmadrid/26-27/tercera/2.jpeg",
+                    "/equipos/la-liga/realmadrid/26-27/tercera/3.jpeg",
+                    "/equipos/la-liga/realmadrid/26-27/tercera/4.jpeg",
+                    "/equipos/la-liga/realmadrid/26-27/tercera/5.jpeg"
                   ],
                   "precio": 20,
-                  "dorsales": []
+                  "dorsales": [
+                    {
+                      "numero": "5",
+                      "tallas": ["S", "M", "L", "XL"]
+                    },
+                    {
+                      "numero": "7",
+                      "tallas": ["S", "M", "L", "XL"]
+                    },
+                    {
+                      "numero": "17",
+                      "tallas": ["S", "M", "L", "XL"]
+                    },
+                    {
+                      "numero": "10",
+                      "tallas": ["S", "M", "L", "XL"]
+                    }
+                  ]
                 }
               ]
             }
@@ -91,21 +148,25 @@
                   "tipo": "camiseta",
                   "nombre": "Local",
                   "imagenes": [
-                    "/equipos/la-liga/barcelona/26-27/local/home-cover-barcelona.webp"
+                    "/equipos/la-liga/barcelona/26-27/local/home-cover-barcelona.webp",
+                    "/equipos/la-liga/barcelona/26-27/local/1.jpeg",
+                    "/equipos/la-liga/barcelona/26-27/local/2.jpeg",
+                    "/equipos/la-liga/barcelona/26-27/local/3.jpeg",
+                    "/equipos/la-liga/barcelona/26-27/local/4.jpeg"
                   ],
                   "precio": 20,
                   "dorsales": [
                     {
-                      "numero": "4",
-                      "tallas": ["S", "M", "L", "XL", "XXL"]
-                    },
-                    {
-                      "numero": "7",
+                      "numero": "8",
                       "tallas": ["S", "M", "L", "XL"]
                     },
                     {
-                      "numero": "9",
-                      "tallas": ["S", "M", "L"]
+                      "numero": "11",
+                      "tallas": ["S", "M", "L", "XL"]
+                    },
+                    {
+                      "numero": "16",
+                      "tallas": ["S", "M", "L", "XL"]
                     }
                   ]
                 },
@@ -114,7 +175,12 @@
                   "tipo": "camiseta",
                   "nombre": "Visitante",
                   "imagenes": [
-                    "/equipos/la-liga/barcelona/26-27/visitante/cover-fc-barcelona-2026-27-away.jpg"
+                    "/equipos/la-liga/barcelona/26-27/visitante/cover-fc-barcelona-2026-27-away.jpg",
+                    "/equipos/la-liga/barcelona/26-27/visitante/1.jpeg",
+                    "/equipos/la-liga/barcelona/26-27/visitante/2.jpeg",
+                    "/equipos/la-liga/barcelona/26-27/visitante/3.jpeg",
+                    "/equipos/la-liga/barcelona/26-27/visitante/4.jpeg",
+                    "/equipos/la-liga/barcelona/26-27/visitante/5.jpeg"
                   ],
                   "precio": 20,
                   "dorsales": [
@@ -127,7 +193,11 @@
                       "tallas": ["S", "M", "L", "XL"]
                     },
                     {
-                      "numero": "12",
+                      "numero": "8",
+                      "tallas": ["S", "M", "L", "XL"]
+                    },
+                    {
+                      "numero": "16",
                       "tallas": ["S", "M", "L", "XL"]
                     }
                   ]
@@ -137,20 +207,29 @@
                   "tipo": "camiseta",
                   "nombre": "Tercera",
                   "imagenes": [
-                    "/equipos/la-liga/barcelona/26-27/tercera/cover-fc-barcelona-2026-27-third.jpg"
+                    "/equipos/la-liga/barcelona/26-27/tercera/cover-fc-barcelona-2026-27-third.jpg",
+                    "/equipos/la-liga/barcelona/26-27/tercera/1.jpeg",
+                    "/equipos/la-liga/barcelona/26-27/tercera/2.jpeg",
+                    "/equipos/la-liga/barcelona/26-27/tercera/3.jpeg",
+                    "/equipos/la-liga/barcelona/26-27/tercera/4.jpeg",
+                    "/equipos/la-liga/barcelona/26-27/tercera/5.jpeg"
                   ],
                   "precio": 20,
                   "dorsales": [
                     {
-                      "numero": "4",
+                      "numero": "8",
                       "tallas": ["S", "M", "L", "XL"]
                     },
                     {
-                      "numero": "7",
+                      "numero": "10",
                       "tallas": ["S", "M", "L", "XL"]
                     },
                     {
-                      "numero": "9",
+                      "numero": "11",
+                      "tallas": ["S", "M", "L", "XL"]
+                    },
+                    {
+                      "numero": "16",
                       "tallas": ["S", "M", "L", "XL"]
                     }
                   ]
@@ -161,7 +240,7 @@
         },
         {
           "id": "atletico-madrid",
-          "activa": true,
+          "activa": false,
           "nombre": "Atlético de Madrid",
           "alias": ["atletico", "atleti", "colchoneros"],
           "escudo": "/equipos/la-liga/atletico-madrid/atletico-madrid.svg",
@@ -217,7 +296,7 @@
       "equipos": [
         {
           "id": "manchester-city",
-          "activa": false,
+          "activa": true,
           "nombre": "Manchester City",
           "alias": ["city", "man city", "mcfc", "citizens"],
           "escudo": "/equipos/premier-league/manchester-city/manchester-city.svg",
@@ -230,43 +309,20 @@
                   "tipo": "camiseta",
                   "nombre": "Local",
                   "imagenes": [
-                    "/equipos/premier-league/manchester-city/26-27/local/home-cover.webp"
+                    "/equipos/premier-league/manchester-city/26-27/local/home-cover.webp",
+                    "/equipos/premier-league/manchester-city/26-27/local/1.jpeg"
                   ],
-                  "precio": 25,
+                  "precio": 20,
                   "dorsales": [
                     {
-                      "numero": "1",
-                      "tallas": ["M", "L", "XL", "XXL"]
+                      "numero": "9",
+                      "tallas": ["S", "M", "L", "XL"]
                     },
                     {
-                      "numero": "3",
-                      "tallas": ["M", "L", "XL"]
-                    },
-                    {
-                      "numero": "5",
-                      "tallas": ["M", "L"]
+                      "numero": "17",
+                      "tallas": ["S", "M", "L", "XL"]
                     }
                   ]
-                },
-                {
-                  "id": "visitante-2026-27",
-                  "tipo": "camiseta",
-                  "nombre": "Visitante",
-                  "imagenes": [
-                    "/equipos/premier-league/manchester-city/26-27/visitante/cover-manchester-city-2026-27-away-kit-footylogos.jpg"
-                  ],
-                  "precio": 23,
-                  "dorsales": []
-                },
-                {
-                  "id": "tercera-2026-27",
-                  "tipo": "camiseta",
-                  "nombre": "Tercera",
-                  "imagenes": [
-                    "/equipos/premier-league/manchester-city/26-27/tercera/third-cover.webp"
-                  ],
-                  "precio": 21,
-                  "dorsales": []
                 }
               ]
             }
@@ -334,16 +390,6 @@
                       "tallas": ["S", "M", "L", "XL"]
                     }
                   ]
-                },
-                {
-                  "id": "tercera-2026-27",
-                  "tipo": "camiseta",
-                  "nombre": "Tercera",
-                  "imagenes": [
-                    "/equipos/premier-league/manchester-united/26-27/tercera/cover-manchester-united-2026-27-third-kit-footylogos.jpg"
-                  ],
-                  "precio": 22,
-                  "dorsales": []
                 }
               ]
             }
@@ -369,7 +415,7 @@
                     "/equipos/premier-league/liverpool/26-27/local/2.jpeg",
                     "/equipos/premier-league/liverpool/26-27/local/3.jpeg"
                   ],
-                  "precio": 24,
+                  "precio": 20,
                   "dorsales": [
                     {
                       "numero": "7",
@@ -387,16 +433,6 @@
                   "nombre": "Visitante",
                   "imagenes": [
                     "/equipos/premier-league/liverpool/26-27/visitante/cover-liverpool-fc-2026-27-away-kit-footylogos.jpg"
-                  ],
-                  "precio": 22,
-                  "dorsales": []
-                },
-                {
-                  "id": "tercera-2026-27",
-                  "tipo": "camiseta",
-                  "nombre": "Tercera",
-                  "imagenes": [
-                    "/equipos/premier-league/liverpool/26-27/tercera/third-cover.webp"
                   ],
                   "precio": 20,
                   "dorsales": []
@@ -499,20 +535,22 @@
                   "tipo": "camiseta",
                   "nombre": "Visitante",
                   "imagenes": [
-                    "/equipos/premier-league/chelsea/26-27/visitante/cover-chelsea-fc-2026-27-away-kit-footylogos.jpg"
+                    "/equipos/premier-league/chelsea/26-27/visitante/cover-chelsea-fc-2026-27-away-kit-footylogos.jpg",
+                    "/equipos/premier-league/chelsea/26-27/visitante/4.jpeg",
+                    "/equipos/premier-league/chelsea/26-27/visitante/5.jpeg",
+                    "/equipos/premier-league/chelsea/26-27/visitante/6.jpeg"
                   ],
                   "precio": 20,
-                  "dorsales": []
-                },
-                {
-                  "id": "tercera-2026-27",
-                  "tipo": "camiseta",
-                  "nombre": "Tercera",
-                  "imagenes": [
-                    "/equipos/premier-league/chelsea/26-27/tercera/third-cover.webp"
-                  ],
-                  "precio": 22,
-                  "dorsales": []
+                  "dorsales": [
+                    {
+                      "numero": "25",
+                      "tallas": ["S", "M", "L", "XL"]
+                    },
+                    {
+                      "numero": "10",
+                      "tallas": ["S", "M", "L", "XL"]
+                    }
+                  ]
                 }
               ]
             }
@@ -836,7 +874,7 @@
     },
     {
       "id": "bundesliga",
-      "activa": false,
+      "activa": true,
       "nombre": "Bundesliga",
       "pais": "Alemania",
       "logo": "/equipos/bundesliga/bundesliga.svg",
@@ -856,22 +894,25 @@
                   "tipo": "camiseta",
                   "nombre": "Local",
                   "imagenes": [
-                    "https://images.unsplash.com/photo-1553775282-20af80779df7?w=600&h=600&fit=crop",
-                    "https://images.unsplash.com/photo-1461896836934-ffe607ba8211?w=600&h=600&fit=crop"
+                    "/equipos/bundesliga/bayern/26-27/local/0.webp",
+                    "/equipos/bundesliga/bayern/26-27/local/1.jpeg",
+                    "/equipos/bundesliga/bayern/26-27/local/2.jpeg",
+                    "/equipos/bundesliga/bayern/26-27/local/3.jpeg",
+                    "/equipos/bundesliga/bayern/26-27/local/4.jpeg"
                   ],
-                  "precio": 24,
+                  "precio": 20,
                   "dorsales": [
                     {
-                      "numero": "1",
-                      "tallas": ["M", "L", "XL", "XXL"]
+                      "numero": "14",
+                      "tallas": ["S", "M", "L", "XL"]
                     },
                     {
-                      "numero": "3",
-                      "tallas": ["M", "L", "XL"]
+                      "numero": "9",
+                      "tallas": ["S", "M", "L", "XL"]
                     },
                     {
-                      "numero": "5",
-                      "tallas": ["M", "L"]
+                      "numero": "17",
+                      "tallas": ["S", "M", "L", "XL"]
                     }
                   ]
                 },
@@ -880,20 +921,27 @@
                   "tipo": "camiseta",
                   "nombre": "Visitante",
                   "imagenes": [
-                    "https://images.unsplash.com/photo-1551698618-1dfe5d97d256?w=600&h=600&fit=crop"
-                  ],
-                  "precio": 22,
-                  "dorsales": []
-                },
-                {
-                  "id": "tercera-2026-27",
-                  "tipo": "camiseta",
-                  "nombre": "Tercera",
-                  "imagenes": [
-                    "https://images.unsplash.com/photo-1431324155629-1a6deb1dec8d?w=600&h=600&fit=crop"
+                    "/equipos/bundesliga/bayern/26-27/visitante/0.jpg",
+                    "/equipos/bundesliga/bayern/26-27/visitante/1.jpeg",
+                    "/equipos/bundesliga/bayern/26-27/visitante/2.jpeg",
+                    "/equipos/bundesliga/bayern/26-27/visitante/3.jpeg",
+                    "/equipos/bundesliga/bayern/26-27/visitante/4.jpeg"
                   ],
                   "precio": 20,
-                  "dorsales": []
+                  "dorsales": [
+                    {
+                      "numero": "14",
+                      "tallas": ["S", "M", "L", "XL"]
+                    },
+                    {
+                      "numero": "9",
+                      "tallas": ["S", "M", "L", "XL"]
+                    },
+                    {
+                      "numero": "17",
+                      "tallas": ["S", "M", "L", "XL"]
+                    }
+                  ]
                 }
               ]
             }
@@ -950,7 +998,7 @@
     },
     {
       "id": "mls",
-      "activa": false,
+      "activa": true,
       "nombre": "MLS",
       "pais": "Estados Unidos",
       "logo": "/equipos/mls/mls.svg",
@@ -970,33 +1018,16 @@
                   "tipo": "camiseta",
                   "nombre": "Local",
                   "imagenes": [
-                    "/equipos/mls/inter-miami/26-27/local/home-cover.webp"
+                    "/equipos/mls/inter-miami/26-27/local/1.jpeg",
+                    "/equipos/mls/inter-miami/26-27/local/2.jpeg"
                   ],
-                  "precio": 25,
+                  "precio": 20,
                   "dorsales": [
                     {
                       "numero": "10",
-                      "tallas": ["S", "M", "L", "XL", "XXL"]
-                    },
-                    {
-                      "numero": "9",
                       "tallas": ["S", "M", "L", "XL"]
-                    },
-                    {
-                      "numero": "5",
-                      "tallas": ["M", "L", "XL"]
                     }
                   ]
-                },
-                {
-                  "id": "visitante-2026-27",
-                  "tipo": "camiseta",
-                  "nombre": "Visitante",
-                  "imagenes": [
-                    "/equipos/mls/inter-miami/26-27/visitante/away-cover.webp"
-                  ],
-                  "precio": 23,
-                  "dorsales": []
                 }
               ]
             }
@@ -1929,7 +1960,7 @@
     },
     {
       "id": "ligue-1",
-      "activa": false,
+      "activa": true,
       "nombre": "Ligue 1",
       "pais": "Francia",
       "logo": "/equipos/ligue-1/ligue-1.svg",
@@ -1949,44 +1980,27 @@
                   "tipo": "camiseta",
                   "nombre": "Local",
                   "imagenes": [
-                    "https://images.unsplash.com/photo-1553775282-20af80779df7?w=600&h=600&fit=crop",
-                    "https://images.unsplash.com/photo-1517927033932-b3d18e61fb3a?w=600&h=600&fit=crop"
+                    "/equipos/ligue-1/psg/26-27/local/0.avif",
+                    "/equipos/ligue-1/psg/26-27/local/1.jpeg",
+                    "/equipos/ligue-1/psg/26-27/local/2.jpeg",
+                    "/equipos/ligue-1/psg/26-27/local/3.jpeg",
+                    "/equipos/ligue-1/psg/26-27/local/4.jpeg"
                   ],
-                  "precio": 25,
+                  "precio": 20,
                   "dorsales": [
-                    {
-                      "numero": "1",
-                      "tallas": ["M", "L", "XL", "XXL"]
-                    },
                     {
                       "numero": "7",
                       "tallas": ["S", "M", "L", "XL"]
                     },
                     {
+                      "numero": "9",
+                      "tallas": ["S", "M", "L", "XL"]
+                    },
+                    {
                       "numero": "10",
-                      "tallas": ["S", "M", "L"]
+                      "tallas": ["S", "M", "L", "XL"]
                     }
                   ]
-                },
-                {
-                  "id": "visitante-2026-27",
-                  "tipo": "camiseta",
-                  "nombre": "Visitante",
-                  "imagenes": [
-                    "https://images.unsplash.com/photo-1574629810360-7efbbe195018?w=600&h=600&fit=crop"
-                  ],
-                  "precio": 23,
-                  "dorsales": []
-                },
-                {
-                  "id": "tercera-2026-27",
-                  "tipo": "camiseta",
-                  "nombre": "Tercera",
-                  "imagenes": [
-                    "https://images.unsplash.com/photo-1517927033932-b3d18e61fb3a?w=600&h=600&fit=crop"
-                  ],
-                  "precio": 21,
-                  "dorsales": []
                 }
               ]
             }
