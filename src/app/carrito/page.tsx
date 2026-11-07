@@ -175,7 +175,7 @@ export default function CarritoPage() {
 
     message += `Artículos: ${count}\n`;
     message += `Total: ${formatPrice(total, symbol)}\n`;
-    message += `Recogida: ${tienda.direccionRecogida}\n`;
+    message += `Tienda física: ${tienda.direccionRecogida}\n`;
     message += "Coordinamos disponibilidad, pago y entrega por WhatsApp.";
 
     // Flag para detectar al volver a la pestaña
@@ -487,7 +487,7 @@ export default function CarritoPage() {
 
             <div className='mt-4 rounded-xl bg-gray-50 p-3 text-xs dark:bg-neutral-950'>
               <p className='font-medium text-gray-700 dark:text-neutral-300'>
-                Recogida
+                Tienda física
               </p>
               <p className='mt-1 text-gray-600 dark:text-neutral-400'>
                 {tienda.direccionRecogida}

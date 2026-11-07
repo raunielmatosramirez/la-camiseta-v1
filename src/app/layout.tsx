@@ -3,6 +3,7 @@ import Script from "next/script";
 import "./globals.css";
 import Header from "@/components/header";
 import Footer from "@/components/footer";
+import PickupMapModal from "@/components/pickup-map-modal";
 import { CartProvider } from "@/context/cart-context";
 
 export const metadata: Metadata = {
@@ -41,6 +42,7 @@ export default function RootLayout({
             <main className='flex-1'>{children}</main>
             <Footer />
           </div>
+          <PickupMapModal />
         </CartProvider>
       </body>
     </html>

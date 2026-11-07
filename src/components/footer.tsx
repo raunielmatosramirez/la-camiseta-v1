@@ -38,12 +38,12 @@ export default function Footer() {
           </div>
 
           <div>
-            <h2 className='text-sm font-medium'>Recogida</h2>
+            <h2 className='text-sm font-medium'>Tienda física</h2>
             <p className='mt-1 text-sm text-gray-600 dark:text-neutral-400'>
               {tienda.direccionRecogida}
             </p>
             <p className='mt-1 text-xs text-gray-500 dark:text-neutral-500'>
-              Coordinamos la dirección exacta al confirmar tu pedido.
+              Visítanos en nuestra tienda física.
             </p>
           </div>
 
